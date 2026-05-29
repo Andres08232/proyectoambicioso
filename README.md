@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+[README.md](https://github.com/user-attachments/files/28374489/README.md)
+>>>>>>> ba50f3d38cda50421a1fcb71d0efa5174147dbdc
 # VisionGoat: Sistema de Análisis de Valor en Apuestas
 
 ## 🎯 Objetivo
@@ -23,4 +27,8 @@ La mayoría de los sistemas fallan porque usan modelos "Naive" (simples). Vision
 
 ## 🛠️ Cómo colaborar
 - Si añades una liga, solo necesitas un archivo CSV y añadir su configuración en `config.py`.
+<<<<<<< HEAD
 - Antes de subir cambios, asegúrate de correr los tests básicos y revisar el ROI del backtest.
+=======
+- Antes de subir cambios, asegúrate de correr los tests básicos y revisar el ROI del backtest.
+>>>>>>> ba50f3d38cda50421a1fcb71d0efa5174147dbdc
