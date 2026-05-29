@@ -1,10 +1,10 @@
-# VisionGoat: Motor de Análisis Predictivo para Apuestas Deportivas
+# (Nombre en Progreso): Motor de Análisis Predictivo para Apuestas Deportivas
 
 ## 🎯 Objetivo
-VisionGoat es un motor analítico diseñado para identificar ineficiencias en el mercado de apuestas deportivas (**Value Betting**). Nuestro objetivo no es "adivinar" resultados, sino construir un modelo estadístico capaz de detectar cuando la probabilidad real de un evento es mayor a la cuota ofrecida por las casas de apuestas.
+(Nombre en Progreso) es un motor analítico diseñado para identificar ineficiencias en el mercado de apuestas deportivas (**Value Betting**). Nuestro objetivo no es "adivinar" resultados, sino construir un modelo estadístico capaz de detectar cuando la probabilidad real de un evento es mayor a la cuota ofrecida por las casas de apuestas.
 
 ## 🧠 Filosofía del Proyecto
-La mayoría de los sistemas de apuestas fallan por ser "Naive" (simples). VisionGoat se basa en tres pilares fundamentales:
+La mayoría de los sistemas de apuestas fallan por ser "Naive" (simples). (Nombre en Progreso) se basa en tres pilares fundamentales:
 
 1.  **Detección de Valor:** Nuestra métrica de éxito no es acertar el ganador, sino la consistencia del ROI (Retorno de Inversión) al identificar apuestas con valor positivo.
 2.  **Sistema Elo Dinámico:** Utilizamos un motor de fuerza relativa (Elo) que aprende constantemente. A diferencia de un promedio simple, este sistema pondera el valor de las victorias según la fuerza del oponente y el margen de goles.
