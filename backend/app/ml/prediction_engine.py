@@ -14,8 +14,7 @@ class PredictionEngine:
     """
     Universal walk-forward engine: Elo ratings + optional league HFA normalization.
 
-  Processes matches chronologically. Before each match it emits model_prob from
-    current Elo; after the result it updates ratings match-by-match.
+    Supports goal-adjusted Elo updates: margin multiplier log(goal_difference + 1).
     """
 
     def __init__(self, config: EngineConfig) -> None:
@@ -56,6 +55,18 @@ class PredictionEngine:
         if ftr == "A":
             return 0.0, 1.0
         raise ValueError(f"Unsupported result code: {ftr!r}")
+
+    @staticmethod
+    def goal_margin_multiplier(home_goals: int, away_goals: int) -> float:
+        """
+        Scale Elo shift by winning margin: log(margin + 1).
+
+        Draws (margin 0) use multiplier 1.0 so rating still updates on the result.
+        """
+        margin = abs(int(home_goals) - int(away_goals))
+        if margin == 0:
+            return 1.0
+        return math.log(margin + 1)
 
     def _walk_forward_league_hfa(
         self, league: str, league_cfg: LeagueConfig
@@ -99,7 +110,13 @@ class PredictionEngine:
         return model_prob, elo_prob, league_hfa, home_elo
 
     def _update_after_match(
-        self, league: str, home_team: str, away_team: str, ftr: str
+        self,
+        league: str,
+        home_team: str,
+        away_team: str,
+        ftr: str,
+        home_goals: int | None = None,
+        away_goals: int | None = None,
     ) -> None:
         league_cfg = self.config.for_league(league)
         home_elo = self._get_rating(league, home_team, league_cfg)
@@ -118,8 +135,16 @@ class PredictionEngine:
         s_home, s_away = self._match_scores(ftr)
         k = league_cfg.k_factor
 
-        self._set_rating(league, home_team, home_elo + k * (s_home - e_home))
-        self._set_rating(league, away_team, away_elo + k * (s_away - e_away))
+        margin_mult = 1.0
+        if self.config.goal_adjusted_elo and home_goals is not None and away_goals is not None:
+            margin_mult = self.goal_margin_multiplier(home_goals, away_goals)
+
+        self._set_rating(
+            league, home_team, home_elo + k * margin_mult * (s_home - e_home)
+        )
+        self._set_rating(
+            league, away_team, away_elo + k * margin_mult * (s_away - e_away)
+        )
 
         self._league_home_results[league].append(1 if ftr == "H" else 0)
 
@@ -128,6 +153,7 @@ class PredictionEngine:
         Walk-forward: predict each row, then update Elo from that row's result.
 
         Required columns: league, home/away teams, date, result (per EngineConfig).
+        FTHG/FTAG used when goal_adjusted_elo is enabled.
         """
         cfg = self.config
         league_col = cfg.league_column
@@ -141,6 +167,16 @@ class PredictionEngine:
         missing = required - set(df.columns)
         if missing:
             raise ValueError(f"Missing required columns: {sorted(missing)}")
+
+        has_goals = (
+            cfg.home_goals_column in df.columns
+            and cfg.away_goals_column in df.columns
+        )
+        if cfg.goal_adjusted_elo and not has_goals:
+            print(
+                "Warning: goal-adjusted Elo enabled but goal columns missing; "
+                "using standard Elo updates (margin multiplier = 1.0)."
+            )
 
         sort_cols = [cfg.date_column]
         if cfg.time_column in df.columns:
@@ -162,9 +198,12 @@ class PredictionEngine:
             away = getattr(row, cfg.away_team_column)
             ftr = getattr(row, cfg.result_column)
 
-            league_cfg = cfg.for_league(str(league))
-            home_elo = self._get_rating(str(league), str(home), league_cfg)
-            away_elo = self._get_rating(str(league), str(away), league_cfg)
+            home_elo = self._get_rating(
+                str(league), str(home), cfg.for_league(str(league))
+            )
+            away_elo = self._get_rating(
+                str(league), str(away), cfg.for_league(str(league))
+            )
 
             model_prob, elo_prob, league_hfa, _ = self.predict_home_win(
                 str(league), str(home), str(away)
@@ -177,7 +216,23 @@ class PredictionEngine:
             away_elos.append(away_elo)
 
             if pd.notna(ftr):
-                self._update_after_match(str(league), str(home), str(away), str(ftr))
+                home_goals: int | None = None
+                away_goals: int | None = None
+                if has_goals:
+                    hg = getattr(row, cfg.home_goals_column)
+                    ag = getattr(row, cfg.away_goals_column)
+                    if pd.notna(hg) and pd.notna(ag):
+                        home_goals = int(hg)
+                        away_goals = int(ag)
+
+                self._update_after_match(
+                    str(league),
+                    str(home),
+                    str(away),
+                    str(ftr),
+                    home_goals=home_goals,
+                    away_goals=away_goals,
+                )
 
         out["model_prob"] = model_probs
         out["elo_prob"] = elo_probs

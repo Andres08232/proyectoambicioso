@@ -36,6 +36,8 @@ CORE_COLUMNS = [
     "Time",
     "HomeTeam",
     "AwayTeam",
+    "FTHG",
+    "FTAG",
     "FTR",
     "B365H",
     "B365D",

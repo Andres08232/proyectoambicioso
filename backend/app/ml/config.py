@@ -31,6 +31,9 @@ class EngineConfig:
     result_column: str = "FTR"
     date_column: str = "Date"
     time_column: str = "Time"
+    home_goals_column: str = "FTHG"
+    away_goals_column: str = "FTAG"
+    goal_adjusted_elo: bool = True
 
     def for_league(self, league: str) -> LeagueConfig:
         return self.leagues.get(str(league), self.default)
