@@ -50,9 +50,11 @@ def default_engine_config() -> EngineConfig:
         default=fallback,
         leagues={
             "E0": LeagueConfig(
-                k_factor=13.0,
+                k_factor=17.0,
                 home_advantage_elo=51.0,
                 league_hfa=0.426,
+                goal_adjusted_elo=True,
+                form_shift_per_point=0.02,
             ),
             "D1": LeagueConfig(
                 k_factor=22.0,
