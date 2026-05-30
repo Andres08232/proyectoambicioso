@@ -13,9 +13,9 @@ from app.ml.match_modifier import MatchModifier
 
 class PredictionEngine:
     """
-    Universal walk-forward engine: Elo ratings + optional league HFA normalization.
+    Walk-forward dual Elo: traditional (goals) + xG-based ratings blended by alpha.
 
-    Supports goal-adjusted Elo updates and optional recent-form probability shifts.
+    final_rating = (alpha * traditional_elo) + ((1 - alpha) * xg_elo)
     """
 
     def __init__(self, config: EngineConfig) -> None:
@@ -27,21 +27,46 @@ class PredictionEngine:
         self.reset()
 
     def reset(self) -> None:
-        """Clear in-memory ratings, form history, and walk-forward league history."""
-        self._ratings: dict[tuple[str, str], float] = {}
+        """Clear traditional Elo, xG Elo, form, and league HFA history."""
+        self._elo_ratings: dict[tuple[str, str], float] = {}
+        self._elo_xg_ratings: dict[tuple[str, str], float] = {}
         self._league_home_results: dict[str, list[int]] = defaultdict(list)
         self._form_modifier.reset()
 
     def _team_key(self, league: str, team: str) -> tuple[str, str]:
         return str(league), str(team)
 
-    def _get_rating(self, league: str, team: str, league_cfg: LeagueConfig) -> float:
-        return self._ratings.get(
+    def _get_traditional_rating(
+        self, league: str, team: str, league_cfg: LeagueConfig
+    ) -> float:
+        return self._elo_ratings.get(
             self._team_key(league, team), league_cfg.initial_rating
         )
 
-    def _set_rating(self, league: str, team: str, rating: float) -> None:
-        self._ratings[self._team_key(league, team)] = rating
+    def _get_xg_rating(
+        self, league: str, team: str, league_cfg: LeagueConfig
+    ) -> float:
+        return self._elo_xg_ratings.get(
+            self._team_key(league, team), league_cfg.initial_rating
+        )
+
+    def _set_traditional_rating(self, league: str, team: str, rating: float) -> None:
+        self._elo_ratings[self._team_key(league, team)] = rating
+
+    def _set_xg_rating(self, league: str, team: str, rating: float) -> None:
+        self._elo_xg_ratings[self._team_key(league, team)] = rating
+
+    def _blended_rating(
+        self, league: str, team: str, league_cfg: LeagueConfig
+    ) -> float:
+        alpha = self.config.alpha
+        trad = self._get_traditional_rating(league, team, league_cfg)
+        if alpha >= 1.0:
+            return trad
+        xg = self._get_xg_rating(league, team, league_cfg)
+        if alpha <= 0.0:
+            return xg
+        return (alpha * trad) + ((1.0 - alpha) * xg)
 
     @staticmethod
     def expected_home_win_prob(
@@ -63,14 +88,24 @@ class PredictionEngine:
         raise ValueError(f"Unsupported result code: {ftr!r}")
 
     @staticmethod
-    def goal_margin_multiplier(home_goals: int, away_goals: int) -> float:
-        """
-        Scale Elo shift by winning margin: log(margin + 1).
+    def _xg_match_scores(home_xg: float, away_xg: float) -> tuple[float, float]:
+        if home_xg > away_xg:
+            return 1.0, 0.0
+        if away_xg > home_xg:
+            return 0.0, 1.0
+        return 0.5, 0.5
 
-        Draws (margin 0) use multiplier 1.0 so rating still updates on the result.
-        """
+    @staticmethod
+    def goal_margin_multiplier(home_goals: int, away_goals: int) -> float:
         margin = abs(int(home_goals) - int(away_goals))
         if margin == 0:
+            return 1.0
+        return math.log(margin + 1)
+
+    @staticmethod
+    def xg_margin_multiplier(home_xg: float, away_xg: float) -> float:
+        margin = abs(float(home_xg) - float(away_xg))
+        if margin < 1e-9:
             return 1.0
         return math.log(margin + 1)
 
@@ -106,11 +141,6 @@ class PredictionEngine:
         home_team: str,
         away_team: str,
     ) -> tuple[float, float, float, float]:
-        """
-        Shift Elo probability using walk-forward form (last N matches PPG).
-
-        Returns (adjusted_prob, home_form, away_form, form_shift).
-        """
         cfg = self.config
         home_form = self._form_modifier.form_score(league, home_team)
         away_form = self._form_modifier.form_score(league, away_team)
@@ -121,20 +151,51 @@ class PredictionEngine:
         league_cfg = cfg.for_league(league)
         return self._clamp_prob(adjusted, league_cfg), home_form, away_form, form_shift
 
+    def _update_elo_pair(
+        self,
+        league: str,
+        home_team: str,
+        away_team: str,
+        *,
+        home_rating: float,
+        away_rating: float,
+        s_home: float,
+        s_away: float,
+        margin_mult: float,
+        set_home,
+        set_away,
+    ) -> None:
+        league_cfg = self.config.for_league(league)
+        e_home = self.expected_home_win_prob(
+            home_rating, away_rating, league_cfg.home_advantage_elo
+        )
+        e_away = 1.0 / (
+            1.0
+            + math.pow(
+                10.0,
+                (home_rating - away_rating + league_cfg.home_advantage_elo) / 400.0,
+            )
+        )
+        k = league_cfg.k_factor
+        set_home(home_rating + k * margin_mult * (s_home - e_home))
+        set_away(away_rating + k * margin_mult * (s_away - e_away))
+
     def predict_home_win(
         self,
         league: str,
         home_team: str,
         away_team: str,
     ) -> dict[str, float]:
-        """
-        Build pre-match probabilities: Elo -> optional form -> HFA normalization.
-        """
         league_cfg = self.config.for_league(league)
-        home_elo = self._get_rating(league, home_team, league_cfg)
-        away_elo = self._get_rating(league, away_team, league_cfg)
+        home_trad = self._get_traditional_rating(league, home_team, league_cfg)
+        away_trad = self._get_traditional_rating(league, away_team, league_cfg)
+        home_xg_elo = self._get_xg_rating(league, home_team, league_cfg)
+        away_xg_elo = self._get_xg_rating(league, away_team, league_cfg)
+        home_blended = self._blended_rating(league, home_team, league_cfg)
+        away_blended = self._blended_rating(league, away_team, league_cfg)
+
         elo_prob = self.expected_home_win_prob(
-            home_elo, away_elo, league_cfg.home_advantage_elo
+            home_blended, away_blended, league_cfg.home_advantage_elo
         )
 
         home_form = self._form_modifier.form_score(league, home_team)
@@ -155,8 +216,12 @@ class PredictionEngine:
             "elo_prob": elo_prob,
             "prob_after_form": prob_after_form,
             "league_hfa": league_hfa,
-            "home_elo": home_elo,
-            "away_elo": away_elo,
+            "home_elo": home_blended,
+            "away_elo": away_blended,
+            "home_elo_traditional": home_trad,
+            "away_elo_traditional": away_trad,
+            "home_elo_xg": home_xg_elo,
+            "away_elo_xg": away_xg_elo,
             "home_form": home_form,
             "away_form": away_form,
             "form_shift": form_shift,
@@ -170,42 +235,58 @@ class PredictionEngine:
         ftr: str,
         home_goals: int | None = None,
         away_goals: int | None = None,
+        home_xg: float | None = None,
+        away_xg: float | None = None,
     ) -> None:
         league_cfg = self.config.for_league(league)
-        home_elo = self._get_rating(league, home_team, league_cfg)
-        away_elo = self._get_rating(league, away_team, league_cfg)
 
-        e_home = self.expected_home_win_prob(
-            home_elo, away_elo, league_cfg.home_advantage_elo
-        )
-        e_away = 1.0 / (
-            1.0
-            + math.pow(
-                10.0,
-                (home_elo - away_elo + league_cfg.home_advantage_elo) / 400.0,
-            )
-        )
+        home_trad = self._get_traditional_rating(league, home_team, league_cfg)
+        away_trad = self._get_traditional_rating(league, away_team, league_cfg)
         s_home, s_away = self._match_scores(ftr)
-        k = league_cfg.k_factor
-
-        margin_mult = 1.0
+        trad_margin = 1.0
         if self.config.goal_adjusted_elo and home_goals is not None and away_goals is not None:
-            margin_mult = self.goal_margin_multiplier(home_goals, away_goals)
+            trad_margin = self.goal_margin_multiplier(home_goals, away_goals)
 
-        self._set_rating(
-            league, home_team, home_elo + k * margin_mult * (s_home - e_home)
+        self._update_elo_pair(
+            league,
+            home_team,
+            away_team,
+            home_rating=home_trad,
+            away_rating=away_trad,
+            s_home=s_home,
+            s_away=s_away,
+            margin_mult=trad_margin,
+            set_home=lambda r: self._set_traditional_rating(league, home_team, r),
+            set_away=lambda r: self._set_traditional_rating(league, away_team, r),
         )
-        self._set_rating(
-            league, away_team, away_elo + k * margin_mult * (s_away - e_away)
-        )
+
+        if home_xg is not None and away_xg is not None:
+            home_xg_elo = self._get_xg_rating(league, home_team, league_cfg)
+            away_xg_elo = self._get_xg_rating(league, away_team, league_cfg)
+            xg_s_home, xg_s_away = self._xg_match_scores(home_xg, away_xg)
+            xg_margin = (
+                self.xg_margin_multiplier(home_xg, away_xg)
+                if self.config.goal_adjusted_elo
+                else 1.0
+            )
+            self._update_elo_pair(
+                league,
+                home_team,
+                away_team,
+                home_rating=home_xg_elo,
+                away_rating=away_xg_elo,
+                s_home=xg_s_home,
+                s_away=xg_s_away,
+                margin_mult=xg_margin,
+                set_home=lambda r: self._set_xg_rating(league, home_team, r),
+                set_away=lambda r: self._set_xg_rating(league, away_team, r),
+            )
 
         self._league_home_results[league].append(1 if ftr == "H" else 0)
         self._form_modifier.record_match(league, home_team, away_team, ftr)
 
     def attach_predictions(self, df: pd.DataFrame) -> pd.DataFrame:
-        """
-        Walk-forward: predict each row, then update Elo and form from that result.
-        """
+        """Walk-forward: predict each row, then update both Elo tracks."""
         cfg = self.config
         league_col = cfg.league_column
         required = {
@@ -223,10 +304,19 @@ class PredictionEngine:
             cfg.home_goals_column in df.columns
             and cfg.away_goals_column in df.columns
         )
+        has_xg = (
+            cfg.home_xg_column in df.columns and cfg.away_xg_column in df.columns
+        )
+
         if cfg.goal_adjusted_elo and not has_goals:
             print(
                 "Warning: goal-adjusted Elo enabled but goal columns missing; "
-                "using standard Elo updates (margin multiplier = 1.0)."
+                "traditional Elo uses margin multiplier = 1.0."
+            )
+        if cfg.alpha < 1.0 and not has_xg:
+            print(
+                "Warning: alpha < 1.0 but xG columns missing; "
+                "only traditional Elo will affect blended ratings."
             )
 
         sort_cols = [cfg.date_column]
@@ -244,6 +334,10 @@ class PredictionEngine:
             "league_hfa": [],
             "home_elo": [],
             "away_elo": [],
+            "home_elo_traditional": [],
+            "away_elo_traditional": [],
+            "home_elo_xg": [],
+            "away_elo_xg": [],
             "home_form": [],
             "away_form": [],
             "form_shift": [],
@@ -269,6 +363,15 @@ class PredictionEngine:
                         home_goals = int(hg)
                         away_goals = int(ag)
 
+                home_xg_val: float | None = None
+                away_xg_val: float | None = None
+                if has_xg:
+                    hxg = getattr(row, cfg.home_xg_column)
+                    axg = getattr(row, cfg.away_xg_column)
+                    if pd.notna(hxg) and pd.notna(axg):
+                        home_xg_val = float(hxg)
+                        away_xg_val = float(axg)
+
                 self._update_after_match(
                     str(league),
                     str(home),
@@ -276,6 +379,8 @@ class PredictionEngine:
                     str(ftr),
                     home_goals=home_goals,
                     away_goals=away_goals,
+                    home_xg=home_xg_val,
+                    away_xg=away_xg_val,
                 )
 
         for key, values in columns.items():

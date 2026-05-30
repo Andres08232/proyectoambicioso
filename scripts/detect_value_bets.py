@@ -27,6 +27,7 @@ from app.ml.value_bets import (  # noqa: E402
     summarize_backtest,
 )
 
+DEFAULT_CSV = REPO_ROOT / "data" / "raw" / "VisionGoat_Matches_xG.csv"
 DEFAULT_CSV_DIR = REPO_ROOT / "data" / "raw"
 
 EDGE_THRESHOLD = 0.02
@@ -38,6 +39,8 @@ CORE_COLUMNS = [
     "AwayTeam",
     "FTHG",
     "FTAG",
+    "Home_xG",
+    "Away_xG",
     "FTR",
     "B365H",
     "B365D",
@@ -53,6 +56,23 @@ LEAGUE_LABELS = {
 }
 
 
+def _derive_ftr(df: pd.DataFrame) -> None:
+    """Set FTR from FTHG/FTAG when result column is missing."""
+    if "FTHG" not in df.columns or "FTAG" not in df.columns:
+        return
+    goals_ok = df["FTHG"].notna() & df["FTAG"].notna()
+    if "FTR" not in df.columns:
+        df["FTR"] = pd.Series([None] * len(df), dtype=object)
+    else:
+        df["FTR"] = df["FTR"].astype(object)
+    needs_ftr = df["FTR"].isna() & goals_ok
+    if not needs_ftr.any():
+        return
+    df.loc[needs_ftr & (df["FTHG"] > df["FTAG"]), "FTR"] = "H"
+    df.loc[needs_ftr & (df["FTHG"] < df["FTAG"]), "FTR"] = "A"
+    df.loc[needs_ftr & (df["FTHG"] == df["FTAG"]), "FTR"] = "D"
+
+
 def load_matches(csv_path: Path) -> pd.DataFrame:
     df_raw = pd.read_csv(csv_path)
 
@@ -65,16 +85,18 @@ def load_matches(csv_path: Path) -> pd.DataFrame:
         )
 
     df = df_raw.reindex(columns=CORE_COLUMNS)
-    df["Date"] = pd.to_datetime(df["Date"], dayfirst=True, errors="coerce")
+    df["Date"] = pd.to_datetime(df["Date"], errors="coerce")
     df["source_file"] = csv_path.name
 
+    _derive_ftr(df)
+
     if df["Div"].isna().all():
-        inferred = csv_path.stem.upper()[:2]
+        league_code = "E0"
         print(
             f"Warning [{csv_path.name}]: 'Div' missing; "
-            f"assigning league code '{inferred}' from filename."
+            f"assigning league code '{league_code}'."
         )
-        df["Div"] = inferred
+        df["Div"] = league_code
 
     return df
 
@@ -202,18 +224,17 @@ def main() -> None:
     parser = argparse.ArgumentParser(
         description="Detect home-win value bets (Elo PredictionEngine)."
     )
-    source = parser.add_mutually_exclusive_group()
-    source.add_argument(
+    parser.add_argument(
         "--csv",
         type=Path,
-        default=None,
-        help="Single Football-Data CSV file",
+        default=DEFAULT_CSV,
+        help=f"Match CSV path (default: {DEFAULT_CSV})",
     )
-    source.add_argument(
+    parser.add_argument(
         "--csv-dir",
         type=Path,
-        default=DEFAULT_CSV_DIR,
-        help=f"Directory of league CSV files (default: {DEFAULT_CSV_DIR})",
+        default=None,
+        help=f"Directory of league CSV files (overrides --csv if set)",
     )
     parser.add_argument(
         "--odds-column",
@@ -239,14 +260,14 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    if args.csv is not None:
-        if not args.csv.exists():
-            raise SystemExit(f"CSV not found: {args.csv}")
-        df = load_matches(args.csv)
-    else:
+    if args.csv_dir is not None:
         if not args.csv_dir.exists():
             raise SystemExit(f"CSV directory not found: {args.csv_dir}")
         df = load_all_matches(args.csv_dir)
+    else:
+        if not args.csv.exists():
+            raise SystemExit(f"CSV not found: {args.csv}")
+        df = load_matches(args.csv)
 
     if df["Div"].isna().all():
         raise SystemExit(
