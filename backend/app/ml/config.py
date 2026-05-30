@@ -34,6 +34,10 @@ class EngineConfig:
     home_goals_column: str = "FTHG"
     away_goals_column: str = "FTAG"
     goal_adjusted_elo: bool = True
+    use_form_modifier: bool = True
+    form_window: int = 3
+    form_shift_per_point: float = 0.05
+    form_neutral_ppg: float = 1.0
 
     def for_league(self, league: str) -> LeagueConfig:
         return self.leagues.get(str(league), self.default)
@@ -49,7 +53,6 @@ def default_engine_config() -> EngineConfig:
                 k_factor=13.0,
                 home_advantage_elo=51.0,
                 league_hfa=0.426,
-                goal_adjusted_elo=True
             ),
             "D1": LeagueConfig(
                 k_factor=22.0,
