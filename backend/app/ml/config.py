@@ -14,7 +14,6 @@ class LeagueConfig:
     initial_rating: float = 1500.0
     league_hfa: float | None = None
     neutral_prob: float = 0.5
-    use_hfa_normalization: bool = True
     prob_floor: float = 0.05
     prob_ceiling: float = 0.95
 
@@ -41,8 +40,15 @@ class EngineConfig:
     form_shift_per_point: float = 0.05
     form_neutral_ppg: float = 1.0
     alpha: float = 1.0
+    probability_scale: float = 530.0
+    use_post_hoc_calibration: bool = False
+    calibration_min_samples: int = 150
+    calibration_refit_every: int = 50
     use_probability_smoothing: bool = True
     probability_smoothing_alpha: float = 0.7
+    hfa_floor: float = 0.35
+    hfa_ceiling: float = 0.60
+    hfa_calculated_weight: float = 0.7
 
     def for_league(self, league: str) -> LeagueConfig:
         return self.leagues.get(str(league), self.default)

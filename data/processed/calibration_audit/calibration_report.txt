@@ -1,0 +1,37 @@
+VISIONGOAT CALIBRATION AUDIT REPORT
+============================================================
+Scale parameter (fixed): s = 530.0
+
+1. MODEL RANKING (lower is better)
+   Best Log Loss: D_Market (0.5954)
+   Best ECE:      D_Market (0.0341)
+   Best OCI:      A_Elo (0.0436)
+
+2. COMPONENT ATTRIBUTION
+   Elo-only vs xG-only log loss delta: -0.0027
+   Hybrid (α=0.8) vs Elo log loss delta: -0.0002
+   Elo-only vs Market log loss delta: +0.0605
+
+3. OVERCONFIDENCE PROFILE
+   Largest tail error (top 10% conf): A_Elo
+   Smallest tail error: D_Market
+   OCI vs market: model high-confidence zone is not worse than market.
+   Tail error > global ECE gap → miscalibration is TAIL-DRIVEN.
+
+4. HFA STRUCTURAL TEST (Model C, α grid)
+   no_hfa: best α=0.5, LL=0.6348, ECE=0.0750, OCI=0.0429
+   hfa_minus_50pct: best α=0.7, LL=0.6440, ECE=0.0972, OCI=0.0349
+   hfa_baseline: best α=0.8, LL=0.6558, ECE=0.1193, OCI=0.0457
+   hfa_plus_50pct: best α=0.9, LL=0.6703, ECE=0.1437, OCI=0.0599
+   Removing HFA changes best log loss by -0.0210
+   → HFA materially affects calibration (potential overweighting).
+
+5. xG CONTRIBUTION
+   xG-only does NOT beat Elo-only on log loss.
+   xG does NOT improve calibration (ECE); may only shift variance.
+
+6. RECOMMENDATIONS (diagnostic only — no config changes)
+   - Market baseline wins → model must shrink toward implied probs.
+   - Balanced hybrid justified; tune α and separate scale per track.
+
+END OF REPORT

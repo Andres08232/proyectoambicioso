@@ -51,7 +51,6 @@ def build_engine_config(
         initial_rating=base.initial_rating,
         league_hfa=base.league_hfa,
         neutral_prob=base.neutral_prob,
-        use_hfa_normalization=base.use_hfa_normalization,
         prob_floor=base.prob_floor,
         prob_ceiling=base.prob_ceiling,
     )

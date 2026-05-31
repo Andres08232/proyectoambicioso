@@ -54,7 +54,6 @@ def _config_with_elo_alpha(elo_alpha: float) -> EngineConfig:
                 initial_rating=base.initial_rating,
                 league_hfa=base.league_hfa,
                 neutral_prob=base.neutral_prob,
-                use_hfa_normalization=base.use_hfa_normalization,
                 prob_floor=base.prob_floor,
                 prob_ceiling=base.prob_ceiling,
             )
@@ -158,7 +157,7 @@ def diagnose_match(
     print("\n--- Home-win probabilities (before smoothing) ---")
     print(f"  From traditional Elo only: {trad_elo_prob:.3f}")
     print(f"  From xG Elo only:          {xg_elo_prob:.3f}")
-    print(f"  elo_prob (blended+form+HFA): {blended_row['elo_prob']:.3f}")
+    print(f"  elo_prob (blended+HFA in Elo, s=530): {blended_row['elo_prob']:.3f}")
     print(f"  model_prob (final):        {raw_model:.3f}")
     print(f"  Edge (raw):                {raw_model * odds:.4f}")
 
@@ -178,7 +177,7 @@ def diagnose_match(
     elif abs(gap_xg) > abs(gap_trad) and abs(gap_xg) > 0.1:
         driver = "xG Elo track"
     elif abs(hfa_gap) > 0.15:
-        driver = "HFA normalization (league_hfa + elo offset)"
+        driver = "Form modifier (probability-space shift after Elo)"
     elif abs(float(blended_row.get("form_shift", 0))) > 0.08:
         driver = "Form modifier"
     else:
@@ -193,7 +192,7 @@ def diagnose_match(
         )
     if raw_model > 0.7 and market_prob < 0.25:
         print(
-            "  Note: Large home underdog (+EV on home) — check HFA normalization and form shift."
+            "  Note: Large home underdog (+EV on home) — check Elo HFA, form shift, or calibration."
         )
     if float(blended_row.get("form_shift", 0)) > 0.05:
         print(f"  Note: Form shift adds {float(blended_row['form_shift']):+.3f} to elo_prob.")

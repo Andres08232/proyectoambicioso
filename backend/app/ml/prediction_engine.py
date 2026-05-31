@@ -9,6 +9,7 @@ import pandas as pd
 
 from app.ml.config import EngineConfig, LeagueConfig
 from app.ml.match_modifier import MatchModifier
+from app.ml.probability_calibration import WalkForwardIsotonicCalibrator
 
 
 class PredictionEngine:
@@ -73,9 +74,17 @@ class PredictionEngine:
         home_rating: float,
         away_rating: float,
         home_advantage_elo: float,
+        *,
+        scale: float = 530.0,
     ) -> float:
-        exponent = (away_rating - home_rating - home_advantage_elo) / 400.0
-        return 1.0 / (1.0 + math.pow(10.0, exponent))
+        """
+        Logistic win probability with HFA applied only in Elo space.
+
+        adjusted_diff = (home_rating + home_advantage_elo) - away_rating
+        P_home = 1 / (1 + 10 ** (-adjusted_diff / scale))
+        """
+        adjusted_diff = (home_rating + home_advantage_elo) - away_rating
+        return 1.0 / (1.0 + math.pow(10.0, -adjusted_diff / scale))
 
     @staticmethod
     def _match_scores(ftr: str) -> tuple[float, float]:
@@ -112,27 +121,31 @@ class PredictionEngine:
     def _walk_forward_league_hfa(
         self, league: str, league_cfg: LeagueConfig
     ) -> float:
+        """
+        Walk-forward home-win rate, blended toward historical league HFA, then clamped.
+
+        final_hfa = (w * calculated_hfa) + ((1 - w) * historical_average)
+        Returns value in [hfa_floor, hfa_ceiling] to avoid early-season spikes.
+        """
+        cfg = self.config
         history = self._league_home_results[league]
+
         if history:
-            return sum(history) / len(history)
-        if league_cfg.league_hfa is not None:
-            return league_cfg.league_hfa
-        return league_cfg.neutral_prob
-
-    def _clamp_prob(self, prob: float, league_cfg: LeagueConfig) -> float:
-        return max(league_cfg.prob_floor, min(league_cfg.prob_ceiling, prob))
-
-    def _normalize_with_hfa(
-        self,
-        prob: float,
-        league_hfa: float,
-        league_cfg: LeagueConfig,
-    ) -> float:
-        if not league_cfg.use_hfa_normalization:
-            adjusted = prob
+            calculated_hfa = sum(history) / len(history)
+        elif league_cfg.league_hfa is not None:
+            calculated_hfa = league_cfg.league_hfa
         else:
-            adjusted = league_hfa + (prob - league_cfg.neutral_prob)
-        return self._clamp_prob(adjusted, league_cfg)
+            calculated_hfa = league_cfg.neutral_prob
+
+        historical_avg = (
+            league_cfg.league_hfa
+            if league_cfg.league_hfa is not None
+            else league_cfg.neutral_prob
+        )
+        weight = cfg.hfa_calculated_weight
+        blended = (weight * calculated_hfa) + ((1.0 - weight) * historical_avg)
+
+        return max(cfg.hfa_floor, min(cfg.hfa_ceiling, blended))
 
     def _apply_form_modifier(
         self,
@@ -148,8 +161,7 @@ class PredictionEngine:
             home_form, away_form, cfg.form_shift_per_point
         )
         adjusted = elo_prob + form_shift
-        league_cfg = cfg.for_league(league)
-        return self._clamp_prob(adjusted, league_cfg), home_form, away_form, form_shift
+        return adjusted, home_form, away_form, form_shift
 
     def _update_elo_pair(
         self,
@@ -166,16 +178,11 @@ class PredictionEngine:
         set_away,
     ) -> None:
         league_cfg = self.config.for_league(league)
+        scale = self.config.probability_scale
         e_home = self.expected_home_win_prob(
-            home_rating, away_rating, league_cfg.home_advantage_elo
+            home_rating, away_rating, league_cfg.home_advantage_elo, scale=scale
         )
-        e_away = 1.0 / (
-            1.0
-            + math.pow(
-                10.0,
-                (home_rating - away_rating + league_cfg.home_advantage_elo) / 400.0,
-            )
-        )
+        e_away = 1.0 - e_home
         k = league_cfg.k_factor
         set_home(home_rating + k * margin_mult * (s_home - e_home))
         set_away(away_rating + k * margin_mult * (s_away - e_away))
@@ -194,8 +201,12 @@ class PredictionEngine:
         home_blended = self._blended_rating(league, home_team, league_cfg)
         away_blended = self._blended_rating(league, away_team, league_cfg)
 
+        scale = self.config.probability_scale
         elo_prob = self.expected_home_win_prob(
-            home_blended, away_blended, league_cfg.home_advantage_elo
+            home_blended,
+            away_blended,
+            league_cfg.home_advantage_elo,
+            scale=scale,
         )
 
         home_form = self._form_modifier.form_score(league, home_team)
@@ -209,10 +220,11 @@ class PredictionEngine:
             )
 
         league_hfa = self._walk_forward_league_hfa(league, league_cfg)
-        model_prob = self._normalize_with_hfa(prob_after_form, league_hfa, league_cfg)
+        model_prob_raw = prob_after_form
 
         return {
-            "model_prob": model_prob,
+            "model_prob": model_prob_raw,
+            "model_prob_raw": model_prob_raw,
             "elo_prob": elo_prob,
             "prob_after_form": prob_after_form,
             "league_hfa": league_hfa,
@@ -327,8 +339,16 @@ class PredictionEngine:
         out = df.sort_values(sort_cols).reset_index(drop=True)
         self.reset()
 
+        calibrator: WalkForwardIsotonicCalibrator | None = None
+        if self.config.use_post_hoc_calibration:
+            calibrator = WalkForwardIsotonicCalibrator(
+                min_samples=self.config.calibration_min_samples,
+                refit_every=self.config.calibration_refit_every,
+            )
+
         columns: dict[str, list[float]] = {
             "model_prob": [],
+            "model_prob_raw": [],
             "elo_prob": [],
             "prob_after_form": [],
             "league_hfa": [],
@@ -350,10 +370,20 @@ class PredictionEngine:
             ftr = getattr(row, cfg.result_column)
 
             prediction = self.predict_home_win(str(league), str(home), str(away))
+            raw_prob = prediction["model_prob_raw"]
+            if calibrator is not None:
+                calibrated = calibrator.calibrate_probability(raw_prob)
+                prediction["model_prob"] = calibrated
+            else:
+                prediction["model_prob"] = raw_prob
+
             for key, values in columns.items():
                 values.append(prediction[key])
 
             if pd.notna(ftr):
+                outcome = 1 if str(ftr) == "H" else 0
+                if calibrator is not None:
+                    calibrator.observe(raw_prob, outcome)
                 home_goals: int | None = None
                 away_goals: int | None = None
                 if has_goals:
