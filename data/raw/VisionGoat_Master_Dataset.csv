@@ -1,0 +1,2207 @@
+Date,HomeTeam,AwayTeam,FTHG,FTAG,Home_xG,Away_xG,B365H,B365D,B365A
+2020-09-19,arsenal,west ham,2,1,1.1,2.0,,,
+2020-10-04,arsenal,sheffield,2,1,0.6,0.2,,,
+2020-10-25,arsenal,leicester,0,1,0.7,0.7,,,
+2020-11-08,arsenal,aston villa,0,3,1.5,1.8,,,
+2020-11-29,arsenal,wolves,1,2,1.5,1.8,,,
+2020-12-13,arsenal,burnley,0,1,1.6,1.4,,,
+2020-12-16,arsenal,southampton,1,1,0.6,1.2,,,
+2020-12-26,arsenal,chelsea,3,1,2.0,2.6,,,
+2021-01-14,arsenal,crystal palace,0,0,0.4,0.8,,,
+2021-01-18,arsenal,newcastle,3,0,2.4,0.2,,,
+2021-01-30,arsenal,man utd,0,0,0.9,1.6,,,
+2021-02-14,arsenal,leeds,4,2,2.3,0.9,,,
+2021-02-21,arsenal,manchester city,0,1,0.3,1.8,,,
+2021-03-14,arsenal,tottenham,2,1,1.7,0.4,,,
+2021-04-03,arsenal,liverpool,0,3,0.1,2.4,,,
+2021-04-18,arsenal,fulham,1,1,2.7,0.9,,,
+2021-04-23,arsenal,everton,0,1,0.8,0.5,,,
+2021-05-09,arsenal,west brom,3,1,0.9,1.8,,,
+2021-05-23,arsenal,brighton,2,0,0.8,0.2,,,
+2021-08-22,arsenal,chelsea,0,2,0.3,3.1,4.75,3.75,1.72
+2021-08-22,arsenal,chelsea,0,2,0.3,3.1,4.75,3.75,1.72
+2021-09-11,arsenal,norwich city,1,0,2.7,0.7,,,
+2021-09-26,arsenal,tottenham,3,1,1.1,1.0,2.15,3.3,3.5
+2021-09-26,arsenal,tottenham,3,1,1.1,1.0,2.15,3.3,3.5
+2021-10-18,arsenal,crystal palace,2,2,1.7,0.7,1.6,3.8,6.0
+2021-10-18,arsenal,crystal palace,2,2,1.7,0.7,1.6,3.8,6.0
+2021-10-22,arsenal,aston villa,3,1,2.7,1.4,1.83,3.75,4.2
+2021-10-22,arsenal,aston villa,3,1,2.7,1.4,1.83,3.75,4.2
+2021-11-07,arsenal,watford,1,0,1.6,0.5,1.36,4.75,8.5
+2021-11-07,arsenal,watford,1,0,1.6,0.5,1.36,4.75,8.5
+2021-11-27,arsenal,newcastle,2,0,2.5,0.3,1.44,4.75,7.0
+2021-11-27,arsenal,newcastle,2,0,2.5,0.3,1.44,4.75,7.0
+2021-12-11,arsenal,southampton,3,0,1.8,0.6,1.61,4.0,5.5
+2021-12-11,arsenal,southampton,3,0,1.8,0.6,1.61,4.0,5.5
+2021-12-15,arsenal,west ham,2,0,2.8,0.4,2.1,3.6,3.3
+2021-12-15,arsenal,west ham,2,0,2.8,0.4,2.1,3.6,3.3
+2022-01-01,arsenal,manchester city,1,2,0.8,2.0,,,
+2022-01-23,arsenal,burnley,0,0,1.2,0.4,1.36,4.75,9.0
+2022-01-23,arsenal,burnley,0,0,1.2,0.4,1.36,4.75,9.0
+2022-02-19,arsenal,brentford,2,1,1.7,0.6,1.44,4.2,8.0
+2022-02-19,arsenal,brentford,2,1,1.7,0.6,1.44,4.2,8.0
+2022-02-24,arsenal,wolves,2,1,3.1,1.0,1.65,3.8,5.5
+2022-02-24,arsenal,wolves,2,1,3.1,1.0,1.65,3.8,5.5
+2022-03-13,arsenal,leicester,2,0,2.4,0.4,1.5,4.5,6.0
+2022-03-13,arsenal,leicester,2,0,2.4,0.4,1.5,4.5,6.0
+2022-03-16,arsenal,liverpool,0,2,0.5,0.8,3.5,4.0,1.9
+2022-03-16,arsenal,liverpool,0,2,0.5,0.8,3.5,4.0,1.9
+2022-04-09,arsenal,brighton,1,2,1.9,0.6,1.61,3.8,5.75
+2022-04-09,arsenal,brighton,1,2,1.9,0.6,1.61,3.8,5.75
+2022-04-23,arsenal,man utd,3,1,2.3,1.8,2.05,3.5,3.5
+2022-04-23,arsenal,man utd,3,1,2.3,1.8,2.05,3.5,3.5
+2022-05-08,arsenal,leeds,2,1,2.0,0.3,1.45,4.5,7.0
+2022-05-08,arsenal,leeds,2,1,2.0,0.3,1.45,4.5,7.0
+2022-05-22,arsenal,everton,5,1,4.2,1.1,1.36,4.75,9.0
+2022-05-22,arsenal,everton,5,1,4.2,1.1,1.36,4.75,9.0
+2022-08-13,arsenal,leicester,4,2,2.7,0.5,1.53,4.33,5.75
+2022-08-27,arsenal,fulham,2,1,2.6,0.8,1.3,5.75,9.0
+2022-08-31,arsenal,aston villa,2,1,2.4,0.4,1.45,4.5,6.0
+2022-10-01,arsenal,tottenham,3,1,2.4,1.6,2.05,3.75,3.3
+2022-10-09,arsenal,liverpool,3,2,2.7,1.1,2.5,3.6,2.62
+2022-10-30,arsenal,nott'ham forest,5,0,2.3,0.4,,,
+2022-12-26,arsenal,west ham,3,1,2.1,1.0,1.5,4.33,6.5
+2023-01-03,arsenal,newcastle,0,0,1.1,1.0,1.8,3.8,4.33
+2023-01-22,arsenal,man utd,3,2,3.1,0.4,1.8,3.8,4.2
+2023-02-11,arsenal,brentford,1,1,1.6,2.0,1.44,4.75,7.0
+2023-02-15,arsenal,manchester city,1,3,1.6,1.8,,,
+2023-03-01,arsenal,everton,4,0,2.4,1.2,1.36,4.75,10.0
+2023-03-04,arsenal,bournemouth,3,2,2.1,1.3,1.22,7.0,12.0
+2023-03-19,arsenal,crystal palace,4,1,1.6,0.8,1.25,5.5,15.0
+2023-04-01,arsenal,leeds,4,1,3.8,0.7,1.29,6.0,9.0
+2023-04-21,arsenal,southampton,3,3,2.4,1.3,1.2,7.0,13.0
+2023-05-02,arsenal,chelsea,3,1,1.7,0.8,1.6,4.0,5.5
+2023-05-14,arsenal,brighton,0,3,0.9,1.7,1.73,4.2,4.2
+2023-05-28,arsenal,wolves,5,0,2.8,0.5,1.36,5.25,8.0
+2023-08-12,arsenal,nott'ham forest,2,1,0.8,1.2,,,
+2023-08-26,arsenal,fulham,2,2,3.2,0.6,1.2,7.0,13.0
+2023-09-03,arsenal,man utd,3,1,2.3,0.9,1.75,3.8,4.5
+2023-09-24,arsenal,tottenham,2,2,1.8,1.4,1.67,4.33,4.33
+2023-10-08,arsenal,manchester city,1,0,0.4,0.5,,,
+2023-10-28,arsenal,sheffield,5,0,2.8,0.0,1.13,8.5,19.0
+2023-11-11,arsenal,burnley,3,1,1.8,0.3,1.18,7.0,17.0
+2023-12-02,arsenal,wolves,2,1,2.8,0.7,1.25,5.5,12.0
+2023-12-17,arsenal,brighton,2,0,2.3,0.7,1.44,5.0,6.0
+2023-12-28,arsenal,west ham,0,2,2.7,1.4,1.33,5.5,7.5
+2024-01-20,arsenal,crystal palace,5,0,3.3,0.3,1.3,5.75,9.0
+2024-02-04,arsenal,liverpool,3,1,3.5,0.4,2.2,3.6,3.1
+2024-02-24,arsenal,newcastle,4,1,2.8,0.2,1.36,5.25,8.0
+2024-03-09,arsenal,brentford,2,1,1.3,1.0,1.22,7.0,11.0
+2024-04-03,arsenal,luton,2,0,0.7,0.3,1.1,10.0,19.0
+2024-04-14,arsenal,aston villa,0,2,1.6,0.9,1.29,5.75,10.0
+2024-04-23,arsenal,chelsea,5,0,3.3,1.6,1.44,5.0,6.0
+2024-05-04,arsenal,bournemouth,3,0,3.3,0.5,1.22,7.5,11.0
+2024-05-19,arsenal,everton,2,1,2.9,0.6,1.18,8.0,12.0
+2024-08-17,arsenal,wolves,2,0,1.2,0.5,1.18,7.5,13.0
+2024-08-31,arsenal,brighton,1,1,2.1,1.7,1.33,5.5,8.5
+2024-09-28,arsenal,leicester,4,2,4.4,0.3,1.17,8.0,15.0
+2024-10-05,arsenal,southampton,3,1,2.8,0.6,1.14,9.0,17.0
+2024-10-27,arsenal,liverpool,2,2,0.9,0.8,2.5,3.25,2.9
+2024-11-23,arsenal,nott'ham forest,3,0,1.2,0.3,,,
+2024-12-04,arsenal,man utd,2,0,2.1,0.2,1.44,4.5,7.0
+2024-12-14,arsenal,everton,0,0,1.2,0.1,1.22,6.5,12.0
+2024-12-27,arsenal,ipswich town,1,0,1.8,0.2,,,
+2025-01-15,arsenal,tottenham,2,1,1.4,0.8,1.4,5.25,7.0
+2025-01-18,arsenal,aston villa,2,2,1.3,1.0,1.5,4.1,7.0
+2025-02-02,arsenal,manchester city,5,1,1.0,0.8,,,
+2025-02-22,arsenal,west ham,0,1,1.2,1.1,1.27,6.0,10.0
+2025-03-16,arsenal,chelsea,1,0,0.7,0.4,1.8,3.6,4.5
+2025-04-01,arsenal,fulham,2,1,2.2,1.0,1.48,4.33,7.0
+2025-04-12,arsenal,brentford,1,1,1.0,0.2,1.6,4.33,5.0
+2025-04-23,arsenal,crystal palace,2,2,1.2,1.7,1.4,4.75,7.5
+2025-05-03,arsenal,bournemouth,1,2,1.4,0.9,2.05,3.7,3.4
+2025-05-18,arsenal,newcastle,1,0,0.6,1.5,1.95,3.7,3.7
+2020-09-21,aston villa,sheffield,1,0,1.0,0.9,,,
+2020-10-04,aston villa,liverpool,7,2,2.7,1.8,,,
+2020-10-23,aston villa,leeds,0,3,1.4,2.7,,,
+2020-11-01,aston villa,southampton,3,4,1.9,0.7,,,
+2020-11-21,aston villa,brighton,1,2,1.5,1.4,,,
+2020-12-17,aston villa,burnley,0,0,1.5,0.3,,,
+2020-12-26,aston villa,crystal palace,3,0,3.9,0.9,,,
+2021-01-23,aston villa,newcastle,2,0,2.3,0.5,,,
+2021-02-03,aston villa,west ham,1,3,0.7,1.7,,,
+2021-02-06,aston villa,arsenal,1,0,1.2,0.8,,,
+2021-02-21,aston villa,leicester,1,2,1.4,1.1,,,
+2021-03-06,aston villa,wolves,0,0,0.6,1.6,,,
+2021-03-21,aston villa,tottenham,0,2,0.4,1.8,,,
+2021-04-04,aston villa,fulham,3,1,1.5,1.0,,,
+2021-04-21,aston villa,manchester city,1,2,0.7,1.2,,,
+2021-04-25,aston villa,west brom,2,2,3.2,1.5,,,
+2021-05-09,aston villa,man utd,1,3,0.5,1.7,,,
+2021-05-13,aston villa,everton,0,0,0.6,1.0,,,
+2021-05-23,aston villa,chelsea,2,1,1.1,3.3,,,
+2021-08-21,aston villa,newcastle,2,0,1.2,0.7,1.8,3.75,4.33
+2021-08-21,aston villa,newcastle,2,0,1.2,0.7,1.8,3.75,4.33
+2021-08-28,aston villa,brentford,1,1,0.7,0.9,1.95,3.6,3.8
+2021-08-28,aston villa,brentford,1,1,0.7,0.9,1.95,3.6,3.8
+2021-09-18,aston villa,everton,3,0,0.8,0.7,2.4,3.3,3.0
+2021-09-18,aston villa,everton,3,0,0.8,0.7,2.4,3.3,3.0
+2021-10-16,aston villa,wolves,2,3,1.0,2.0,2.15,3.25,3.5
+2021-10-16,aston villa,wolves,2,3,1.0,2.0,2.15,3.25,3.5
+2021-10-31,aston villa,west ham,1,4,0.7,2.3,2.8,3.5,2.45
+2021-10-31,aston villa,west ham,1,4,0.7,2.3,2.8,3.5,2.45
+2021-11-20,aston villa,brighton,2,0,0.7,0.4,2.45,3.3,2.9
+2021-11-20,aston villa,brighton,2,0,0.7,0.4,2.45,3.3,2.9
+2021-12-01,aston villa,manchester city,1,2,0.8,1.0,,,
+2021-12-05,aston villa,leicester,2,1,2.1,1.1,2.37,3.4,3.0
+2021-12-05,aston villa,leicester,2,1,2.1,1.1,2.37,3.4,3.0
+2021-12-26,aston villa,chelsea,1,3,0.4,2.6,5.25,3.8,1.65
+2021-12-26,aston villa,chelsea,1,3,0.4,2.6,5.25,3.8,1.65
+2022-01-15,aston villa,man utd,2,2,1.9,1.0,2.87,3.5,2.4
+2022-01-15,aston villa,man utd,2,2,1.9,1.0,2.87,3.5,2.4
+2022-02-09,aston villa,leeds,3,3,1.6,1.8,1.8,3.8,4.2
+2022-02-09,aston villa,leeds,3,3,1.6,1.8,1.8,3.8,4.2
+2022-02-19,aston villa,watford,0,1,1.3,1.2,1.65,3.6,5.75
+2022-02-19,aston villa,watford,0,1,1.3,1.2,1.65,3.6,5.75
+2022-03-05,aston villa,southampton,4,0,2.5,1.1,2.3,3.5,3.0
+2022-03-05,aston villa,southampton,4,0,2.5,1.1,2.3,3.5,3.0
+2022-03-19,aston villa,arsenal,0,1,0.5,1.3,3.0,3.3,2.4
+2022-03-19,aston villa,arsenal,0,1,0.5,1.3,3.0,3.3,2.4
+2022-04-09,aston villa,tottenham,0,4,1.6,1.1,3.2,3.4,2.25
+2022-04-09,aston villa,tottenham,0,4,1.6,1.1,3.2,3.4,2.25
+2022-04-30,aston villa,norwich city,2,0,1.8,0.5,,,
+2022-05-10,aston villa,liverpool,1,2,1.4,1.8,7.5,4.75,1.4
+2022-05-10,aston villa,liverpool,1,2,1.4,1.8,7.5,4.75,1.4
+2022-05-15,aston villa,crystal palace,1,1,1.0,1.4,2.0,3.5,3.75
+2022-05-15,aston villa,crystal palace,1,1,1.0,1.4,2.0,3.5,3.75
+2022-05-19,aston villa,burnley,1,1,1.5,1.6,2.05,3.5,3.6
+2022-05-19,aston villa,burnley,1,1,1.5,1.6,2.05,3.5,3.6
+2022-08-13,aston villa,everton,2,1,2.3,1.6,1.8,3.5,4.75
+2022-08-28,aston villa,west ham,0,1,0.5,0.6,2.3,3.4,3.1
+2022-09-03,aston villa,manchester city,1,1,0.3,2.1,,,
+2022-09-16,aston villa,southampton,1,0,1.5,0.3,2.1,3.5,3.5
+2022-10-16,aston villa,chelsea,0,2,1.8,0.9,4.33,3.75,1.8
+2022-10-23,aston villa,brentford,4,0,2.8,0.9,2.1,3.5,3.5
+2022-11-06,aston villa,man utd,3,1,0.6,0.5,3.3,3.8,2.1
+2022-12-26,aston villa,liverpool,1,3,1.4,2.7,4.75,4.0,1.7
+2023-01-04,aston villa,wolves,1,1,1.8,0.9,1.95,3.6,4.0
+2023-01-13,aston villa,leeds,2,1,1.2,2.4,1.91,3.6,4.0
+2023-02-04,aston villa,leicester,2,4,1.7,2.6,1.95,3.6,3.8
+2023-02-18,aston villa,arsenal,2,4,0.5,3.2,4.5,3.6,1.5
+2023-03-04,aston villa,crystal palace,1,0,1.2,0.2,2.05,3.3,3.8
+2023-03-18,aston villa,bournemouth,3,0,3.5,1.3,1.7,3.8,5.0
+2023-04-08,aston villa,nott'ham forest,2,0,1.3,0.2,,,
+2023-04-15,aston villa,newcastle,3,0,1.9,0.5,3.6,3.4,2.05
+2023-04-25,aston villa,fulham,1,0,1.0,0.1,1.75,4.0,4.2
+2023-05-13,aston villa,tottenham,2,1,1.2,1.4,2.25,3.6,2.9
+2023-05-28,aston villa,brighton,2,1,2.8,1.4,2.0,3.6,3.5
+2023-08-20,aston villa,everton,4,0,2.9,0.6,1.7,4.0,4.5
+2023-09-16,aston villa,crystal palace,3,1,3.0,1.2,1.91,3.6,4.0
+2023-09-30,aston villa,brighton,6,1,1.6,1.7,2.55,3.75,2.55
+2023-10-22,aston villa,west ham,4,1,1.9,1.1,1.85,3.6,4.0
+2023-10-29,aston villa,luton,3,1,2.3,0.5,1.25,6.5,9.5
+2023-11-12,aston villa,fulham,3,1,3.0,0.9,1.57,4.2,5.5
+2023-12-06,aston villa,manchester city,1,0,2.3,0.6,,,
+2023-12-09,aston villa,arsenal,1,0,0.6,1.4,3.3,3.6,2.1
+2023-12-22,aston villa,sheffield,1,1,0.9,0.6,1.22,6.5,12.0
+2023-12-30,aston villa,burnley,3,2,3.2,1.2,1.36,5.25,7.5
+2024-01-30,aston villa,newcastle,1,3,1.4,2.6,1.85,4.0,3.8
+2024-02-11,aston villa,man utd,1,2,2.4,1.8,2.15,3.75,3.1
+2024-02-24,aston villa,nott'ham forest,4,2,3.6,2.6,,,
+2024-03-10,aston villa,tottenham,0,4,0.8,1.5,2.38,4.0,2.6
+2024-03-30,aston villa,wolves,2,0,1.0,1.5,1.6,4.33,5.0
+2024-04-06,aston villa,brentford,3,3,1.5,1.5,1.7,4.0,4.75
+2024-04-21,aston villa,bournemouth,3,1,2.4,1.8,1.85,4.0,3.6
+2024-04-27,aston villa,chelsea,2,2,1.1,1.6,2.15,3.8,3.0
+2024-05-13,aston villa,liverpool,3,3,3.1,1.7,4.2,4.33,1.7
+2024-08-24,aston villa,arsenal,0,2,1.2,0.9,4.33,3.8,1.75
+2024-09-14,aston villa,everton,3,2,2.1,0.9,1.5,4.2,6.5
+2024-09-21,aston villa,wolves,3,1,1.7,0.5,1.57,4.2,5.25
+2024-10-06,aston villa,man utd,0,0,0.5,0.6,2.2,3.75,3.0
+2024-10-26,aston villa,bournemouth,1,1,1.8,0.3,1.85,3.9,3.8
+2024-11-23,aston villa,crystal palace,2,2,3.0,1.3,1.62,4.0,5.5
+2024-12-04,aston villa,brentford,3,1,2.4,0.9,1.8,3.75,4.33
+2024-12-07,aston villa,southampton,1,0,2.3,0.3,1.36,5.5,7.0
+2024-12-21,aston villa,manchester city,2,1,1.6,1.0,,,
+2024-12-30,aston villa,brighton,2,2,1.8,1.1,1.9,3.8,3.6
+2025-01-04,aston villa,leicester,2,1,1.4,0.4,1.33,5.5,8.5
+2025-01-26,aston villa,west ham,1,1,0.9,1.3,1.53,4.33,5.75
+2025-02-15,aston villa,ipswich town,1,1,2.4,0.4,,,
+2025-02-19,aston villa,liverpool,2,2,0.6,2.5,3.9,4.0,1.83
+2025-02-22,aston villa,chelsea,2,1,2.3,2.3,2.63,3.4,2.6
+2025-04-05,aston villa,nott'ham forest,2,1,3.0,1.5,,,
+2025-04-19,aston villa,newcastle,4,1,2.2,1.0,2.3,3.6,2.75
+2025-05-03,aston villa,fulham,1,0,1.0,0.9,1.77,3.75,4.5
+2025-05-16,aston villa,tottenham,2,0,1.4,0.5,1.3,6.0,8.5
+2022-08-06,bournemouth,aston villa,2,0,0.6,0.7,3.75,3.5,2.0
+2022-08-20,bournemouth,arsenal,0,3,0.3,1.3,8.0,4.75,1.4
+2022-08-31,bournemouth,wolves,0,0,0.4,1.5,3.5,3.3,2.15
+2022-10-01,bournemouth,brentford,0,0,0.4,0.9,3.3,3.4,2.2
+2022-10-08,bournemouth,leicester,2,1,1.1,1.0,3.6,3.4,2.05
+2022-10-19,bournemouth,southampton,0,1,1.0,1.0,2.62,3.3,2.62
+2022-10-29,bournemouth,tottenham,2,3,0.5,2.0,5.0,3.8,1.7
+2022-11-12,bournemouth,everton,3,0,2.4,0.8,2.8,3.25,2.6
+2022-12-31,bournemouth,crystal palace,0,2,0.6,1.6,2.8,3.3,2.5
+2023-01-21,bournemouth,nott'ham forest,1,1,1.4,1.9,,,
+2023-02-11,bournemouth,newcastle,1,1,1.5,1.3,6.5,4.0,1.53
+2023-02-25,bournemouth,manchester city,1,4,1.0,2.4,,,
+2023-03-11,bournemouth,liverpool,1,0,0.9,1.7,7.5,5.0,1.4
+2023-04-01,bournemouth,fulham,2,1,2.6,0.8,2.55,3.3,2.8
+2023-04-04,bournemouth,brighton,0,2,1.7,2.7,6.0,4.2,1.53
+2023-04-23,bournemouth,west ham,0,4,1.5,2.4,2.88,3.2,2.55
+2023-04-30,bournemouth,leeds,4,1,1.9,1.6,2.55,3.5,2.7
+2023-05-06,bournemouth,chelsea,1,3,1.2,1.3,3.3,3.5,2.15
+2023-05-20,bournemouth,man utd,0,1,1.0,1.4,6.0,4.75,1.5
+2023-08-12,bournemouth,west ham,1,1,1.3,1.1,2.7,3.4,2.55
+2023-08-26,bournemouth,tottenham,0,2,0.7,2.1,3.8,3.75,1.91
+2023-09-17,bournemouth,chelsea,0,0,1.0,1.8,4.33,3.75,1.8
+2023-09-30,bournemouth,arsenal,0,4,0.6,3.4,5.5,4.5,1.53
+2023-10-21,bournemouth,wolves,1,2,0.6,2.4,2.38,3.4,3.0
+2023-10-28,bournemouth,burnley,2,1,1.1,0.8,2.15,3.5,3.3
+2023-11-11,bournemouth,newcastle,2,0,2.4,0.5,4.75,4.0,1.73
+2023-12-03,bournemouth,aston villa,2,2,2.0,0.7,3.4,4.0,1.95
+2023-12-26,bournemouth,fulham,3,0,1.8,0.3,2.15,3.6,3.2
+2024-01-21,bournemouth,liverpool,0,4,1.4,1.5,4.2,4.5,1.7
+2024-02-04,bournemouth,nott'ham forest,1,1,1.3,0.5,,,
+2024-02-24,bournemouth,manchester city,0,1,0.9,1.6,,,
+2024-03-09,bournemouth,sheffield,2,2,3.3,1.2,1.33,5.25,8.0
+2024-03-13,bournemouth,luton,4,3,2.3,2.0,1.5,4.75,5.75
+2024-03-30,bournemouth,everton,2,1,1.3,1.0,2.2,3.6,3.2
+2024-04-02,bournemouth,crystal palace,1,0,1.1,0.2,1.95,3.8,3.6
+2024-04-13,bournemouth,man utd,2,2,1.6,1.2,2.4,3.9,2.6
+2024-04-28,bournemouth,brighton,3,0,1.9,0.9,2.25,3.8,2.9
+2024-05-11,bournemouth,brentford,1,2,0.7,1.1,1.95,4.0,3.5
+2024-08-25,bournemouth,newcastle,1,1,2.2,1.6,2.9,3.8,2.2
+2024-09-14,bournemouth,chelsea,0,1,1.7,0.8,3.4,3.8,2.0
+2024-09-30,bournemouth,southampton,3,1,1.3,0.6,1.65,4.1,5.0
+2024-10-19,bournemouth,arsenal,2,0,1.8,0.7,5.0,3.9,1.65
+2024-11-02,bournemouth,manchester city,2,1,2.0,1.6,,,
+2024-11-23,bournemouth,brighton,1,2,1.6,0.9,2.4,3.6,2.8
+2024-12-05,bournemouth,tottenham,1,0,3.5,0.9,2.63,3.75,2.45
+2024-12-16,bournemouth,west ham,1,1,1.9,2.1,1.7,4.0,4.75
+2024-12-26,bournemouth,crystal palace,0,0,1.4,0.4,1.9,3.8,3.8
+2025-01-04,bournemouth,everton,1,0,1.8,0.7,1.73,3.75,4.75
+2025-01-25,bournemouth,nott'ham forest,5,0,1.7,1.0,,,
+2025-02-01,bournemouth,liverpool,0,2,1.6,2.5,4.5,4.33,1.67
+2025-02-22,bournemouth,wolves,0,1,0.9,2.0,1.53,4.5,5.5
+2025-03-15,bournemouth,brentford,1,2,1.6,0.8,1.73,4.2,4.2
+2025-04-02,bournemouth,ipswich town,1,2,1.8,1.2,,,
+2025-04-14,bournemouth,fulham,1,0,1.4,1.0,2.15,3.5,3.3
+2025-04-27,bournemouth,man utd,1,1,0.5,2.3,1.67,4.0,4.5
+2025-05-10,bournemouth,aston villa,0,1,0.8,1.0,2.4,3.6,2.75
+2025-05-25,bournemouth,leicester,2,0,1.6,0.3,1.33,5.25,8.5
+2021-08-13,brentford,arsenal,2,0,1.2,1.3,4.0,3.4,1.95
+2021-08-13,brentford,arsenal,2,0,1.2,1.3,4.0,3.4,1.95
+2021-09-11,brentford,brighton,0,1,0.4,0.3,2.8,3.2,2.62
+2021-09-11,brentford,brighton,0,1,0.4,0.3,2.8,3.2,2.62
+2021-09-25,brentford,liverpool,3,3,2.1,2.8,7.0,4.5,1.45
+2021-09-25,brentford,liverpool,3,3,2.1,2.8,7.0,4.5,1.45
+2021-10-16,brentford,chelsea,0,1,1.4,0.3,6.5,3.8,1.57
+2021-10-16,brentford,chelsea,0,1,1.4,0.3,6.5,3.8,1.57
+2021-10-24,brentford,leicester,1,2,1.0,1.5,2.62,3.3,2.7
+2021-10-24,brentford,leicester,1,2,1.0,1.5,2.62,3.3,2.7
+2021-11-06,brentford,norwich city,1,2,2.5,1.2,,,
+2021-11-28,brentford,everton,1,0,1.2,1.0,2.25,3.2,3.4
+2021-11-28,brentford,everton,1,0,1.2,1.0,2.25,3.2,3.4
+2021-12-10,brentford,watford,2,1,1.6,0.5,2.25,3.3,3.3
+2021-12-10,brentford,watford,2,1,1.6,0.5,2.25,3.3,3.3
+2021-12-29,brentford,manchester city,0,1,0.4,1.1,,,
+2022-01-02,brentford,aston villa,2,1,0.6,0.8,3.0,3.3,2.4
+2022-01-02,brentford,aston villa,2,1,0.6,0.8,3.0,3.3,2.4
+2022-01-19,brentford,man utd,1,3,2.3,2.3,4.5,3.7,1.8
+2022-01-19,brentford,man utd,1,3,2.3,2.3,4.5,3.7,1.8
+2022-01-22,brentford,wolves,1,2,1.1,0.2,3.2,2.8,2.6
+2022-01-22,brentford,wolves,1,2,1.1,0.2,3.2,2.8,2.6
+2022-02-12,brentford,crystal palace,0,0,1.6,0.3,2.55,3.1,3.0
+2022-02-12,brentford,crystal palace,0,0,1.6,0.3,2.55,3.1,3.0
+2022-02-26,brentford,newcastle,0,2,0.4,2.7,2.5,3.2,3.0
+2022-02-26,brentford,newcastle,0,2,0.4,2.7,2.5,3.2,3.0
+2022-03-12,brentford,burnley,2,0,1.9,0.7,2.15,3.2,3.6
+2022-03-12,brentford,burnley,2,0,1.9,0.7,2.15,3.2,3.6
+2022-04-10,brentford,west ham,2,0,1.4,0.3,2.62,3.3,2.62
+2022-04-10,brentford,west ham,2,0,1.4,0.3,2.62,3.3,2.62
+2022-04-23,brentford,tottenham,0,0,0.9,0.6,4.33,3.5,1.85
+2022-04-23,brentford,tottenham,0,0,0.9,0.6,4.33,3.5,1.85
+2022-05-07,brentford,southampton,3,0,2.6,1.4,2.15,3.5,3.3
+2022-05-07,brentford,southampton,3,0,2.6,1.4,2.15,3.5,3.3
+2022-05-22,brentford,leeds,1,2,0.8,1.3,2.45,3.8,2.62
+2022-05-22,brentford,leeds,1,2,0.8,1.3,2.45,3.8,2.62
+2022-08-13,brentford,man utd,4,0,1.6,0.9,3.75,3.5,2.0
+2022-08-27,brentford,everton,1,1,2.1,1.1,2.0,3.5,3.75
+2022-09-03,brentford,leeds,5,2,2.3,1.7,2.1,3.5,3.4
+2022-09-18,brentford,arsenal,0,3,0.5,1.5,4.2,3.8,1.8
+2022-10-14,brentford,brighton,2,0,1.5,1.9,3.1,3.4,2.3
+2022-10-19,brentford,chelsea,0,0,1.3,0.9,4.75,3.8,1.72
+2022-10-29,brentford,wolves,1,1,1.4,0.6,2.2,3.4,3.3
+2022-12-26,brentford,tottenham,2,2,2.0,1.1,4.0,3.6,1.91
+2023-01-02,brentford,liverpool,3,1,1.6,0.9,5.5,4.33,1.55
+2023-01-14,brentford,bournemouth,2,0,1.4,0.6,1.65,4.0,5.25
+2023-02-04,brentford,southampton,3,0,2.0,0.7,1.85,3.6,4.2
+2023-02-18,brentford,crystal palace,1,1,0.9,1.1,1.83,3.5,4.5
+2023-03-06,brentford,fulham,3,2,2.1,1.4,1.95,3.6,3.75
+2023-03-18,brentford,leicester,1,1,0.6,1.3,1.91,3.6,3.75
+2023-04-08,brentford,newcastle,1,2,2.6,1.3,3.6,3.4,2.05
+2023-04-22,brentford,aston villa,1,1,2.7,1.5,2.5,3.25,2.88
+2023-04-29,brentford,nott'ham forest,2,1,1.6,0.7,,,
+2023-05-14,brentford,west ham,2,0,3.4,0.2,2.0,3.5,3.6
+2023-05-28,brentford,manchester city,1,0,1.3,1.6,,,
+2023-08-13,brentford,tottenham,2,2,2.2,1.3,2.75,3.4,2.45
+2023-08-26,brentford,crystal palace,1,1,1.0,0.8,2.15,3.4,3.5
+2023-09-02,brentford,bournemouth,2,2,2.9,2.1,1.73,3.8,4.75
+2023-09-23,brentford,everton,1,3,1.0,1.9,1.8,3.8,4.2
+2023-10-21,brentford,burnley,3,0,3.1,1.1,1.83,3.75,4.2
+2023-11-04,brentford,west ham,3,2,1.5,1.8,2.05,3.6,3.5
+2023-11-25,brentford,arsenal,0,1,1.1,1.6,4.5,3.75,1.75
+2023-12-02,brentford,luton,3,1,3.1,0.2,1.45,4.5,6.5
+2023-12-17,brentford,aston villa,1,2,0.5,1.4,3.2,3.75,2.1
+2023-12-27,brentford,wolves,1,4,2.2,2.4,1.95,3.5,4.2
+2024-01-20,brentford,nott'ham forest,3,2,1.2,1.2,,,
+2024-02-05,brentford,manchester city,1,3,1.0,2.1,,,
+2024-02-17,brentford,liverpool,1,4,1.6,2.8,5.5,4.33,1.57
+2024-03-02,brentford,chelsea,2,2,1.8,1.8,3.1,3.75,2.15
+2024-03-30,brentford,man utd,1,1,3.2,0.6,3.0,3.8,2.2
+2024-04-03,brentford,brighton,0,0,0.6,1.1,2.38,3.8,2.75
+2024-04-13,brentford,sheffield,2,0,1.0,0.8,1.44,5.0,6.5
+2024-05-04,brentford,fulham,0,0,0.6,1.3,2.1,3.8,3.2
+2024-05-19,brentford,newcastle,2,4,1.1,3.4,2.9,3.9,2.2
+2024-08-18,brentford,crystal palace,2,1,1.6,1.2,2.4,3.4,2.9
+2024-08-31,brentford,southampton,3,1,2.8,1.5,1.75,3.9,4.33
+2024-09-28,brentford,west ham,1,1,0.4,1.0,2.2,3.5,3.2
+2024-10-05,brentford,wolves,5,3,4.2,1.0,2.05,3.6,3.4
+2024-10-26,brentford,ipswich town,4,3,4.0,1.3,,,
+2024-11-09,brentford,bournemouth,3,2,1.5,2.6,2.5,3.5,2.7
+2024-11-30,brentford,leicester,4,1,2.4,1.1,1.65,4.2,4.75
+2024-12-07,brentford,newcastle,4,2,1.2,1.5,2.88,3.75,2.3
+2024-12-21,brentford,nott'ham forest,0,2,0.7,0.9,,,
+2025-01-01,brentford,arsenal,1,3,0.3,1.9,6.5,4.75,1.44
+2025-01-14,brentford,manchester city,2,2,2.5,2.2,,,
+2025-01-18,brentford,liverpool,0,2,0.7,3.4,6.5,5.0,1.42
+2025-02-02,brentford,tottenham,0,2,2.1,0.8,2.1,3.9,3.2
+2025-02-26,brentford,everton,1,1,1.4,1.5,2.0,3.7,3.5
+2025-03-08,brentford,aston villa,0,1,0.8,1.3,2.2,3.8,2.9
+2025-04-06,brentford,chelsea,0,0,1.1,1.2,3.2,3.6,2.15
+2025-04-19,brentford,brighton,4,2,2.1,1.4,2.4,3.75,2.63
+2025-05-04,brentford,man utd,4,3,2.8,1.5,1.65,4.1,4.75
+2025-05-18,brentford,fulham,2,3,2.5,1.0,1.91,3.9,3.6
+2020-09-14,brighton,chelsea,1,3,1.1,1.2,,,
+2020-09-26,brighton,man utd,2,3,2.5,1.5,,,
+2020-10-26,brighton,west brom,1,1,0.5,0.4,,,
+2020-11-06,brighton,burnley,0,0,1.5,0.5,,,
+2020-11-28,brighton,liverpool,1,1,2.3,0.2,,,
+2020-12-07,brighton,southampton,1,2,1.9,1.4,,,
+2020-12-20,brighton,sheffield,1,1,2.8,0.5,,,
+2020-12-29,brighton,arsenal,0,1,0.8,1.1,,,
+2021-01-02,brighton,wolves,3,3,2.2,1.6,,,
+2021-01-27,brighton,fulham,0,0,1.8,0.5,,,
+2021-01-31,brighton,tottenham,1,0,1.6,0.4,,,
+2021-02-13,brighton,aston villa,0,0,2.2,0.1,,,
+2021-02-22,brighton,crystal palace,1,2,2.4,0.2,,,
+2021-03-06,brighton,leicester,1,2,0.8,0.9,,,
+2021-03-20,brighton,newcastle,3,0,0.9,0.1,,,
+2021-04-12,brighton,everton,0,0,1.2,0.4,,,
+2021-05-01,brighton,leeds,2,0,2.3,0.6,,,
+2021-05-15,brighton,west ham,1,1,0.8,1.7,,,
+2021-05-18,brighton,manchester city,3,2,1.1,0.9,,,
+2021-08-21,brighton,watford,2,0,1.3,0.5,1.7,3.5,5.75
+2021-08-21,brighton,watford,2,0,1.3,0.5,1.7,3.5,5.75
+2021-08-28,brighton,everton,0,2,0.7,1.4,2.3,3.2,3.3
+2021-08-28,brighton,everton,0,2,0.7,1.4,2.3,3.2,3.3
+2021-09-19,brighton,leicester,2,1,1.7,1.6,2.7,3.2,2.75
+2021-09-19,brighton,leicester,2,1,1.7,1.6,2.7,3.2,2.75
+2021-10-02,brighton,arsenal,0,0,1.1,0.4,3.0,3.25,2.4
+2021-10-02,brighton,arsenal,0,0,1.1,0.4,3.0,3.25,2.4
+2021-10-23,brighton,manchester city,1,4,1.3,3.8,,,
+2021-11-06,brighton,newcastle,1,1,1.5,0.3,1.57,3.9,6.0
+2021-11-06,brighton,newcastle,1,1,1.5,0.3,1.57,3.9,6.0
+2021-11-27,brighton,leeds,0,0,2.1,0.6,2.05,3.4,3.75
+2021-11-27,brighton,leeds,0,0,2.1,0.6,2.05,3.4,3.75
+2021-12-15,brighton,wolves,0,1,1.2,1.0,2.25,3.1,3.5
+2021-12-15,brighton,wolves,0,1,1.2,1.0,2.25,3.1,3.5
+2021-12-26,brighton,brentford,2,0,0.8,0.7,1.9,3.4,4.2
+2021-12-26,brighton,brentford,2,0,0.8,0.7,1.9,3.4,4.2
+2022-01-14,brighton,crystal palace,1,1,2.0,0.2,2.05,3.3,3.8
+2022-01-14,brighton,crystal palace,1,1,2.0,0.2,2.05,3.3,3.8
+2022-01-18,brighton,chelsea,1,1,0.7,0.7,4.75,3.75,1.72
+2022-01-18,brighton,chelsea,1,1,0.7,0.7,4.75,3.75,1.72
+2022-02-19,brighton,burnley,0,3,0.6,0.7,1.66,3.5,6.0
+2022-02-19,brighton,burnley,0,3,0.6,0.7,1.66,3.5,6.0
+2022-02-26,brighton,aston villa,0,2,0.7,1.0,2.2,3.3,3.5
+2022-02-26,brighton,aston villa,0,2,0.7,1.0,2.2,3.3,3.5
+2022-03-12,brighton,liverpool,0,2,0.5,2.2,6.0,4.33,1.5
+2022-03-12,brighton,liverpool,0,2,0.5,2.2,6.0,4.33,1.5
+2022-03-16,brighton,tottenham,0,2,0.7,2.2,3.3,3.3,2.25
+2022-03-16,brighton,tottenham,0,2,0.7,2.2,3.3,3.3,2.25
+2022-04-02,brighton,norwich city,0,0,2.8,0.4,,,
+2022-04-24,brighton,southampton,2,2,1.7,0.9,2.1,3.4,3.6
+2022-04-24,brighton,southampton,2,2,1.7,0.9,2.1,3.4,3.6
+2022-05-07,brighton,man utd,4,0,2.3,0.9,2.8,3.5,2.45
+2022-05-07,brighton,man utd,4,0,2.3,0.9,2.8,3.5,2.45
+2022-05-22,brighton,west ham,3,1,1.6,0.2,2.37,3.5,2.9
+2022-05-22,brighton,west ham,3,1,1.6,0.2,2.37,3.5,2.9
+2022-08-13,brighton,newcastle,0,0,1.5,0.2,2.45,3.2,3.0
+2022-08-27,brighton,leeds,1,0,2.0,1.8,1.9,3.8,3.8
+2022-09-04,brighton,leicester,5,2,2.6,1.4,1.83,3.5,4.5
+2022-10-08,brighton,tottenham,0,1,0.7,0.8,2.8,3.4,2.5
+2022-10-18,brighton,nott'ham forest,0,0,1.7,0.1,,,
+2022-10-29,brighton,chelsea,4,1,2.4,1.4,3.0,3.3,2.4
+2022-11-13,brighton,aston villa,1,2,0.6,1.5,1.83,3.75,4.2
+2022-12-31,brighton,arsenal,2,4,1.2,2.9,3.4,3.5,2.1
+2023-01-14,brighton,liverpool,3,0,1.9,1.0,3.4,3.6,2.1
+2023-02-04,brighton,bournemouth,1,0,2.2,1.1,1.33,5.25,8.5
+2023-02-18,brighton,fulham,0,1,2.2,0.3,1.65,3.8,5.5
+2023-03-04,brighton,west ham,4,0,3.5,0.3,1.8,3.6,4.5
+2023-03-15,brighton,crystal palace,1,0,0.6,1.1,1.44,4.2,8.0
+2023-04-01,brighton,brentford,3,3,4.2,1.6,1.67,4.0,5.0
+2023-04-29,brighton,wolves,6,0,3.3,0.8,1.5,4.33,6.5
+2023-05-04,brighton,man utd,1,0,2.3,1.4,1.95,3.5,3.75
+2023-05-08,brighton,everton,1,5,3.2,2.3,1.33,5.25,9.0
+2023-05-21,brighton,southampton,3,1,2.5,0.6,1.22,7.0,11.0
+2023-05-24,brighton,manchester city,1,1,2.2,1.8,,,
+2023-08-12,brighton,luton,4,1,4.0,1.5,1.33,5.5,9.0
+2023-08-26,brighton,west ham,1,3,1.5,3.0,1.53,4.75,5.25
+2023-09-02,brighton,newcastle,3,1,1.3,1.2,2.5,3.8,2.55
+2023-09-24,brighton,bournemouth,3,1,1.9,1.1,1.36,5.25,7.5
+2023-10-08,brighton,liverpool,2,2,2.3,2.3,3.0,3.8,2.2
+2023-10-29,brighton,fulham,1,1,1.4,0.7,1.55,4.2,5.5
+2023-11-12,brighton,sheffield,1,1,1.5,1.1,1.25,5.75,13.0
+2023-12-06,brighton,brentford,2,1,1.5,1.5,1.91,3.8,3.75
+2023-12-09,brighton,burnley,1,1,2.6,0.6,1.5,4.75,6.0
+2023-12-28,brighton,tottenham,4,2,3.2,2.3,2.5,3.6,2.6
+2024-01-22,brighton,wolves,0,0,1.0,1.1,1.65,4.33,5.0
+2024-02-03,brighton,crystal palace,4,1,1.4,0.3,1.7,4.0,4.75
+2024-02-24,brighton,everton,1,1,1.4,0.3,1.83,3.8,4.2
+2024-03-10,brighton,nott'ham forest,1,0,0.4,0.7,,,
+2024-04-06,brighton,arsenal,0,3,0.5,3.4,5.0,4.33,1.62
+2024-04-25,brighton,manchester city,0,4,0.6,1.4,,,
+2024-05-05,brighton,aston villa,1,0,2.5,0.1,2.75,3.75,2.45
+2024-05-15,brighton,chelsea,1,2,1.3,1.5,3.3,4.0,1.95
+2024-05-19,brighton,man utd,0,2,1.7,1.3,2.15,4.0,2.9
+2024-08-24,brighton,man utd,2,1,2.1,1.4,2.5,3.7,2.63
+2024-09-14,brighton,ipswich town,0,0,1.6,0.3,,,
+2024-09-22,brighton,nott'ham forest,2,2,1.0,1.4,,,
+2024-10-06,brighton,tottenham,3,2,1.8,1.3,2.9,4.0,2.2
+2024-10-26,brighton,wolves,2,2,1.3,1.3,1.62,4.5,4.5
+2024-11-09,brighton,manchester city,2,1,2.3,2.1,,,
+2024-11-29,brighton,southampton,1,1,1.7,1.0,1.38,5.0,7.5
+2024-12-15,brighton,crystal palace,1,3,1.0,2.2,1.85,3.8,3.9
+2024-12-27,brighton,brentford,0,0,1.3,1.1,1.62,4.33,4.75
+2025-01-04,brighton,arsenal,1,1,1.5,0.9,4.33,3.75,1.8
+2025-01-25,brighton,everton,0,1,0.7,0.8,1.67,3.75,5.5
+2025-02-14,brighton,chelsea,3,0,1.4,0.5,2.7,3.6,2.45
+2025-02-25,brighton,bournemouth,2,1,2.4,1.5,2.0,3.8,3.3
+2025-03-08,brighton,fulham,2,1,1.5,0.9,1.95,3.6,3.75
+2025-04-02,brighton,aston villa,0,3,0.9,1.2,2.05,3.8,3.25
+2025-04-12,brighton,leicester,2,2,3.8,1.5,1.29,6.0,10.0
+2025-04-26,brighton,west ham,3,2,1.3,1.3,1.67,4.2,4.75
+2025-05-04,brighton,newcastle,1,1,0.7,1.7,2.88,3.7,2.3
+2025-05-19,brighton,liverpool,3,2,2.2,2.2,2.6,3.75,2.45
+2020-09-26,burnley,southampton,0,1,0.5,0.6,,,
+2020-10-26,burnley,tottenham,0,1,1.0,0.6,,,
+2020-10-31,burnley,chelsea,0,3,0.5,0.9,,,
+2020-11-23,burnley,crystal palace,1,0,1.5,1.5,,,
+2020-12-05,burnley,everton,1,1,0.8,2.2,,,
+2020-12-21,burnley,wolves,2,1,1.7,1.5,,,
+2020-12-29,burnley,sheffield,1,0,1.0,0.7,,,
+2021-01-12,burnley,man utd,0,1,0.9,1.2,,,
+2021-01-27,burnley,aston villa,3,2,0.5,2.2,,,
+2021-02-03,burnley,manchester city,0,2,0.1,2.0,,,
+2021-02-06,burnley,brighton,1,1,1.8,0.5,,,
+2021-02-17,burnley,fulham,1,1,0.9,0.5,,,
+2021-02-20,burnley,west brom,0,0,0.5,1.6,,,
+2021-03-03,burnley,leicester,1,1,1.8,1.2,,,
+2021-03-06,burnley,arsenal,1,1,1.1,2.5,,,
+2021-04-11,burnley,newcastle,1,2,2.0,1.2,,,
+2021-05-03,burnley,west ham,1,2,2.0,2.3,,,
+2021-05-15,burnley,leeds,0,4,1.3,1.5,,,
+2021-05-19,burnley,liverpool,0,3,0.8,2.6,,,
+2021-08-14,burnley,brighton,1,2,1.5,1.0,3.1,3.1,2.45
+2021-08-14,burnley,brighton,1,2,1.5,1.0,3.1,3.1,2.45
+2021-08-29,burnley,leeds,1,1,1.0,1.2,3.1,3.5,2.25
+2021-08-29,burnley,leeds,1,1,1.0,1.2,3.1,3.5,2.25
+2021-09-18,burnley,arsenal,0,1,1.0,1.1,3.8,3.6,1.95
+2021-09-18,burnley,arsenal,0,1,1.0,1.1,3.8,3.6,1.95
+2021-10-02,burnley,norwich city,0,0,1.2,0.6,,,
+2021-10-30,burnley,brentford,3,1,2.3,0.8,2.6,3.3,2.75
+2021-10-30,burnley,brentford,3,1,2.3,0.8,2.6,3.3,2.75
+2021-11-20,burnley,crystal palace,3,3,1.5,1.9,2.7,3.2,2.7
+2021-11-20,burnley,crystal palace,3,3,1.5,1.9,2.7,3.2,2.7
+2021-12-12,burnley,west ham,0,0,0.8,0.8,3.6,3.6,2.0
+2021-12-12,burnley,west ham,0,0,0.8,0.8,3.6,3.6,2.0
+2022-02-05,burnley,watford,0,0,0.6,0.8,2.2,3.25,3.5
+2022-02-05,burnley,watford,0,0,0.6,0.8,2.2,3.25,3.5
+2022-02-08,burnley,man utd,1,1,0.4,1.8,5.5,4.0,1.61
+2022-02-08,burnley,man utd,1,1,0.4,1.8,5.5,4.0,1.61
+2022-02-13,burnley,liverpool,0,1,1.5,1.7,10.0,5.25,1.28
+2022-02-13,burnley,liverpool,0,1,1.5,1.7,10.0,5.25,1.28
+2022-02-23,burnley,tottenham,1,0,0.9,0.7,4.6,3.8,1.75
+2022-02-23,burnley,tottenham,1,0,0.9,0.7,4.6,3.8,1.75
+2022-03-01,burnley,leicester,0,2,0.9,1.5,2.9,3.4,2.4
+2022-03-01,burnley,leicester,0,2,0.9,1.5,2.9,3.4,2.4
+2022-03-05,burnley,chelsea,0,4,0.7,2.3,6.5,4.33,1.5
+2022-03-05,burnley,chelsea,0,4,0.7,2.3,6.5,4.33,1.5
+2022-04-02,burnley,manchester city,0,2,0.1,1.8,,,
+2022-04-06,burnley,everton,3,2,2.0,2.4,2.62,3.1,2.87
+2022-04-06,burnley,everton,3,2,2.0,2.4,2.62,3.1,2.87
+2022-04-21,burnley,southampton,2,0,1.5,0.9,2.75,3.25,2.62
+2022-04-21,burnley,southampton,2,0,1.5,0.9,2.75,3.25,2.62
+2022-04-24,burnley,wolves,1,0,1.4,0.6,2.7,3.0,2.87
+2022-04-24,burnley,wolves,1,0,1.4,0.6,2.7,3.0,2.87
+2022-05-07,burnley,aston villa,1,3,1.9,2.1,3.0,3.3,2.4
+2022-05-07,burnley,aston villa,1,3,1.9,2.1,3.0,3.3,2.4
+2022-05-22,burnley,newcastle,1,2,1.6,1.8,2.25,3.4,3.2
+2022-05-22,burnley,newcastle,1,2,1.6,1.8,2.25,3.4,3.2
+2023-08-11,burnley,manchester city,0,3,0.3,1.9,,,
+2023-08-27,burnley,aston villa,1,3,0.7,2.5,3.4,3.4,2.15
+2023-09-02,burnley,tottenham,2,5,1.3,2.2,3.6,4.0,1.85
+2023-09-23,burnley,man utd,0,1,1.1,1.0,4.2,4.2,1.73
+2023-10-07,burnley,chelsea,1,4,0.7,1.9,4.5,3.8,1.73
+2023-11-04,burnley,crystal palace,0,2,1.1,1.3,2.75,3.25,2.6
+2023-11-25,burnley,west ham,1,2,1.3,0.9,3.4,3.5,2.05
+2023-12-02,burnley,sheffield,5,0,1.8,0.4,1.8,3.6,4.5
+2023-12-16,burnley,everton,0,2,0.7,1.4,3.6,3.4,2.1
+2023-12-26,burnley,liverpool,0,2,0.8,1.8,6.5,5.25,1.4
+2024-01-12,burnley,luton,1,1,1.1,0.9,2.0,3.6,3.6
+2024-02-03,burnley,fulham,2,2,1.8,1.5,2.9,3.4,2.38
+2024-02-17,burnley,arsenal,0,5,0.3,2.3,10.0,5.75,1.29
+2024-03-03,burnley,bournemouth,0,2,1.5,1.1,3.75,3.6,1.95
+2024-03-16,burnley,brentford,2,1,2.8,1.1,3.25,3.6,2.15
+2024-04-02,burnley,wolves,1,1,1.3,0.9,2.45,3.6,2.75
+2024-04-13,burnley,brighton,1,1,1.7,0.9,3.5,3.75,2.0
+2024-05-04,burnley,newcastle,1,4,1.0,3.4,3.4,4.0,1.95
+2024-05-19,burnley,nott'ham forest,1,2,1.2,1.7,,,
+2020-09-20,chelsea,liverpool,0,2,0.9,2.1,,,
+2020-10-03,chelsea,crystal palace,4,0,2.7,0.2,,,
+2020-10-17,chelsea,southampton,3,3,1.8,1.9,,,
+2020-11-07,chelsea,sheffield,4,1,2.2,0.4,,,
+2020-11-29,chelsea,tottenham,0,0,0.8,0.2,,,
+2020-12-05,chelsea,leeds,3,1,4.1,0.8,,,
+2020-12-21,chelsea,west ham,3,0,2.0,0.4,,,
+2020-12-28,chelsea,aston villa,1,1,1.7,0.7,,,
+2021-01-03,chelsea,manchester city,1,3,0.8,2.7,,,
+2021-01-27,chelsea,wolves,0,0,0.7,0.5,,,
+2021-01-31,chelsea,burnley,2,0,1.2,0.2,,,
+2021-02-15,chelsea,newcastle,2,0,2.2,0.6,,,
+2021-02-28,chelsea,man utd,0,0,1.1,0.4,,,
+2021-03-08,chelsea,everton,2,0,2.4,0.3,,,
+2021-04-03,chelsea,west brom,2,5,2.1,1.6,,,
+2021-04-20,chelsea,brighton,0,0,0.7,0.5,,,
+2021-05-01,chelsea,fulham,2,0,1.7,0.3,,,
+2021-05-12,chelsea,arsenal,0,1,1.8,0.6,,,
+2021-05-18,chelsea,leicester,2,1,3.1,0.8,,,
+2021-08-14,chelsea,crystal palace,3,0,0.7,0.2,1.25,5.75,13.0
+2021-08-14,chelsea,crystal palace,3,0,0.7,0.2,1.25,5.75,13.0
+2021-09-11,chelsea,aston villa,3,0,1.3,1.2,1.28,5.5,11.0
+2021-09-11,chelsea,aston villa,3,0,1.3,1.2,1.28,5.5,11.0
+2021-09-25,chelsea,manchester city,0,1,0.2,1.7,,,
+2021-10-02,chelsea,southampton,3,1,3.3,1.3,1.36,4.75,9.0
+2021-10-02,chelsea,southampton,3,1,3.3,1.3,1.36,4.75,9.0
+2021-10-23,chelsea,norwich city,7,0,3.1,0.1,,,
+2021-11-06,chelsea,burnley,1,1,1.8,0.7,1.25,6.0,12.0
+2021-11-06,chelsea,burnley,1,1,1.8,0.7,1.25,6.0,12.0
+2021-11-28,chelsea,man utd,1,1,2.7,0.9,1.57,4.0,6.0
+2021-11-28,chelsea,man utd,1,1,2.7,0.9,1.57,4.0,6.0
+2021-12-11,chelsea,leeds,3,2,2.5,1.4,1.25,5.75,12.0
+2021-12-11,chelsea,leeds,3,2,2.5,1.4,1.25,5.75,12.0
+2021-12-16,chelsea,everton,1,1,2.9,0.6,1.22,6.5,13.0
+2021-12-16,chelsea,everton,1,1,2.9,0.6,1.22,6.5,13.0
+2021-12-29,chelsea,brighton,1,1,0.7,0.9,1.4,4.5,7.5
+2021-12-29,chelsea,brighton,1,1,0.7,0.9,1.4,4.5,7.5
+2022-01-02,chelsea,liverpool,2,2,1.2,1.3,3.1,3.5,2.25
+2022-01-02,chelsea,liverpool,2,2,1.2,1.3,3.1,3.5,2.25
+2022-01-23,chelsea,tottenham,2,0,1.2,0.5,1.61,4.2,5.0
+2022-01-23,chelsea,tottenham,2,0,1.2,0.5,1.61,4.2,5.0
+2022-03-13,chelsea,newcastle,1,0,1.1,0.3,1.3,5.25,11.0
+2022-03-13,chelsea,newcastle,1,0,1.1,0.3,1.3,5.25,11.0
+2022-04-02,chelsea,brentford,1,4,1.3,1.8,1.33,5.0,10.0
+2022-04-02,chelsea,brentford,1,4,1.3,1.8,1.33,5.0,10.0
+2022-04-20,chelsea,arsenal,2,4,0.7,2.0,1.83,3.6,4.33
+2022-04-20,chelsea,arsenal,2,4,0.7,2.0,1.83,3.6,4.33
+2022-04-24,chelsea,west ham,1,0,3.0,0.5,1.5,4.33,6.5
+2022-04-24,chelsea,west ham,1,0,3.0,0.5,1.5,4.33,6.5
+2022-05-07,chelsea,wolves,2,2,1.7,2.0,1.33,5.0,9.5
+2022-05-07,chelsea,wolves,2,2,1.7,2.0,1.33,5.0,9.5
+2022-05-19,chelsea,leicester,1,1,1.6,0.1,1.4,4.75,8.0
+2022-05-19,chelsea,leicester,1,1,1.6,0.1,1.4,4.75,8.0
+2022-05-22,chelsea,watford,2,1,2.2,0.6,1.18,7.5,15.0
+2022-05-22,chelsea,watford,2,1,2.2,0.6,1.18,7.5,15.0
+2022-08-14,chelsea,tottenham,2,2,1.6,1.0,2.25,3.4,3.2
+2022-08-27,chelsea,leicester,2,1,1.8,2.5,1.4,5.0,7.0
+2022-09-03,chelsea,west ham,2,1,0.9,1.1,1.55,4.5,5.5
+2022-10-08,chelsea,wolves,3,0,1.9,1.1,1.4,4.5,8.0
+2022-10-22,chelsea,man utd,1,1,1.1,0.8,2.05,3.5,3.5
+2022-11-06,chelsea,arsenal,0,1,0.3,2.1,2.55,3.4,2.7
+2022-12-27,chelsea,bournemouth,2,0,1.8,0.5,1.3,5.5,10.0
+2023-01-05,chelsea,manchester city,0,1,0.4,2.0,,,
+2023-01-15,chelsea,crystal palace,1,0,1.5,0.7,1.62,4.0,5.25
+2023-02-03,chelsea,fulham,0,0,1.3,0.6,1.62,4.0,5.25
+2023-02-18,chelsea,southampton,0,1,1.6,0.6,1.4,4.75,8.5
+2023-03-04,chelsea,leeds,1,0,1.5,1.0,1.62,4.0,5.5
+2023-03-18,chelsea,everton,2,2,2.3,1.2,1.5,4.2,7.5
+2023-04-01,chelsea,aston villa,0,2,2.1,0.9,1.67,3.8,5.25
+2023-04-04,chelsea,liverpool,0,0,2.2,0.3,2.2,3.4,3.25
+2023-04-15,chelsea,brighton,1,2,0.5,2.9,2.63,3.4,2.63
+2023-04-26,chelsea,brentford,0,2,1.3,1.1,1.7,4.0,4.75
+2023-05-13,chelsea,nott'ham forest,2,2,1.2,1.3,,,
+2023-05-28,chelsea,newcastle,1,1,2.2,1.7,2.9,3.5,2.38
+2023-08-13,chelsea,liverpool,1,1,1.4,1.3,2.9,3.4,2.38
+2023-08-25,chelsea,luton,3,0,2.2,0.4,1.29,5.5,11.0
+2023-09-02,chelsea,nott'ham forest,0,1,2.3,0.8,,,
+2023-09-24,chelsea,aston villa,0,1,1.3,1.0,1.91,3.75,3.8
+2023-10-21,chelsea,arsenal,2,2,1.3,1.0,3.2,3.4,2.25
+2023-10-28,chelsea,brentford,0,2,1.9,2.2,1.65,4.0,5.25
+2023-11-12,chelsea,manchester city,4,4,2.9,2.9,,,
+2023-12-03,chelsea,brighton,3,2,2.1,1.1,1.73,4.2,4.2
+2023-12-16,chelsea,sheffield,2,0,3.1,0.4,1.22,6.5,13.0
+2023-12-27,chelsea,crystal palace,2,1,2.6,1.1,1.67,4.0,5.0
+2024-01-13,chelsea,fulham,1,0,2.2,0.8,1.6,4.2,5.25
+2024-02-04,chelsea,wolves,2,4,1.7,2.0,1.62,4.0,5.5
+2024-03-11,chelsea,newcastle,3,2,1.6,0.7,1.91,4.0,3.6
+2024-03-30,chelsea,burnley,2,2,4.2,1.6,1.29,6.0,9.5
+2024-04-04,chelsea,man utd,4,3,3.0,1.5,2.0,4.0,3.4
+2024-04-15,chelsea,everton,6,0,3.1,1.5,1.7,4.2,4.5
+2024-05-02,chelsea,tottenham,2,0,2.2,1.6,2.15,3.8,3.0
+2024-05-05,chelsea,west ham,5,0,4.1,0.9,1.65,4.5,4.5
+2024-05-19,chelsea,bournemouth,2,1,1.1,2.2,1.45,5.0,6.0
+2024-08-18,chelsea,manchester city,0,2,1.0,0.8,,,
+2024-09-01,chelsea,crystal palace,1,1,2.4,0.5,1.6,4.33,5.0
+2024-09-28,chelsea,brighton,4,2,4.2,1.1,1.73,4.2,4.2
+2024-10-06,chelsea,nott'ham forest,1,1,2.3,0.9,,,
+2024-10-27,chelsea,newcastle,2,1,1.6,1.8,1.73,4.33,4.2
+2024-11-10,chelsea,arsenal,1,1,1.5,1.5,2.7,3.4,2.55
+2024-12-01,chelsea,aston villa,3,0,1.6,1.2,1.7,4.1,4.5
+2024-12-15,chelsea,brentford,2,1,2.2,1.6,1.33,6.0,7.5
+2024-12-26,chelsea,fulham,1,2,1.1,1.8,1.48,4.75,6.0
+2025-01-14,chelsea,bournemouth,2,2,2.5,1.2,1.48,4.75,6.0
+2025-01-20,chelsea,wolves,3,1,3.1,0.8,1.36,5.75,6.5
+2025-02-03,chelsea,west ham,2,1,1.6,1.2,1.36,4.75,8.0
+2025-02-25,chelsea,southampton,4,0,2.4,0.7,1.17,8.0,13.0
+2025-03-09,chelsea,leicester,1,0,1.7,0.1,1.18,8.0,12.0
+2025-04-03,chelsea,tottenham,1,0,1.0,0.9,1.65,4.5,4.5
+2025-04-13,chelsea,ipswich town,2,2,2.2,1.1,,,
+2025-04-26,chelsea,everton,1,0,0.8,0.4,1.55,4.0,6.0
+2025-05-04,chelsea,liverpool,3,1,3.1,1.0,2.15,3.7,3.1
+2025-05-16,chelsea,man utd,1,0,0.8,0.3,1.44,5.0,6.25
+2020-09-12,crystal palace,southampton,1,0,1.1,0.9,,,
+2020-09-26,crystal palace,everton,1,2,0.4,1.9,,,
+2020-10-18,crystal palace,brighton,1,1,0.8,1.7,,,
+2020-11-07,crystal palace,leeds,4,1,0.9,0.8,,,
+2020-11-27,crystal palace,newcastle,0,2,0.6,1.3,,,
+2020-12-13,crystal palace,tottenham,1,1,1.6,0.9,,,
+2020-12-19,crystal palace,liverpool,0,7,0.3,2.5,,,
+2020-12-28,crystal palace,leicester,1,1,0.5,1.9,,,
+2021-01-02,crystal palace,sheffield,2,0,0.6,0.4,,,
+2021-01-26,crystal palace,west ham,2,3,0.7,2.8,,,
+2021-01-30,crystal palace,wolves,1,0,1.4,0.4,,,
+2021-02-13,crystal palace,burnley,0,3,0.5,1.4,,,
+2021-02-28,crystal palace,fulham,0,0,0.1,1.4,,,
+2021-03-03,crystal palace,man utd,0,0,0.9,0.9,,,
+2021-03-13,crystal palace,west brom,1,0,1.2,0.8,,,
+2021-04-10,crystal palace,chelsea,1,4,0.4,3.1,,,
+2021-05-01,crystal palace,manchester city,0,2,0.9,1.7,,,
+2021-05-16,crystal palace,aston villa,3,2,1.9,1.4,,,
+2021-05-19,crystal palace,arsenal,1,3,1.0,1.8,,,
+2021-08-21,crystal palace,brentford,0,0,0.5,0.9,2.55,3.2,2.87
+2021-08-21,crystal palace,brentford,0,0,0.5,0.9,2.55,3.2,2.87
+2021-09-11,crystal palace,tottenham,3,0,2.1,0.1,4.2,3.5,1.9
+2021-09-11,crystal palace,tottenham,3,0,2.1,0.1,4.2,3.5,1.9
+2021-09-27,crystal palace,brighton,1,1,1.4,0.8,3.1,3.2,2.45
+2021-09-27,crystal palace,brighton,1,1,1.4,0.8,3.1,3.2,2.45
+2021-10-03,crystal palace,leicester,2,2,1.5,1.2,3.1,3.4,2.3
+2021-10-03,crystal palace,leicester,2,2,1.5,1.2,3.1,3.4,2.3
+2021-10-23,crystal palace,newcastle,1,1,1.9,0.3,1.9,3.6,4.0
+2021-10-23,crystal palace,newcastle,1,1,1.9,0.3,1.9,3.6,4.0
+2021-11-06,crystal palace,wolves,2,0,1.9,0.3,2.45,3.2,3.0
+2021-11-06,crystal palace,wolves,2,0,1.9,0.3,2.45,3.2,3.0
+2021-11-27,crystal palace,aston villa,1,2,1.0,0.5,2.2,3.4,3.3
+2021-11-27,crystal palace,aston villa,1,2,1.0,0.5,2.2,3.4,3.3
+2021-12-12,crystal palace,everton,3,1,1.8,1.0,2.3,3.2,3.3
+2021-12-12,crystal palace,everton,3,1,1.8,1.0,2.3,3.2,3.3
+2021-12-15,crystal palace,southampton,2,2,1.2,0.6,2.15,3.3,3.5
+2021-12-15,crystal palace,southampton,2,2,1.2,0.6,2.15,3.3,3.5
+2021-12-28,crystal palace,norwich city,3,0,1.9,0.9,,,
+2022-01-01,crystal palace,west ham,2,3,2.4,2.2,3.1,3.4,2.3
+2022-01-01,crystal palace,west ham,2,3,2.4,2.2,3.1,3.4,2.3
+2022-01-23,crystal palace,liverpool,1,3,2.2,1.9,6.0,4.2,1.53
+2022-01-23,crystal palace,liverpool,1,3,2.2,1.9,6.0,4.2,1.53
+2022-02-19,crystal palace,chelsea,0,1,0.5,0.9,5.5,3.8,1.65
+2022-02-19,crystal palace,chelsea,0,1,0.5,0.9,5.5,3.8,1.65
+2022-02-26,crystal palace,burnley,1,1,1.0,0.2,1.9,3.6,4.0
+2022-02-26,crystal palace,burnley,1,1,1.0,0.2,1.9,3.6,4.0
+2022-03-14,crystal palace,manchester city,0,0,0.6,2.8,,,
+2022-04-04,crystal palace,arsenal,3,0,1.5,0.8,4.0,3.4,1.95
+2022-04-04,crystal palace,arsenal,3,0,1.5,0.8,4.0,3.4,1.95
+2022-04-25,crystal palace,leeds,0,0,1.9,0.5,2.05,3.5,3.5
+2022-04-25,crystal palace,leeds,0,0,1.9,0.5,2.05,3.5,3.5
+2022-05-07,crystal palace,watford,1,0,2.2,0.4,1.65,4.0,5.0
+2022-05-07,crystal palace,watford,1,0,2.2,0.4,1.65,4.0,5.0
+2022-05-22,crystal palace,man utd,1,0,0.6,0.7,3.0,3.6,2.25
+2022-05-22,crystal palace,man utd,1,0,0.6,0.7,3.0,3.6,2.25
+2022-08-05,crystal palace,arsenal,0,2,1.2,1.0,4.2,3.6,1.85
+2022-08-20,crystal palace,aston villa,3,1,2.6,0.9,2.5,3.25,2.9
+2022-08-30,crystal palace,brentford,1,1,1.0,1.4,2.05,3.4,3.6
+2022-10-01,crystal palace,chelsea,1,2,0.4,1.1,4.2,3.6,1.85
+2022-10-09,crystal palace,leeds,2,1,1.1,1.0,2.05,3.5,3.6
+2022-10-18,crystal palace,wolves,2,1,1.2,0.8,2.25,3.1,3.4
+2022-10-29,crystal palace,southampton,1,0,0.9,1.3,1.9,3.6,4.0
+2022-12-26,crystal palace,fulham,0,3,0.4,2.5,2.05,3.6,3.5
+2023-01-04,crystal palace,tottenham,0,4,0.8,1.4,3.4,3.5,2.15
+2023-01-18,crystal palace,man utd,1,1,0.5,2.1,4.5,3.6,1.8
+2023-01-21,crystal palace,newcastle,0,0,0.3,1.2,4.4,3.5,1.85
+2023-02-11,crystal palace,brighton,1,1,1.1,2.5,3.8,3.5,2.0
+2023-02-25,crystal palace,liverpool,0,0,0.7,0.9,4.75,3.8,1.73
+2023-03-11,crystal palace,manchester city,0,1,0.2,2.1,,,
+2023-04-01,crystal palace,leicester,2,1,2.3,0.2,2.5,3.25,2.9
+2023-04-22,crystal palace,everton,0,0,0.5,0.4,2.05,3.2,3.75
+2023-04-29,crystal palace,west ham,4,3,2.1,1.7,2.63,3.25,2.75
+2023-05-13,crystal palace,bournemouth,2,0,1.5,0.3,1.83,3.6,4.2
+2023-05-28,crystal palace,nott'ham forest,1,1,1.4,0.5,,,
+2023-08-21,crystal palace,arsenal,0,1,1.0,2.0,5.5,4.0,1.6
+2023-09-03,crystal palace,wolves,3,2,2.1,1.2,1.91,3.3,4.33
+2023-09-23,crystal palace,fulham,0,0,0.3,0.6,1.91,3.4,4.2
+2023-10-07,crystal palace,nott'ham forest,0,0,0.8,1.0,,,
+2023-10-27,crystal palace,tottenham,1,2,0.6,1.1,4.5,3.75,1.75
+2023-11-11,crystal palace,everton,2,3,2.2,1.5,2.45,3.2,3.0
+2023-12-06,crystal palace,bournemouth,0,2,1.0,1.8,2.25,3.5,3.1
+2023-12-09,crystal palace,liverpool,1,2,1.7,1.2,6.0,4.5,1.5
+2023-12-21,crystal palace,brighton,1,1,1.3,1.2,3.3,3.3,2.15
+2023-12-30,crystal palace,brentford,3,1,1.0,1.4,2.2,3.3,3.4
+2024-01-30,crystal palace,sheffield,3,2,1.1,0.8,1.62,3.6,6.5
+2024-02-12,crystal palace,chelsea,1,3,0.6,1.4,4.2,3.8,1.85
+2024-02-24,crystal palace,burnley,3,0,2.4,0.1,1.95,3.5,4.0
+2024-03-09,crystal palace,luton,1,1,2.7,0.8,1.75,3.8,4.2
+2024-04-06,crystal palace,manchester city,2,4,1.1,1.9,,,
+2024-04-21,crystal palace,west ham,5,2,2.4,1.3,2.1,3.6,3.4
+2024-04-24,crystal palace,newcastle,2,0,0.9,0.4,2.75,3.6,2.4
+2024-05-06,crystal palace,man utd,4,0,1.7,0.4,2.38,3.75,2.8
+2024-05-19,crystal palace,aston villa,5,0,2.5,0.9,1.85,4.33,3.6
+2024-08-24,crystal palace,west ham,0,2,1.3,1.4,2.15,3.6,3.2
+2024-09-14,crystal palace,leicester,2,2,2.5,1.2,1.62,4.0,5.5
+2024-09-21,crystal palace,man utd,0,0,1.0,1.6,2.88,3.75,2.3
+2024-10-05,crystal palace,liverpool,0,1,0.6,1.4,6.0,4.5,1.5
+2024-10-27,crystal palace,tottenham,1,0,0.8,0.7,3.9,4.0,1.83
+2024-11-09,crystal palace,fulham,0,2,1.5,1.8,2.7,3.5,2.55
+2024-11-30,crystal palace,newcastle,1,1,1.7,0.0,2.9,3.6,2.3
+2024-12-07,crystal palace,manchester city,2,2,1.3,1.4,,,
+2024-12-21,crystal palace,arsenal,1,5,1.6,2.5,6.25,4.2,1.55
+2024-12-29,crystal palace,southampton,2,1,2.0,0.9,1.57,3.9,5.5
+2025-01-04,crystal palace,chelsea,1,1,1.1,1.2,3.8,3.75,1.91
+2025-01-26,crystal palace,brentford,1,2,1.1,1.3,2.05,3.75,3.3
+2025-02-15,crystal palace,everton,1,2,1.6,0.9,1.8,3.4,5.0
+2025-02-25,crystal palace,aston villa,4,1,4.3,0.4,2.45,3.4,2.8
+2025-03-08,crystal palace,ipswich town,1,0,3.2,1.5,,,
+2025-04-05,crystal palace,brighton,2,1,0.6,1.0,2.35,3.6,2.8
+2025-04-19,crystal palace,bournemouth,0,0,0.4,0.7,2.45,3.6,2.63
+2025-05-05,crystal palace,nott'ham forest,1,1,2.3,0.7,,,
+2025-05-20,crystal palace,wolves,4,2,1.7,1.4,2.25,3.3,3.2
+2020-09-19,everton,west brom,5,2,3.9,0.3,,,
+2020-10-03,everton,brighton,4,2,1.6,1.3,,,
+2020-10-17,everton,liverpool,2,2,1.2,2.6,,,
+2020-11-07,everton,man utd,1,3,0.4,1.5,,,
+2020-11-28,everton,leeds,0,1,1.2,2.9,,,
+2020-12-12,everton,chelsea,1,0,1.2,0.7,,,
+2020-12-19,everton,arsenal,2,1,0.6,1.4,,,
+2021-01-01,everton,west ham,0,1,0.4,1.3,,,
+2021-01-27,everton,leicester,1,1,0.5,1.2,,,
+2021-01-30,everton,newcastle,0,2,0.8,1.7,,,
+2021-02-14,everton,fulham,0,2,0.3,2.5,,,
+2021-02-17,everton,manchester city,1,3,1.0,1.0,,,
+2021-03-01,everton,southampton,1,0,1.2,0.6,,,
+2021-03-13,everton,burnley,1,2,1.5,0.8,,,
+2021-04-05,everton,crystal palace,1,1,2.5,0.7,,,
+2021-04-16,everton,tottenham,2,2,1.8,1.4,,,
+2021-05-01,everton,aston villa,1,2,1.0,1.6,,,
+2021-05-16,everton,sheffield,0,1,1.4,1.2,,,
+2021-05-19,everton,wolves,1,0,0.7,0.3,,,
+2021-08-14,everton,southampton,3,1,2.4,0.8,1.9,3.5,4.0
+2021-08-14,everton,southampton,3,1,2.4,0.8,1.9,3.5,4.0
+2021-09-13,everton,burnley,3,1,1.4,1.0,1.7,3.75,5.0
+2021-09-13,everton,burnley,3,1,1.4,1.0,1.7,3.75,5.0
+2021-09-25,everton,norwich city,2,0,1.9,0.5,,,
+2021-10-17,everton,west ham,0,1,0.9,1.2,2.5,3.4,2.8
+2021-10-17,everton,west ham,0,1,0.9,1.2,2.5,3.4,2.8
+2021-10-23,everton,watford,2,5,1.5,3.7,1.65,3.8,5.5
+2021-10-23,everton,watford,2,5,1.5,3.7,1.65,3.8,5.5
+2021-11-07,everton,tottenham,0,0,0.6,0.7,3.1,3.25,2.37
+2021-11-07,everton,tottenham,0,0,0.6,0.7,3.1,3.25,2.37
+2021-12-01,everton,liverpool,1,4,0.7,2.4,7.5,5.25,1.36
+2021-12-01,everton,liverpool,1,4,0.7,2.4,7.5,5.25,1.36
+2021-12-06,everton,arsenal,2,1,0.9,1.0,3.4,3.5,2.1
+2021-12-06,everton,arsenal,2,1,0.9,1.0,3.4,3.5,2.1
+2022-01-02,everton,brighton,2,3,1.6,1.7,2.75,3.2,2.62
+2022-01-02,everton,brighton,2,3,1.6,1.7,2.75,3.2,2.62
+2022-01-22,everton,aston villa,0,1,1.6,0.8,2.75,3.25,2.62
+2022-01-22,everton,aston villa,0,1,1.6,0.8,2.75,3.25,2.62
+2022-02-12,everton,leeds,3,0,2.7,0.3,2.25,3.5,3.0
+2022-02-12,everton,leeds,3,0,2.7,0.3,2.25,3.5,3.0
+2022-02-26,everton,manchester city,0,1,0.5,1.8,,,
+2022-03-13,everton,wolves,0,1,0.4,0.8,2.3,3.2,3.3
+2022-03-13,everton,wolves,0,1,0.4,0.8,2.3,3.2,3.3
+2022-03-17,everton,newcastle,1,0,0.7,0.9,2.4,3.25,3.1
+2022-03-17,everton,newcastle,1,0,0.7,0.9,2.4,3.25,3.1
+2022-04-09,everton,man utd,1,0,0.4,0.8,4.6,3.75,1.75
+2022-04-09,everton,man utd,1,0,0.4,0.8,4.6,3.75,1.75
+2022-04-20,everton,leicester,1,1,1.8,0.9,2.25,3.4,3.25
+2022-04-20,everton,leicester,1,1,1.8,0.9,2.25,3.4,3.25
+2022-05-01,everton,chelsea,1,0,0.8,0.8,5.0,3.6,1.75
+2022-05-01,everton,chelsea,1,0,0.8,0.8,5.0,3.6,1.75
+2022-05-15,everton,brentford,2,3,2.1,1.4,2.05,3.6,3.5
+2022-05-15,everton,brentford,2,3,2.1,1.4,2.05,3.6,3.5
+2022-05-19,everton,crystal palace,3,2,0.8,1.1,1.9,3.4,4.33
+2022-05-19,everton,crystal palace,3,2,0.8,1.1,1.9,3.4,4.33
+2022-08-06,everton,chelsea,0,1,0.7,1.5,5.5,4.0,1.61
+2022-08-20,everton,nott'ham forest,1,1,1.5,1.0,,,
+2022-09-03,everton,liverpool,0,0,1.7,2.1,7.0,4.75,1.4
+2022-09-18,everton,west ham,1,0,0.4,1.0,2.9,3.25,2.5
+2022-10-09,everton,man utd,1,2,0.6,1.4,3.6,3.5,2.05
+2022-10-22,everton,crystal palace,3,0,1.4,0.9,2.6,3.2,2.87
+2022-11-05,everton,leicester,0,2,1.2,2.3,2.4,3.3,3.0
+2022-12-26,everton,wolves,1,2,1.7,0.8,2.3,3.25,3.2
+2023-01-03,everton,brighton,1,4,1.3,2.2,3.5,3.5,2.1
+2023-01-14,everton,southampton,1,2,1.4,1.2,2.25,3.25,3.3
+2023-02-04,everton,arsenal,1,0,1.7,0.9,8.5,4.5,1.4
+2023-02-18,everton,leeds,1,0,1.4,0.5,2.4,3.3,3.0
+2023-02-25,everton,aston villa,0,2,1.6,1.9,2.5,3.2,3.0
+2023-03-11,everton,brentford,1,0,1.0,2.0,2.7,3.25,2.7
+2023-04-03,everton,tottenham,1,1,0.9,1.4,3.4,3.3,2.2
+2023-04-15,everton,fulham,1,3,1.4,1.8,2.05,3.4,3.7
+2023-04-27,everton,newcastle,1,4,0.9,2.4,4.75,3.6,1.73
+2023-05-14,everton,manchester city,0,3,1.6,0.8,,,
+2023-05-28,everton,bournemouth,1,0,1.0,0.5,1.5,4.5,6.5
+2023-08-12,everton,fulham,0,1,2.7,1.5,2.2,3.4,3.3
+2023-08-26,everton,wolves,0,1,1.3,1.1,2.3,3.3,3.2
+2023-09-17,everton,arsenal,0,1,0.3,1.0,6.0,4.5,1.5
+2023-09-30,everton,luton,1,2,2.9,0.9,1.57,3.8,6.5
+2023-10-07,everton,bournemouth,3,0,2.4,0.7,1.91,3.6,3.8
+2023-11-04,everton,brighton,1,1,0.7,0.5,3.1,3.6,2.2
+2023-11-26,everton,man utd,0,3,2.4,2.2,2.7,3.4,2.55
+2023-12-07,everton,newcastle,3,0,3.3,1.5,3.25,3.25,2.25
+2023-12-10,everton,chelsea,2,0,1.2,0.9,3.1,3.5,2.25
+2023-12-27,everton,manchester city,1,3,1.0,2.4,,,
+2024-01-14,everton,aston villa,0,0,1.1,1.2,2.8,3.5,2.45
+2024-02-03,everton,tottenham,2,2,2.6,1.0,3.0,3.6,2.25
+2024-02-19,everton,crystal palace,1,1,1.7,0.7,1.7,3.6,5.25
+2024-03-02,everton,west ham,1,3,2.7,1.9,2.05,3.6,3.5
+2024-04-06,everton,burnley,1,0,0.9,0.5,1.65,4.0,5.25
+2024-04-21,everton,nott'ham forest,2,0,0.3,0.9,,,
+2024-04-24,everton,liverpool,2,0,1.2,2.1,7.0,5.0,1.4
+2024-04-27,everton,brentford,1,0,0.8,0.9,2.3,3.5,3.0
+2024-05-11,everton,sheffield,1,0,2.3,0.6,1.4,4.8,7.5
+2024-08-17,everton,brighton,0,3,0.5,1.4,2.63,3.3,2.63
+2024-08-31,everton,bournemouth,2,3,1.8,2.4,2.75,3.4,2.55
+2024-09-28,everton,crystal palace,2,1,0.9,0.9,2.7,3.3,2.63
+2024-10-05,everton,newcastle,0,0,0.7,2.1,3.2,3.6,2.2
+2024-10-26,everton,fulham,1,1,0.8,1.2,2.75,3.25,2.63
+2024-11-23,everton,brentford,0,0,1.2,1.1,2.45,3.4,2.88
+2024-12-04,everton,wolves,4,0,1.0,0.8,2.1,3.4,3.5
+2024-12-22,everton,chelsea,0,0,1.0,1.2,5.0,4.2,1.62
+2024-12-29,everton,nott'ham forest,0,2,0.9,1.5,,,
+2025-01-15,everton,aston villa,0,1,1.1,1.2,3.25,3.2,2.3
+2025-01-19,everton,tottenham,3,2,1.8,1.1,2.8,3.5,2.45
+2025-02-01,everton,leicester,4,0,2.5,0.3,1.75,3.75,4.5
+2025-02-12,everton,liverpool,2,2,1.0,0.6,7.5,4.5,1.44
+2025-02-22,everton,man utd,2,2,1.6,0.4,2.5,3.2,2.9
+2025-03-15,everton,west ham,1,1,1.0,0.8,2.05,3.2,3.9
+2025-04-05,everton,arsenal,1,1,1.1,1.8,5.25,3.25,1.75
+2025-04-19,everton,manchester city,0,2,0.9,2.0,,,
+2025-05-03,everton,ipswich town,2,2,0.6,0.8,,,
+2025-05-18,everton,southampton,2,0,2.7,1.2,1.4,4.75,7.5
+2020-09-12,fulham,arsenal,0,3,0.1,1.9,,,
+2020-09-28,fulham,aston villa,0,3,0.7,1.4,,,
+2020-10-24,fulham,crystal palace,1,2,1.1,2.5,,,
+2020-11-02,fulham,west brom,2,0,1.5,0.5,,,
+2020-11-22,fulham,everton,2,3,1.9,2.0,,,
+2020-12-13,fulham,liverpool,1,1,1.5,1.8,,,
+2020-12-16,fulham,brighton,0,0,1.0,0.5,,,
+2020-12-26,fulham,southampton,0,0,0.7,0.2,,,
+2021-01-16,fulham,chelsea,0,1,0.7,1.6,,,
+2021-01-20,fulham,man utd,1,2,0.9,1.7,,,
+2021-02-03,fulham,leicester,0,2,0.6,1.4,,,
+2021-02-06,fulham,west ham,0,0,1.5,1.0,,,
+2021-02-20,fulham,sheffield,1,0,1.2,0.9,,,
+2021-03-04,fulham,tottenham,0,1,0.7,1.6,,,
+2021-03-13,fulham,manchester city,0,3,0.3,2.2,,,
+2021-03-19,fulham,leeds,1,2,1.6,1.3,,,
+2021-04-09,fulham,wolves,0,1,0.9,0.5,,,
+2021-05-10,fulham,burnley,0,2,1.0,1.5,,,
+2021-05-23,fulham,newcastle,0,2,1.0,1.3,,,
+2022-08-06,fulham,liverpool,2,2,1.2,1.2,11.0,6.0,1.25
+2022-08-20,fulham,brentford,3,2,2.4,1.8,2.45,3.4,2.9
+2022-08-30,fulham,brighton,2,1,0.7,1.4,3.1,3.3,2.3
+2022-10-01,fulham,newcastle,1,4,0.5,3.3,3.0,3.4,2.37
+2022-10-15,fulham,bournemouth,2,2,2.1,1.0,1.85,3.75,4.0
+2022-10-20,fulham,aston villa,3,0,2.1,1.2,2.9,3.3,2.5
+2022-10-29,fulham,everton,0,0,1.9,0.9,2.37,3.4,3.0
+2022-11-13,fulham,man utd,1,2,1.4,2.5,3.8,3.8,1.9
+2022-12-31,fulham,southampton,2,1,1.5,0.8,1.95,3.6,3.75
+2023-01-12,fulham,chelsea,2,1,1.0,2.1,3.3,3.5,2.15
+2023-01-23,fulham,tottenham,0,1,1.0,0.9,3.3,3.6,2.1
+2023-02-11,fulham,nott'ham forest,2,0,1.5,0.7,,,
+2023-02-24,fulham,wolves,1,1,0.5,0.8,2.5,3.2,3.0
+2023-03-12,fulham,arsenal,0,3,0.8,2.3,6.0,4.0,1.57
+2023-04-08,fulham,west ham,0,1,0.7,1.1,2.8,3.25,2.63
+2023-04-22,fulham,leeds,2,1,1.7,0.8,2.3,3.4,3.1
+2023-04-30,fulham,manchester city,1,2,0.2,2.5,,,
+2023-05-08,fulham,leicester,5,3,1.6,2.8,2.63,3.5,2.6
+2023-05-20,fulham,crystal palace,2,2,1.7,1.6,2.45,3.4,2.9
+2023-08-19,fulham,brentford,0,3,0.5,3.7,2.7,3.3,2.63
+2023-09-16,fulham,luton,1,0,1.0,1.1,1.67,3.75,5.5
+2023-10-02,fulham,chelsea,0,2,1.1,1.7,3.6,3.5,2.05
+2023-10-07,fulham,sheffield,3,1,2.2,0.6,1.62,3.8,6.0
+2023-11-04,fulham,man utd,0,1,1.0,0.7,3.2,3.6,2.2
+2023-11-27,fulham,wolves,3,2,2.9,1.4,2.38,3.3,3.0
+2023-12-06,fulham,nott'ham forest,5,0,2.5,0.3,,,
+2023-12-10,fulham,west ham,5,0,2.3,1.3,2.38,3.5,2.9
+2023-12-23,fulham,burnley,0,2,1.3,0.4,1.67,3.75,5.25
+2023-12-31,fulham,arsenal,2,1,1.2,1.6,5.25,4.5,1.55
+2024-01-30,fulham,everton,0,0,1.6,1.9,2.45,3.2,3.0
+2024-02-10,fulham,bournemouth,3,1,1.6,1.8,2.38,3.5,2.8
+2024-02-17,fulham,aston villa,1,2,1.5,1.5,2.9,3.75,2.2
+2024-03-02,fulham,brighton,3,0,1.3,1.3,2.55,3.6,2.63
+2024-03-16,fulham,tottenham,3,0,2.6,2.4,3.5,3.8,1.95
+2024-04-06,fulham,newcastle,0,1,1.2,1.0,2.38,3.8,2.8
+2024-04-21,fulham,liverpool,1,3,0.8,1.0,5.25,4.5,1.57
+2024-04-27,fulham,crystal palace,1,1,1.1,1.0,2.1,3.5,3.5
+2024-05-11,fulham,manchester city,0,4,0.1,3.2,,,
+2024-08-24,fulham,leicester,2,1,1.8,0.6,1.8,3.75,4.2
+2024-09-14,fulham,west ham,1,1,1.5,0.8,2.38,3.25,3.0
+2024-09-21,fulham,newcastle,3,1,2.2,1.5,3.0,3.4,2.4
+2024-10-19,fulham,aston villa,1,3,1.8,1.6,2.45,3.5,2.8
+2024-11-04,fulham,brentford,2,1,1.3,0.6,2.0,3.7,3.5
+2024-11-23,fulham,wolves,1,4,1.0,1.3,1.62,4.0,5.25
+2024-12-05,fulham,brighton,3,1,1.1,1.4,2.35,3.6,2.88
+2024-12-08,fulham,arsenal,1,1,0.2,1.8,5.0,4.33,1.6
+2024-12-22,fulham,southampton,0,0,0.9,0.3,1.42,4.75,7.0
+2024-12-29,fulham,bournemouth,2,2,1.1,2.0,2.3,3.6,2.88
+2025-01-05,fulham,ipswich town,2,2,2.2,1.5,,,
+2025-01-26,fulham,man utd,0,1,0.7,0.3,2.3,3.4,3.1
+2025-02-15,fulham,nott'ham forest,2,1,2.1,0.4,,,
+2025-02-22,fulham,crystal palace,0,2,0.2,1.3,2.05,3.4,3.7
+2025-03-16,fulham,tottenham,2,0,1.0,0.9,2.0,3.75,3.6
+2025-04-06,fulham,liverpool,3,2,0.7,1.5,4.5,3.5,1.83
+2025-04-20,fulham,chelsea,1,2,0.3,0.9,2.7,3.7,2.35
+2025-05-10,fulham,everton,1,3,0.8,1.1,1.82,3.4,4.5
+2025-05-25,fulham,manchester city,0,2,1.3,3.0,,,
+2024-08-17,ipswich town,liverpool,0,2,0.5,2.6,,,
+2024-08-31,ipswich town,fulham,1,1,0.4,0.9,,,
+2024-09-29,ipswich town,aston villa,2,2,1.2,0.8,,,
+2024-10-19,ipswich town,everton,0,2,1.3,1.7,,,
+2024-11-02,ipswich town,leicester,1,1,1.0,1.5,,,
+2024-11-24,ipswich town,man utd,1,1,1.6,0.8,,,
+2024-12-03,ipswich town,crystal palace,0,1,0.5,1.6,,,
+2024-12-08,ipswich town,bournemouth,1,2,1.3,3.2,,,
+2024-12-21,ipswich town,newcastle,0,4,0.7,2.3,,,
+2024-12-30,ipswich town,chelsea,2,0,1.6,2.0,,,
+2025-01-16,ipswich town,brighton,0,2,0.3,1.0,,,
+2025-01-19,ipswich town,manchester city,0,6,0.5,3.0,,,
+2025-02-01,ipswich town,southampton,1,2,1.8,0.9,,,
+2025-02-22,ipswich town,tottenham,1,4,1.1,1.7,,,
+2025-03-15,ipswich town,nott'ham forest,2,4,0.4,1.5,,,
+2025-04-05,ipswich town,wolves,1,2,0.8,2.6,,,
+2025-04-20,ipswich town,arsenal,0,4,0.2,2.4,,,
+2025-05-10,ipswich town,brentford,0,1,0.9,1.4,,,
+2025-05-25,ipswich town,west ham,1,3,0.7,1.1,,,
+2020-09-19,leeds,fulham,4,3,1.4,1.7,,,
+2020-10-03,leeds,manchester city,1,1,2.4,1.2,,,
+2020-10-19,leeds,wolves,0,1,1.0,0.4,,,
+2020-11-02,leeds,leicester,1,4,2.1,2.9,,,
+2020-11-22,leeds,arsenal,0,0,1.8,0.9,,,
+2020-12-11,leeds,west ham,1,2,1.6,1.3,,,
+2020-12-16,leeds,newcastle,5,2,2.7,1.5,,,
+2020-12-27,leeds,burnley,1,0,1.9,1.5,,,
+2021-01-16,leeds,brighton,0,1,0.3,1.4,,,
+2021-02-03,leeds,everton,1,2,1.3,1.6,,,
+2021-02-08,leeds,crystal palace,2,0,1.9,0.4,,,
+2021-02-23,leeds,southampton,3,0,1.3,0.9,,,
+2021-02-27,leeds,aston villa,0,1,0.9,0.7,,,
+2021-03-13,leeds,chelsea,0,0,0.4,1.0,,,
+2021-04-03,leeds,sheffield,2,1,2.4,1.1,,,
+2021-04-19,leeds,liverpool,1,1,2.3,1.4,,,
+2021-04-25,leeds,man utd,0,0,0.3,1.2,,,
+2021-05-08,leeds,tottenham,3,1,2.5,0.9,,,
+2021-05-23,leeds,west brom,3,1,2.3,1.0,,,
+2021-08-21,leeds,everton,2,2,1.2,1.8,2.37,3.4,3.0
+2021-08-21,leeds,everton,2,2,1.2,1.8,2.37,3.4,3.0
+2021-09-12,leeds,liverpool,0,3,1.2,4.3,4.33,4.0,1.75
+2021-09-12,leeds,liverpool,0,3,1.2,4.3,4.33,4.0,1.75
+2021-09-25,leeds,west ham,1,2,1.2,1.6,3.0,3.6,2.25
+2021-09-25,leeds,west ham,1,2,1.2,1.6,3.0,3.6,2.25
+2021-10-02,leeds,watford,1,0,1.3,0.2,1.7,4.0,4.75
+2021-10-02,leeds,watford,1,0,1.3,0.2,1.7,4.0,4.75
+2021-10-23,leeds,wolves,1,1,1.6,0.9,2.4,3.4,2.87
+2021-10-23,leeds,wolves,1,1,1.6,0.9,2.4,3.4,2.87
+2021-11-07,leeds,leicester,1,1,1.3,0.7,2.8,3.5,2.45
+2021-11-07,leeds,leicester,1,1,1.3,0.7,2.8,3.5,2.45
+2021-11-30,leeds,crystal palace,1,0,1.4,1.1,2.4,3.3,3.0
+2021-11-30,leeds,crystal palace,1,0,1.4,1.1,2.4,3.3,3.0
+2021-12-05,leeds,brentford,2,2,1.2,1.0,1.95,3.6,3.8
+2021-12-05,leeds,brentford,2,2,1.2,1.0,1.95,3.6,3.8
+2021-12-18,leeds,arsenal,1,4,1.6,3.5,3.9,3.8,1.83
+2021-12-18,leeds,arsenal,1,4,1.6,3.5,3.9,3.8,1.83
+2022-01-02,leeds,burnley,3,1,1.9,1.0,2.05,3.5,3.5
+2022-01-02,leeds,burnley,3,1,1.9,1.0,2.05,3.5,3.5
+2022-01-22,leeds,newcastle,0,1,0.7,0.9,2.0,3.5,3.75
+2022-01-22,leeds,newcastle,0,1,0.7,0.9,2.0,3.5,3.75
+2022-02-20,leeds,man utd,2,4,1.8,2.2,3.9,3.8,1.85
+2022-02-20,leeds,man utd,2,4,1.8,2.2,3.9,3.8,1.85
+2022-02-26,leeds,tottenham,0,4,1.5,1.9,4.2,3.6,1.85
+2022-02-26,leeds,tottenham,0,4,1.5,1.9,4.2,3.6,1.85
+2022-03-10,leeds,aston villa,0,3,0.2,1.5,2.7,3.5,2.5
+2022-03-10,leeds,aston villa,0,3,0.2,1.5,2.7,3.5,2.5
+2022-03-13,leeds,norwich city,2,1,2.5,1.5,,,
+2022-04-02,leeds,southampton,1,1,1.2,1.4,2.37,3.75,2.75
+2022-04-02,leeds,southampton,1,1,1.2,1.4,2.37,3.75,2.75
+2022-04-30,leeds,manchester city,0,4,1.3,2.4,,,
+2022-05-11,leeds,chelsea,0,3,0.4,1.3,4.75,4.2,1.65
+2022-05-11,leeds,chelsea,0,3,0.4,1.3,4.75,4.2,1.65
+2022-05-15,leeds,brighton,1,1,1.6,2.2,2.62,3.5,2.62
+2022-05-15,leeds,brighton,1,1,1.6,2.2,2.62,3.5,2.62
+2022-08-06,leeds,wolves,2,1,0.8,1.3,2.25,3.4,3.2
+2022-08-21,leeds,chelsea,3,0,2.1,0.9,5.75,4.5,1.53
+2022-08-30,leeds,everton,1,1,1.0,1.0,2.15,3.5,3.3
+2022-10-02,leeds,aston villa,0,0,0.4,2.2,2.35,3.4,3.0
+2022-10-16,leeds,arsenal,0,1,1.8,0.5,6.0,4.2,1.55
+2022-10-23,leeds,fulham,2,3,1.6,1.8,2.05,3.5,3.6
+2022-11-05,leeds,bournemouth,4,3,2.2,1.5,1.72,3.8,4.75
+2022-12-28,leeds,manchester city,1,3,0.6,4.3,,,
+2023-01-04,leeds,west ham,2,2,1.6,1.4,2.6,3.5,2.6
+2023-01-22,leeds,brentford,0,0,0.5,0.4,2.38,3.6,2.88
+2023-02-12,leeds,man utd,0,2,1.8,1.1,3.75,3.8,1.91
+2023-02-25,leeds,southampton,1,0,0.9,0.4,1.95,3.5,4.0
+2023-03-11,leeds,brighton,2,2,0.9,2.7,3.75,3.6,1.95
+2023-04-04,leeds,nott'ham forest,2,1,1.8,0.8,,,
+2023-04-09,leeds,crystal palace,1,5,0.9,3.0,2.1,3.4,3.6
+2023-04-17,leeds,liverpool,1,6,1.4,2.7,4.2,4.2,1.73
+2023-04-25,leeds,leicester,1,1,1.5,2.1,2.3,3.5,3.0
+2023-05-13,leeds,newcastle,2,2,2.0,2.3,4.33,4.2,1.7
+2023-05-28,leeds,tottenham,1,4,1.5,2.2,2.75,3.8,2.3
+2020-09-20,leicester,burnley,4,2,1.2,1.4,,,
+2020-10-04,leicester,west ham,0,3,0.6,2.0,,,
+2020-10-18,leicester,aston villa,0,1,0.6,0.7,,,
+2020-11-08,leicester,wolves,1,0,2.0,0.8,,,
+2020-11-30,leicester,fulham,1,2,1.2,2.2,,,
+2020-12-13,leicester,brighton,3,0,1.5,0.9,,,
+2020-12-16,leicester,everton,0,2,0.8,1.4,,,
+2020-12-26,leicester,man utd,2,2,0.9,1.7,,,
+2021-01-16,leicester,southampton,2,0,2.2,0.6,,,
+2021-01-19,leicester,chelsea,2,0,1.4,0.7,,,
+2021-01-31,leicester,leeds,1,3,1.8,2.1,,,
+2021-02-13,leicester,liverpool,3,1,1.9,1.7,,,
+2021-02-28,leicester,arsenal,1,3,0.4,2.3,,,
+2021-03-14,leicester,sheffield,5,0,4.0,0.1,,,
+2021-04-03,leicester,manchester city,0,2,0.3,1.4,,,
+2021-04-22,leicester,west brom,3,0,2.1,0.5,,,
+2021-04-26,leicester,crystal palace,2,1,1.5,0.7,,,
+2021-05-07,leicester,newcastle,2,4,2.2,2.7,,,
+2021-05-23,leicester,tottenham,2,4,1.9,1.5,,,
+2021-08-14,leicester,wolves,1,0,0.5,1.3,1.66,3.8,5.25
+2021-08-14,leicester,wolves,1,0,0.5,1.3,1.66,3.8,5.25
+2021-09-11,leicester,manchester city,0,1,0.6,2.8,,,
+2021-09-25,leicester,burnley,2,2,2.4,0.5,1.57,4.0,6.0
+2021-09-25,leicester,burnley,2,2,2.4,0.5,1.57,4.0,6.0
+2021-10-16,leicester,man utd,4,2,2.4,1.2,3.5,3.6,2.05
+2021-10-16,leicester,man utd,4,2,2.4,1.2,3.5,3.6,2.05
+2021-10-30,leicester,arsenal,0,2,1.3,0.7,2.4,3.5,2.87
+2021-10-30,leicester,arsenal,0,2,1.3,0.7,2.4,3.5,2.87
+2021-11-20,leicester,chelsea,0,3,0.4,2.0,4.75,3.75,1.75
+2021-11-20,leicester,chelsea,0,3,0.4,2.0,4.75,3.75,1.75
+2021-11-28,leicester,watford,4,2,2.1,2.8,1.61,4.0,5.5
+2021-11-28,leicester,watford,4,2,2.1,2.8,1.61,4.0,5.5
+2021-12-12,leicester,newcastle,4,0,2.6,1.0,1.66,4.1,4.75
+2021-12-12,leicester,newcastle,4,0,2.6,1.0,1.66,4.1,4.75
+2021-12-28,leicester,liverpool,1,0,0.4,2.3,8.0,5.5,1.33
+2021-12-28,leicester,liverpool,1,0,0.4,2.3,8.0,5.5,1.33
+2022-01-19,leicester,tottenham,2,3,1.2,3.1,3.0,3.5,2.3
+2022-01-19,leicester,tottenham,2,3,1.2,3.1,3.0,3.5,2.3
+2022-01-23,leicester,brighton,1,1,1.4,1.1,2.5,3.25,2.9
+2022-01-23,leicester,brighton,1,1,1.4,1.1,2.5,3.25,2.9
+2022-02-13,leicester,west ham,2,2,1.4,1.1,2.9,3.5,2.3
+2022-02-13,leicester,west ham,2,2,1.4,1.1,2.9,3.5,2.3
+2022-03-05,leicester,leeds,1,0,0.4,1.7,1.75,4.0,4.2
+2022-03-05,leicester,leeds,1,0,0.4,1.7,1.75,4.0,4.2
+2022-03-20,leicester,brentford,2,1,1.0,1.3,2.15,3.4,3.4
+2022-03-20,leicester,brentford,2,1,1.0,1.3,2.15,3.4,3.4
+2022-04-10,leicester,crystal palace,2,1,1.0,1.4,2.37,3.3,2.9
+2022-04-10,leicester,crystal palace,2,1,1.0,1.4,2.37,3.3,2.9
+2022-04-23,leicester,aston villa,0,0,0.3,0.9,2.8,3.4,2.5
+2022-04-23,leicester,aston villa,0,0,0.3,0.9,2.8,3.4,2.5
+2022-05-08,leicester,everton,1,2,1.5,1.1,2.6,3.3,2.75
+2022-05-08,leicester,everton,1,2,1.5,1.1,2.6,3.3,2.75
+2022-05-11,leicester,norwich city,3,0,2.0,1.1,,,
+2022-05-22,leicester,southampton,4,1,3.4,1.1,1.85,4.0,3.8
+2022-05-22,leicester,southampton,4,1,3.4,1.1,1.85,4.0,3.8
+2022-08-07,leicester,brentford,2,2,0.6,0.8,2.0,3.75,3.5
+2022-08-20,leicester,southampton,1,2,0.3,0.9,1.83,4.0,4.0
+2022-09-01,leicester,man utd,0,1,0.7,1.5,3.4,3.75,2.05
+2022-10-03,leicester,nott'ham forest,4,0,1.3,1.1,,,
+2022-10-15,leicester,crystal palace,0,0,1.0,0.4,2.3,3.4,3.1
+2022-10-20,leicester,leeds,2,0,0.8,1.3,2.25,3.6,3.0
+2022-10-29,leicester,manchester city,0,1,0.7,1.0,,,
+2022-12-26,leicester,newcastle,0,3,0.5,1.9,3.25,3.5,2.2
+2023-01-03,leicester,fulham,0,1,1.7,1.7,2.2,3.6,3.1
+2023-01-21,leicester,brighton,2,2,0.9,1.7,3.6,3.5,2.05
+2023-02-11,leicester,tottenham,4,1,1.7,1.3,3.4,3.6,2.1
+2023-02-25,leicester,arsenal,0,1,0.0,0.7,4.75,4.0,1.7
+2023-03-11,leicester,chelsea,1,3,2.4,1.6,3.75,3.5,1.95
+2023-04-04,leicester,aston villa,1,2,0.5,1.0,2.55,3.3,2.75
+2023-04-08,leicester,bournemouth,0,1,0.6,1.9,1.83,3.75,4.2
+2023-04-22,leicester,wolves,2,1,2.4,0.9,2.38,3.3,3.0
+2023-05-01,leicester,everton,2,2,3.4,3.1,2.0,3.5,3.75
+2023-05-15,leicester,liverpool,0,3,0.4,2.2,5.25,4.33,1.57
+2023-05-28,leicester,west ham,2,1,1.4,1.4,1.91,3.8,3.6
+2024-08-19,leicester,tottenham,1,1,1.0,1.2,5.0,4.33,1.62
+2024-08-31,leicester,aston villa,1,2,0.4,1.4,4.5,4.0,1.7
+2024-09-21,leicester,everton,1,1,0.7,1.1,2.45,3.4,2.88
+2024-10-05,leicester,bournemouth,1,0,0.8,2.1,3.1,3.75,2.15
+2024-10-25,leicester,nott'ham forest,1,3,0.8,1.7,,,
+2024-11-23,leicester,chelsea,1,2,1.1,2.7,6.5,4.75,1.44
+2024-12-03,leicester,west ham,3,1,1.7,3.0,2.9,3.4,2.38
+2024-12-08,leicester,brighton,2,2,1.3,1.5,4.5,3.8,1.73
+2024-12-22,leicester,wolves,0,3,0.8,1.1,2.55,3.4,2.7
+2024-12-29,leicester,manchester city,0,2,1.3,1.3,,,
+2025-01-15,leicester,crystal palace,0,2,1.7,1.8,3.9,3.6,1.91
+2025-01-18,leicester,fulham,0,2,0.6,2.0,4.33,3.7,1.8
+2025-02-15,leicester,arsenal,0,2,0.2,1.4,8.5,5.0,1.33
+2025-02-21,leicester,brentford,0,4,0.5,1.5,3.6,3.8,1.91
+2025-03-16,leicester,man utd,0,3,1.0,0.9,4.5,3.5,1.83
+2025-04-07,leicester,newcastle,0,3,0.5,3.2,6.5,4.2,1.48
+2025-04-20,leicester,liverpool,0,1,0.3,2.5,11.0,6.25,1.22
+2025-05-03,leicester,southampton,2,0,1.4,0.5,2.3,3.6,2.88
+2025-05-18,leicester,ipswich town,2,0,0.8,1.4,,,
+2020-09-12,liverpool,leeds,4,3,2.7,0.3,,,
+2020-09-28,liverpool,arsenal,3,1,2.7,1.3,,,
+2020-10-24,liverpool,sheffield,2,1,2.3,1.6,,,
+2020-10-31,liverpool,west ham,2,1,1.7,0.3,,,
+2020-11-22,liverpool,leicester,3,0,3.1,1.6,,,
+2020-12-06,liverpool,wolves,4,0,1.2,0.4,,,
+2020-12-16,liverpool,tottenham,2,1,1.0,1.1,,,
+2020-12-27,liverpool,west brom,1,1,1.5,0.6,,,
+2021-01-17,liverpool,man utd,0,0,1.2,1.1,,,
+2021-01-21,liverpool,burnley,0,1,1.6,1.1,,,
+2021-02-03,liverpool,brighton,0,1,1.0,1.3,,,
+2021-02-07,liverpool,manchester city,1,4,1.2,3.5,,,
+2021-02-20,liverpool,everton,0,2,1.4,1.6,,,
+2021-03-04,liverpool,chelsea,0,1,0.3,1.0,,,
+2021-03-07,liverpool,fulham,0,1,0.9,1.3,,,
+2021-04-10,liverpool,aston villa,2,1,2.3,0.5,,,
+2021-04-24,liverpool,newcastle,1,1,2.4,1.0,,,
+2021-05-08,liverpool,southampton,2,0,1.7,1.1,,,
+2021-05-23,liverpool,crystal palace,2,0,1.6,0.6,,,
+2021-08-21,liverpool,burnley,2,0,2.7,0.9,1.18,7.5,13.0
+2021-08-21,liverpool,burnley,2,0,2.7,0.9,1.18,7.5,13.0
+2021-08-28,liverpool,chelsea,1,1,2.5,0.6,2.45,3.3,2.9
+2021-08-28,liverpool,chelsea,1,1,2.5,0.6,2.45,3.3,2.9
+2021-09-18,liverpool,crystal palace,3,0,3.1,0.6,1.2,7.0,13.0
+2021-09-18,liverpool,crystal palace,3,0,3.1,0.6,1.2,7.0,13.0
+2021-10-03,liverpool,manchester city,2,2,0.9,1.2,,,
+2021-10-30,liverpool,brighton,2,2,1.5,1.0,1.22,6.5,13.0
+2021-10-30,liverpool,brighton,2,2,1.5,1.0,1.22,6.5,13.0
+2021-11-20,liverpool,arsenal,4,0,4.3,0.4,1.45,4.75,6.5
+2021-11-20,liverpool,arsenal,4,0,4.3,0.4,1.45,4.75,6.5
+2021-11-27,liverpool,southampton,4,0,2.9,1.0,1.28,6.0,9.0
+2021-11-27,liverpool,southampton,4,0,2.9,1.0,1.28,6.0,9.0
+2021-12-11,liverpool,aston villa,1,0,2.2,0.2,1.2,7.0,13.0
+2021-12-11,liverpool,aston villa,1,0,2.2,0.2,1.2,7.0,13.0
+2021-12-16,liverpool,newcastle,3,1,2.7,0.3,1.12,9.0,19.0
+2021-12-16,liverpool,newcastle,3,1,2.7,0.3,1.12,9.0,19.0
+2022-01-16,liverpool,brentford,3,0,2.7,0.7,1.3,5.5,10.0
+2022-01-16,liverpool,brentford,3,0,2.7,0.7,1.3,5.5,10.0
+2022-02-10,liverpool,leicester,2,0,1.8,0.5,1.25,6.5,10.0
+2022-02-10,liverpool,leicester,2,0,1.8,0.5,1.25,6.5,10.0
+2022-02-19,liverpool,norwich city,3,1,3.6,0.6,,,
+2022-02-23,liverpool,leeds,6,0,5.9,0.2,1.16,8.0,15.0
+2022-02-23,liverpool,leeds,6,0,5.9,0.2,1.16,8.0,15.0
+2022-03-05,liverpool,west ham,1,0,2.4,1.3,1.28,5.75,9.5
+2022-03-05,liverpool,west ham,1,0,2.4,1.3,1.28,5.75,9.5
+2022-04-02,liverpool,watford,2,0,2.2,0.6,1.12,9.5,17.0
+2022-04-02,liverpool,watford,2,0,2.2,0.6,1.12,9.5,17.0
+2022-04-19,liverpool,man utd,4,0,2.0,0.1,1.4,5.0,7.0
+2022-04-19,liverpool,man utd,4,0,2.0,0.1,1.4,5.0,7.0
+2022-04-24,liverpool,everton,2,0,1.7,0.4,1.18,7.0,15.0
+2022-04-24,liverpool,everton,2,0,1.7,0.4,1.18,7.0,15.0
+2022-05-07,liverpool,tottenham,1,1,1.3,0.9,1.4,5.0,7.0
+2022-05-07,liverpool,tottenham,1,1,1.3,0.9,1.4,5.0,7.0
+2022-05-22,liverpool,wolves,3,1,2.7,1.3,1.14,8.5,15.0
+2022-05-22,liverpool,wolves,3,1,2.7,1.3,1.14,8.5,15.0
+2022-08-15,liverpool,crystal palace,1,1,2.0,1.0,1.18,6.75,16.0
+2022-08-27,liverpool,bournemouth,9,0,3.3,0.3,1.1,10.0,26.0
+2022-08-31,liverpool,newcastle,2,1,1.5,0.7,1.33,5.25,9.0
+2022-10-01,liverpool,brighton,3,3,1.5,1.4,1.33,5.25,8.5
+2022-10-16,liverpool,manchester city,1,0,2.1,1.0,,,
+2022-10-19,liverpool,west ham,1,0,1.7,1.7,1.4,5.0,7.0
+2022-10-29,liverpool,leeds,1,2,1.7,1.8,1.3,6.0,9.0
+2022-11-12,liverpool,southampton,3,1,1.9,1.1,1.25,6.5,11.0
+2022-12-30,liverpool,leicester,2,1,2.2,1.0,1.29,6.0,9.5
+2023-01-21,liverpool,chelsea,0,0,1.4,1.6,1.85,3.75,4.0
+2023-02-13,liverpool,everton,2,0,2.3,0.4,1.5,4.33,6.5
+2023-03-01,liverpool,wolves,2,0,2.6,0.8,1.5,4.75,6.0
+2023-03-05,liverpool,man utd,7,0,2.8,0.8,2.38,3.6,2.88
+2023-04-09,liverpool,arsenal,2,2,3.9,1.4,2.88,3.6,2.38
+2023-04-22,liverpool,nott'ham forest,3,2,2.8,0.9,,,
+2023-04-30,liverpool,tottenham,4,3,2.2,2.0,1.53,4.5,5.75
+2023-05-03,liverpool,fulham,1,0,1.8,0.9,1.25,5.75,11.0
+2023-05-06,liverpool,brentford,1,0,2.2,0.2,1.44,5.0,6.0
+2023-05-20,liverpool,aston villa,1,1,0.7,1.3,1.45,5.0,6.25
+2023-08-19,liverpool,bournemouth,3,1,3.0,1.3,1.2,7.0,13.0
+2023-09-03,liverpool,aston villa,3,0,2.5,0.7,1.65,4.5,4.5
+2023-09-24,liverpool,west ham,3,1,3.0,1.1,1.4,5.0,7.0
+2023-10-21,liverpool,everton,2,0,2.2,0.1,1.33,5.75,7.5
+2023-10-29,liverpool,nott'ham forest,3,0,3.2,0.4,,,
+2023-11-12,liverpool,brentford,3,0,1.7,1.6,1.4,5.0,6.5
+2023-12-03,liverpool,fulham,4,3,2.1,1.2,1.25,6.5,9.0
+2023-12-17,liverpool,man utd,0,0,2.3,0.8,1.3,6.0,8.0
+2023-12-23,liverpool,arsenal,1,1,1.0,0.7,2.38,3.6,2.8
+2024-01-01,liverpool,newcastle,4,2,7.0,0.6,1.45,4.5,7.0
+2024-01-31,liverpool,chelsea,4,1,2.9,0.6,1.57,4.33,5.25
+2024-02-10,liverpool,burnley,3,1,2.8,1.3,1.17,8.0,17.0
+2024-02-21,liverpool,luton,4,1,3.3,0.9,1.2,7.0,13.0
+2024-03-10,liverpool,manchester city,1,1,2.7,1.6,,,
+2024-03-31,liverpool,brighton,2,1,2.8,0.5,1.36,5.5,7.5
+2024-04-04,liverpool,sheffield,3,1,1.8,0.6,1.09,12.0,21.0
+2024-04-14,liverpool,crystal palace,0,1,2.7,2.0,1.22,7.0,12.0
+2024-05-05,liverpool,tottenham,4,2,3.3,1.2,1.5,5.75,5.0
+2024-05-19,liverpool,wolves,2,0,4.5,0.5,1.17,8.0,15.0
+2024-08-25,liverpool,brentford,2,0,2.5,0.5,1.27,5.75,11.0
+2024-09-14,liverpool,nott'ham forest,0,1,0.9,0.4,,,
+2024-09-21,liverpool,bournemouth,3,0,2.0,1.1,1.3,6.25,9.0
+2024-10-20,liverpool,chelsea,2,1,1.9,1.0,1.62,4.1,5.0
+2024-11-02,liverpool,brighton,2,1,1.6,1.0,1.4,5.0,7.5
+2024-11-09,liverpool,aston villa,2,0,2.0,1.2,1.42,5.25,6.5
+2024-12-01,liverpool,manchester city,2,0,3.4,0.8,,,
+2024-12-14,liverpool,fulham,2,2,2.1,1.2,1.33,5.5,8.0
+2024-12-26,liverpool,leicester,3,1,2.0,0.3,1.08,12.0,23.0
+2025-01-05,liverpool,man utd,2,2,2.7,1.0,1.29,6.25,8.0
+2025-01-25,liverpool,ipswich town,4,1,2.0,0.5,,,
+2025-02-16,liverpool,wolves,2,1,1.7,1.5,1.15,8.0,12.0
+2025-02-26,liverpool,newcastle,2,0,1.7,0.2,1.5,4.5,5.75
+2025-03-08,liverpool,southampton,3,1,3.9,0.4,1.1,9.0,19.0
+2025-04-02,liverpool,everton,1,0,1.5,0.9,1.36,5.0,8.0
+2025-04-13,liverpool,west ham,2,1,1.8,1.4,1.3,6.0,8.0
+2025-04-27,liverpool,tottenham,5,1,2.2,0.5,1.25,6.0,11.0
+2025-05-11,liverpool,arsenal,2,2,2.4,2.6,2.0,3.6,3.6
+2025-05-25,liverpool,crystal palace,1,1,2.1,1.8,1.4,6.0,5.75
+2023-09-01,luton,west ham,1,2,1.4,1.0,4.75,3.8,1.73
+2023-09-23,luton,wolves,1,1,2.1,0.6,3.25,3.4,2.2
+2023-10-03,luton,burnley,1,2,1.3,1.1,2.9,3.0,2.63
+2023-10-07,luton,tottenham,0,1,0.8,1.9,6.0,4.75,1.45
+2023-11-05,luton,liverpool,1,1,0.8,2.6,12.0,6.5,1.22
+2023-11-25,luton,crystal palace,2,1,0.9,1.6,3.6,3.3,2.1
+2023-12-05,luton,arsenal,3,4,0.5,2.2,17.0,7.0,1.18
+2023-12-10,luton,manchester city,1,2,0.3,1.6,,,
+2023-12-23,luton,newcastle,1,0,1.4,1.4,4.75,4.2,1.65
+2023-12-30,luton,chelsea,2,3,2.3,1.5,6.5,4.2,1.5
+2024-01-30,luton,brighton,4,0,3.1,0.9,4.2,4.2,1.75
+2024-02-10,luton,sheffield,1,3,1.8,1.7,1.75,3.75,4.75
+2024-02-18,luton,man utd,1,2,1.8,2.9,4.0,4.0,1.8
+2024-03-02,luton,aston villa,2,3,1.8,1.9,4.33,4.2,1.73
+2024-03-16,luton,nott'ham forest,1,1,0.6,2.0,,,
+2024-04-06,luton,bournemouth,2,1,1.5,0.4,3.75,3.8,1.91
+2024-04-20,luton,brentford,1,5,0.6,3.1,3.1,3.75,2.15
+2024-05-03,luton,everton,1,1,0.8,1.4,2.6,3.6,2.55
+2024-05-19,luton,fulham,2,4,2.0,1.1,2.9,3.9,2.2
+2020-09-27,manchester city,leicester,2,5,0.9,2.9,,,
+2020-10-17,manchester city,arsenal,1,0,1.3,0.9,,,
+2020-11-08,manchester city,liverpool,1,1,1.4,1.2,,,
+2020-11-28,manchester city,burnley,5,0,1.7,0.5,,,
+2020-12-05,manchester city,fulham,2,0,2.9,0.3,,,
+2020-12-15,manchester city,west brom,1,1,2.2,0.4,,,
+2020-12-26,manchester city,newcastle,2,0,3.0,0.3,,,
+2021-01-13,manchester city,brighton,1,0,2.0,0.2,,,
+2021-01-17,manchester city,crystal palace,4,0,0.7,0.1,,,
+2021-01-20,manchester city,aston villa,2,0,3.4,0.6,,,
+2021-01-30,manchester city,sheffield,1,0,1.5,0.2,,,
+2021-02-13,manchester city,tottenham,3,0,2.2,0.3,,,
+2021-02-27,manchester city,west ham,2,1,0.5,1.5,,,
+2021-03-02,manchester city,wolves,4,1,3.3,0.3,,,
+2021-03-07,manchester city,man utd,0,2,1.3,1.7,,,
+2021-03-10,manchester city,southampton,5,2,2.6,1.6,,,
+2021-04-10,manchester city,leeds,1,2,2.1,0.1,,,
+2021-05-08,manchester city,chelsea,1,2,1.8,0.7,,,
+2021-05-23,manchester city,everton,5,0,2.5,1.1,,,
+2021-08-21,manchester city,norwich city,5,0,2.6,0.1,,,
+2021-08-28,manchester city,arsenal,5,0,4.4,0.2,,,
+2021-09-18,manchester city,southampton,0,0,1.0,0.4,,,
+2021-10-16,manchester city,burnley,2,0,2.1,0.9,,,
+2021-10-30,manchester city,crystal palace,0,2,0.7,0.7,,,
+2021-11-21,manchester city,everton,3,0,2.5,0.2,,,
+2021-11-28,manchester city,west ham,2,1,2.1,0.2,,,
+2021-12-11,manchester city,wolves,1,0,3.2,0.2,,,
+2021-12-14,manchester city,leeds,7,0,3.1,0.3,,,
+2021-12-26,manchester city,leicester,6,3,3.6,2.7,,,
+2022-01-15,manchester city,chelsea,1,0,1.0,0.3,,,
+2022-02-09,manchester city,brentford,2,0,1.9,0.4,,,
+2022-02-19,manchester city,tottenham,2,3,2.1,1.4,,,
+2022-03-06,manchester city,man utd,4,1,2.7,0.5,,,
+2022-04-10,manchester city,liverpool,2,2,1.3,1.3,,,
+2022-04-20,manchester city,brighton,3,0,1.3,0.2,,,
+2022-04-23,manchester city,watford,5,1,3.6,0.5,,,
+2022-05-08,manchester city,newcastle,5,0,3.1,0.8,,,
+2022-05-22,manchester city,aston villa,3,2,3.4,0.2,,,
+2022-08-13,manchester city,bournemouth,4,0,1.7,0.1,,,
+2022-08-27,manchester city,crystal palace,4,2,2.2,0.1,,,
+2022-08-31,manchester city,nott'ham forest,6,0,3.3,0.7,,,
+2022-10-02,manchester city,man utd,6,3,3.2,1.7,,,
+2022-10-08,manchester city,southampton,4,0,2.4,0.2,,,
+2022-10-22,manchester city,brighton,3,1,1.6,0.5,,,
+2022-11-05,manchester city,fulham,2,1,2.1,1.0,,,
+2022-11-12,manchester city,brentford,1,2,1.6,1.3,,,
+2022-12-31,manchester city,everton,1,1,1.7,0.1,,,
+2023-01-19,manchester city,tottenham,4,2,2.3,0.8,,,
+2023-01-22,manchester city,wolves,3,0,2.8,0.8,,,
+2023-02-12,manchester city,aston villa,3,1,3.3,0.3,,,
+2023-03-04,manchester city,newcastle,2,0,1.3,0.4,,,
+2023-04-01,manchester city,liverpool,4,1,2.9,0.3,,,
+2023-04-15,manchester city,leicester,3,1,1.6,2.3,,,
+2023-04-26,manchester city,arsenal,4,1,2.5,0.5,,,
+2023-05-03,manchester city,west ham,3,0,2.3,0.4,,,
+2023-05-06,manchester city,leeds,2,1,2.6,0.2,,,
+2023-05-21,manchester city,chelsea,1,0,1.2,1.2,,,
+2023-08-19,manchester city,newcastle,1,0,1.0,0.3,,,
+2023-09-02,manchester city,fulham,5,1,2.2,1.4,,,
+2023-09-23,manchester city,nott'ham forest,2,0,1.3,1.0,,,
+2023-10-21,manchester city,brighton,2,1,0.8,0.8,,,
+2023-11-04,manchester city,bournemouth,6,1,1.9,0.9,,,
+2023-11-25,manchester city,liverpool,1,1,1.3,0.6,,,
+2023-12-03,manchester city,tottenham,3,3,2.6,0.5,,,
+2023-12-16,manchester city,crystal palace,2,2,1.6,1.8,,,
+2023-12-30,manchester city,sheffield,2,0,2.2,0.3,,,
+2024-01-31,manchester city,burnley,3,1,1.7,1.4,,,
+2024-02-10,manchester city,everton,2,0,1.6,0.3,,,
+2024-02-17,manchester city,chelsea,1,1,2.6,1.4,,,
+2024-02-20,manchester city,brentford,1,0,2.3,0.4,,,
+2024-03-03,manchester city,man utd,3,1,3.3,0.2,,,
+2024-03-31,manchester city,arsenal,0,0,1.0,0.7,,,
+2024-04-03,manchester city,aston villa,4,1,3.4,0.8,,,
+2024-04-13,manchester city,luton,5,1,4.2,0.5,,,
+2024-05-04,manchester city,wolves,5,1,3.7,0.3,,,
+2024-05-19,manchester city,west ham,3,1,1.9,0.4,,,
+2024-08-24,manchester city,ipswich town,4,1,3.3,0.3,,,
+2024-09-14,manchester city,brentford,2,1,2.1,1.0,,,
+2024-09-22,manchester city,arsenal,2,2,2.1,0.7,,,
+2024-10-05,manchester city,fulham,3,2,1.6,2.6,,,
+2024-10-26,manchester city,southampton,1,0,2.9,0.2,,,
+2024-11-23,manchester city,tottenham,0,4,2.1,2.5,,,
+2024-12-04,manchester city,nott'ham forest,3,0,2.4,1.0,,,
+2024-12-15,manchester city,man utd,1,2,0.9,2.1,,,
+2024-12-26,manchester city,everton,1,1,2.1,0.7,,,
+2025-01-04,manchester city,west ham,4,1,1.9,1.4,,,
+2025-01-25,manchester city,chelsea,3,1,2.2,1.8,,,
+2025-02-15,manchester city,newcastle,4,0,1.9,0.5,,,
+2025-02-23,manchester city,liverpool,0,2,0.6,0.7,,,
+2025-03-15,manchester city,brighton,2,2,1.7,2.0,,,
+2025-04-02,manchester city,leicester,2,0,2.2,0.1,,,
+2025-04-12,manchester city,crystal palace,5,2,3.7,1.8,,,
+2025-04-22,manchester city,aston villa,2,1,1.3,1.8,,,
+2025-05-02,manchester city,wolves,1,0,0.7,0.4,,,
+2025-05-20,manchester city,bournemouth,3,1,1.5,1.1,,,
+2020-09-19,man utd,crystal palace,1,3,1.2,1.6,,,
+2020-10-04,man utd,tottenham,1,6,0.9,3.4,,,
+2020-10-24,man utd,chelsea,0,0,0.6,0.2,,,
+2020-11-01,man utd,arsenal,0,1,0.4,1.0,,,
+2020-11-21,man utd,west brom,1,0,2.4,0.6,,,
+2020-12-12,man utd,manchester city,0,0,0.6,1.3,,,
+2020-12-20,man utd,leeds,6,2,3.6,1.8,,,
+2020-12-29,man utd,wolves,1,0,1.5,0.5,,,
+2021-01-01,man utd,aston villa,2,1,2.1,1.4,,,
+2021-01-27,man utd,sheffield,1,2,1.1,1.0,,,
+2021-02-02,man utd,southampton,9,0,4.7,0.5,,,
+2021-02-06,man utd,everton,3,3,1.8,1.5,,,
+2021-02-21,man utd,newcastle,3,1,1.7,0.4,,,
+2021-03-14,man utd,west ham,1,0,1.5,0.6,,,
+2021-04-04,man utd,brighton,2,1,1.5,1.2,,,
+2021-04-18,man utd,burnley,3,1,2.5,0.9,,,
+2021-05-11,man utd,leicester,1,2,0.2,0.9,,,
+2021-05-13,man utd,liverpool,2,4,1.9,2.7,,,
+2021-05-18,man utd,fulham,1,1,0.9,0.9,,,
+2021-08-14,man utd,leeds,5,1,1.5,0.5,1.53,4.5,5.75
+2021-08-14,man utd,leeds,5,1,1.5,0.5,1.53,4.5,5.75
+2021-09-11,man utd,newcastle,4,1,2.5,0.4,1.18,7.5,15.0
+2021-09-11,man utd,newcastle,4,1,2.5,0.4,1.18,7.5,15.0
+2021-09-25,man utd,aston villa,0,1,2.2,1.0,1.36,5.25,8.0
+2021-09-25,man utd,aston villa,0,1,2.2,1.0,1.36,5.25,8.0
+2021-10-02,man utd,everton,1,1,1.0,1.3,1.45,4.33,7.5
+2021-10-02,man utd,everton,1,1,1.0,1.3,1.45,4.33,7.5
+2021-10-24,man utd,liverpool,0,5,1.6,3.4,3.1,3.6,2.2
+2021-10-24,man utd,liverpool,0,5,1.6,3.4,3.1,3.6,2.2
+2021-11-06,man utd,manchester city,0,2,0.9,1.6,,,
+2021-12-02,man utd,arsenal,3,2,1.9,1.4,1.95,3.75,3.75
+2021-12-02,man utd,arsenal,3,2,1.9,1.4,1.95,3.75,3.75
+2021-12-05,man utd,crystal palace,1,0,0.9,0.5,1.5,4.33,6.5
+2021-12-05,man utd,crystal palace,1,0,0.9,0.5,1.5,4.33,6.5
+2021-12-30,man utd,burnley,3,1,2.4,1.1,1.36,5.0,9.0
+2021-12-30,man utd,burnley,3,1,2.4,1.1,1.36,5.0,9.0
+2022-01-03,man utd,wolves,0,1,0.8,0.7,1.53,4.33,6.0
+2022-01-03,man utd,wolves,0,1,0.8,0.7,1.53,4.33,6.0
+2022-01-22,man utd,west ham,1,0,1.9,0.3,1.85,3.8,4.0
+2022-01-22,man utd,west ham,1,0,1.9,0.3,1.85,3.8,4.0
+2022-02-12,man utd,southampton,1,1,2.1,0.8,1.6,4.0,5.5
+2022-02-12,man utd,southampton,1,1,2.1,0.8,1.6,4.0,5.5
+2022-02-15,man utd,brighton,2,0,1.7,0.7,1.72,3.75,4.75
+2022-02-15,man utd,brighton,2,0,1.7,0.7,1.72,3.75,4.75
+2022-02-26,man utd,watford,0,0,2.8,0.6,1.3,5.5,9.5
+2022-02-26,man utd,watford,0,0,2.8,0.6,1.3,5.5,9.5
+2022-03-12,man utd,tottenham,3,2,1.0,1.5,2.2,3.4,3.25
+2022-03-12,man utd,tottenham,3,2,1.0,1.5,2.2,3.4,3.25
+2022-04-02,man utd,leicester,1,1,0.9,0.8,1.5,4.5,6.0
+2022-04-02,man utd,leicester,1,1,0.9,0.8,1.5,4.5,6.0
+2022-04-16,man utd,norwich city,3,2,1.9,1.5,,,
+2022-04-28,man utd,chelsea,1,1,0.5,1.9,3.2,3.4,2.25
+2022-04-28,man utd,chelsea,1,1,0.5,1.9,3.2,3.4,2.25
+2022-05-02,man utd,brentford,3,0,2.0,0.6,1.72,4.0,4.5
+2022-05-02,man utd,brentford,3,0,2.0,0.6,1.72,4.0,4.5
+2022-08-07,man utd,brighton,1,2,1.4,1.5,1.6,4.2,5.25
+2022-08-22,man utd,liverpool,2,1,1.8,1.3,5.25,4.33,1.6
+2022-09-04,man utd,arsenal,3,1,1.5,1.3,2.5,3.5,2.7
+2022-10-16,man utd,newcastle,0,0,0.8,0.8,1.95,3.8,3.5
+2022-10-19,man utd,tottenham,2,0,1.5,0.6,2.45,3.5,2.75
+2022-10-30,man utd,west ham,1,0,1.2,1.1,1.66,4.0,4.8
+2022-12-27,man utd,nott'ham forest,3,0,2.4,0.7,,,
+2023-01-03,man utd,bournemouth,3,0,2.2,0.6,1.29,5.5,11.0
+2023-01-14,man utd,manchester city,2,1,1.7,0.6,,,
+2023-02-04,man utd,crystal palace,2,1,2.0,1.3,1.4,4.75,8.0
+2023-02-08,man utd,leeds,2,2,2.0,0.6,1.45,5.0,6.0
+2023-02-19,man utd,leicester,3,0,4.4,1.6,1.62,4.33,5.25
+2023-03-12,man utd,southampton,0,0,0.8,1.0,1.36,5.0,9.0
+2023-04-05,man utd,brentford,1,0,1.2,0.7,1.65,4.0,5.0
+2023-04-08,man utd,everton,2,0,3.4,1.0,1.5,4.33,6.5
+2023-04-30,man utd,aston villa,1,0,1.2,0.6,1.73,3.9,4.6
+2023-05-13,man utd,wolves,2,0,3.2,0.3,1.36,5.0,7.5
+2023-05-25,man utd,chelsea,4,1,5.2,1.9,1.6,4.33,5.0
+2023-05-28,man utd,fulham,2,1,2.9,1.8,1.5,4.33,6.0
+2023-08-14,man utd,wolves,1,0,2.2,2.2,1.33,5.5,9.0
+2023-08-26,man utd,nott'ham forest,3,2,2.8,1.2,,,
+2023-09-16,man utd,brighton,1,3,1.0,1.7,2.15,4.0,2.88
+2023-09-30,man utd,crystal palace,0,1,1.3,0.9,1.55,4.2,5.75
+2023-10-07,man utd,brentford,2,1,1.4,0.9,1.67,4.2,4.75
+2023-10-29,man utd,manchester city,0,3,0.9,4.0,,,
+2023-11-11,man utd,luton,1,0,2.2,0.4,1.33,5.25,9.5
+2023-12-06,man utd,chelsea,2,1,4.1,1.5,2.88,3.4,2.45
+2023-12-09,man utd,bournemouth,0,3,1.1,1.5,1.55,4.33,5.75
+2023-12-26,man utd,aston villa,3,2,1.1,1.7,2.6,3.5,2.6
+2024-01-14,man utd,tottenham,2,2,0.8,1.2,2.2,3.75,3.0
+2024-02-04,man utd,west ham,3,0,0.7,1.4,1.62,4.2,5.0
+2024-02-24,man utd,fulham,1,2,1.7,1.2,1.57,4.33,5.5
+2024-03-09,man utd,everton,2,0,2.7,1.6,1.83,3.6,4.0
+2024-04-07,man utd,liverpool,2,2,0.7,3.6,4.75,4.5,1.6
+2024-04-24,man utd,sheffield,4,2,2.9,0.8,1.3,6.5,7.5
+2024-04-27,man utd,burnley,1,1,2.7,2.1,1.5,4.75,5.5
+2024-05-12,man utd,arsenal,0,1,0.5,1.5,7.0,5.5,1.36
+2024-05-15,man utd,newcastle,3,2,1.5,2.2,2.75,4.0,2.3
+2024-08-16,man utd,fulham,1,0,2.4,0.4,1.6,4.2,5.25
+2024-09-01,man utd,liverpool,0,3,1.4,1.8,3.7,4.2,1.85
+2024-09-29,man utd,tottenham,0,3,1.0,4.4,2.35,3.75,2.75
+2024-10-19,man utd,brentford,2,1,1.3,0.9,1.7,4.2,4.5
+2024-11-03,man utd,chelsea,1,1,2.0,1.1,2.6,3.5,2.6
+2024-11-10,man utd,leicester,3,0,0.8,0.6,1.38,5.5,6.5
+2024-12-01,man utd,everton,4,0,1.1,0.6,1.53,4.2,6.0
+2024-12-07,man utd,nott'ham forest,2,3,1.6,0.8,,,
+2024-12-22,man utd,bournemouth,0,3,2.2,1.6,1.8,3.8,4.2
+2024-12-30,man utd,newcastle,0,2,0.8,1.9,2.75,3.5,2.55
+2025-01-16,man utd,southampton,3,1,3.4,1.4,1.29,6.0,9.5
+2025-01-19,man utd,brighton,1,3,1.5,1.9,2.1,3.6,3.3
+2025-02-02,man utd,crystal palace,0,2,1.1,2.6,2.0,3.5,3.8
+2025-02-26,man utd,ipswich town,3,2,0.7,1.4,,,
+2025-03-09,man utd,arsenal,1,1,1.5,1.6,5.75,3.5,1.7
+2025-04-06,man utd,manchester city,0,0,0.9,0.5,,,
+2025-04-20,man utd,wolves,0,1,1.3,0.2,2.0,3.6,3.6
+2025-05-11,man utd,west ham,0,2,2.1,1.7,1.9,3.6,4.0
+2025-05-25,man utd,aston villa,2,0,2.9,0.4,4.33,4.2,1.7
+2020-09-20,newcastle,brighton,0,3,0.5,1.8,,,
+2020-10-03,newcastle,burnley,3,1,1.8,0.4,,,
+2020-10-17,newcastle,man utd,1,4,0.9,2.3,,,
+2020-11-01,newcastle,everton,2,1,2.9,1.5,,,
+2020-11-21,newcastle,chelsea,0,2,0.3,1.5,,,
+2020-12-12,newcastle,west brom,2,1,0.8,0.6,,,
+2020-12-19,newcastle,fulham,1,1,1.4,1.0,,,
+2020-12-30,newcastle,liverpool,0,0,0.5,1.4,,,
+2021-01-03,newcastle,leicester,1,2,0.5,0.6,,,
+2021-01-26,newcastle,leeds,1,2,1.4,0.7,,,
+2021-02-02,newcastle,crystal palace,1,2,1.9,0.7,,,
+2021-02-06,newcastle,southampton,3,2,0.7,1.3,,,
+2021-02-27,newcastle,wolves,1,1,1.7,1.1,,,
+2021-03-12,newcastle,aston villa,1,1,1.5,0.9,,,
+2021-04-04,newcastle,tottenham,2,2,3.4,2.7,,,
+2021-04-17,newcastle,west ham,3,2,2.2,1.9,,,
+2021-05-02,newcastle,arsenal,0,2,0.3,2.0,,,
+2021-05-14,newcastle,manchester city,3,4,2.2,1.5,,,
+2021-05-19,newcastle,sheffield,1,0,1.6,0.9,,,
+2021-08-15,newcastle,west ham,2,4,1.8,2.7,3.2,3.5,2.2
+2021-08-15,newcastle,west ham,2,4,1.8,2.7,3.2,3.5,2.2
+2021-08-28,newcastle,southampton,2,2,1.0,3.6,2.5,3.4,2.8
+2021-08-28,newcastle,southampton,2,2,1.0,3.6,2.5,3.4,2.8
+2021-09-17,newcastle,leeds,1,1,1.3,1.5,3.0,3.6,2.3
+2021-09-17,newcastle,leeds,1,1,1.3,1.5,3.0,3.6,2.3
+2021-10-17,newcastle,tottenham,2,3,0.4,1.7,3.5,3.6,2.05
+2021-10-17,newcastle,tottenham,2,3,0.4,1.7,3.5,3.6,2.05
+2021-10-30,newcastle,chelsea,0,3,0.2,2.2,8.5,5.0,1.36
+2021-10-30,newcastle,chelsea,0,3,0.2,2.2,8.5,5.0,1.36
+2021-11-20,newcastle,brentford,3,3,1.5,0.9,2.62,3.4,2.7
+2021-11-20,newcastle,brentford,3,3,1.5,0.9,2.62,3.4,2.7
+2021-11-30,newcastle,norwich city,1,1,1.1,1.2,,,
+2021-12-04,newcastle,burnley,1,0,1.0,0.6,2.3,3.3,3.2
+2021-12-04,newcastle,burnley,1,0,1.0,0.6,2.3,3.3,3.2
+2021-12-19,newcastle,manchester city,0,4,0.3,2.9,,,
+2021-12-27,newcastle,man utd,1,1,1.3,1.6,6.5,4.75,1.44
+2021-12-27,newcastle,man utd,1,1,1.3,1.6,6.5,4.75,1.44
+2022-01-15,newcastle,watford,1,1,1.2,1.4,2.0,3.6,3.6
+2022-01-15,newcastle,watford,1,1,1.2,1.4,2.0,3.6,3.6
+2022-02-08,newcastle,everton,3,1,1.9,0.7,2.5,3.25,2.87
+2022-02-08,newcastle,everton,3,1,1.9,0.7,2.5,3.25,2.87
+2022-02-13,newcastle,aston villa,1,0,0.5,0.6,2.7,3.3,2.62
+2022-02-13,newcastle,aston villa,1,0,0.5,0.6,2.7,3.3,2.62
+2022-03-05,newcastle,brighton,2,1,1.7,1.5,2.75,3.2,2.62
+2022-03-05,newcastle,brighton,2,1,1.7,1.5,2.75,3.2,2.62
+2022-04-08,newcastle,wolves,1,0,1.5,0.4,2.25,3.1,3.4
+2022-04-08,newcastle,wolves,1,0,1.5,0.4,2.25,3.1,3.4
+2022-04-17,newcastle,leicester,2,1,1.8,0.6,2.2,3.4,3.3
+2022-04-17,newcastle,leicester,2,1,1.8,0.6,2.2,3.4,3.3
+2022-04-20,newcastle,crystal palace,1,0,0.9,0.5,2.25,3.4,3.25
+2022-04-20,newcastle,crystal palace,1,0,0.9,0.5,2.25,3.4,3.25
+2022-04-30,newcastle,liverpool,0,1,0.2,2.3,8.5,5.0,1.36
+2022-04-30,newcastle,liverpool,0,1,0.2,2.3,8.5,5.0,1.36
+2022-05-16,newcastle,arsenal,2,0,1.6,0.6,4.33,3.6,1.83
+2022-05-16,newcastle,arsenal,2,0,1.6,0.6,4.33,3.6,1.83
+2022-08-06,newcastle,nott'ham forest,2,0,1.7,0.3,,,
+2022-08-21,newcastle,manchester city,3,3,1.8,2.1,,,
+2022-09-03,newcastle,crystal palace,0,0,2.8,1.0,2.0,3.5,3.75
+2022-09-17,newcastle,bournemouth,1,1,1.9,0.7,1.44,4.4,7.5
+2022-10-08,newcastle,brentford,5,1,1.5,1.2,1.83,3.8,4.2
+2022-10-19,newcastle,everton,1,0,1.5,0.2,1.6,3.8,5.75
+2022-10-29,newcastle,aston villa,4,0,3.4,0.4,1.8,3.75,4.5
+2022-11-12,newcastle,chelsea,1,0,1.0,0.3,2.35,3.4,3.0
+2022-12-31,newcastle,leeds,0,0,2.2,0.4,1.45,4.5,7.0
+2023-01-15,newcastle,fulham,1,0,2.2,1.1,1.5,4.33,6.5
+2023-02-04,newcastle,west ham,1,1,1.0,1.0,1.6,3.8,6.0
+2023-02-18,newcastle,liverpool,0,2,2.0,1.9,2.5,3.5,2.7
+2023-03-12,newcastle,wolves,2,1,1.8,1.1,1.65,3.75,5.5
+2023-04-02,newcastle,man utd,2,0,3.7,0.4,2.4,3.4,2.9
+2023-04-23,newcastle,tottenham,6,1,3.7,1.0,1.83,3.75,4.2
+2023-04-30,newcastle,southampton,3,1,4.3,0.8,1.3,5.25,10.0
+2023-05-07,newcastle,arsenal,0,2,1.3,1.3,2.45,3.75,2.63
+2023-05-18,newcastle,brighton,4,1,3.6,0.5,2.0,3.8,3.5
+2023-05-22,newcastle,leicester,0,0,2.1,0.1,1.36,5.5,7.0
+2023-08-12,newcastle,aston villa,5,1,3.3,1.8,1.75,3.75,4.6
+2023-08-27,newcastle,liverpool,1,2,2.0,0.9,2.2,3.75,3.0
+2023-09-16,newcastle,brentford,1,0,1.4,0.5,1.53,4.2,6.0
+2023-09-30,newcastle,burnley,2,0,3.1,0.6,1.3,5.75,9.0
+2023-10-21,newcastle,crystal palace,4,0,2.4,1.2,1.45,4.5,7.0
+2023-11-04,newcastle,arsenal,1,0,1.0,0.6,2.8,3.2,2.6
+2023-11-25,newcastle,chelsea,4,1,2.4,0.5,2.55,3.5,2.63
+2023-12-02,newcastle,man utd,1,0,2.4,0.5,1.91,3.75,3.8
+2023-12-16,newcastle,fulham,3,0,3.5,0.3,1.8,3.8,4.0
+2023-12-26,newcastle,nott'ham forest,1,3,2.4,3.5,,,
+2024-01-13,newcastle,manchester city,2,3,1.3,3.0,,,
+2024-02-03,newcastle,luton,4,4,2.3,2.4,1.44,4.75,6.5
+2024-02-17,newcastle,bournemouth,2,2,2.2,2.2,1.83,4.2,3.75
+2024-03-02,newcastle,wolves,3,0,2.1,0.8,1.91,4.0,3.6
+2024-03-30,newcastle,west ham,4,3,4.1,1.4,1.83,4.2,3.8
+2024-04-02,newcastle,everton,1,1,2.4,1.4,2.0,3.75,3.5
+2024-04-13,newcastle,tottenham,4,0,2.8,0.8,2.7,4.0,2.3
+2024-04-27,newcastle,sheffield,5,1,3.1,1.5,1.22,7.0,11.0
+2024-05-11,newcastle,brighton,1,1,2.2,1.4,1.57,4.75,4.75
+2024-08-17,newcastle,southampton,1,0,0.3,1.8,1.36,5.25,8.0
+2024-09-01,newcastle,tottenham,2,1,1.8,1.2,2.5,4.0,2.5
+2024-09-28,newcastle,manchester city,1,1,1.6,0.9,,,
+2024-10-19,newcastle,brighton,0,1,2.0,1.1,1.95,3.7,3.6
+2024-11-02,newcastle,arsenal,1,0,0.5,1.1,3.75,3.75,1.95
+2024-11-25,newcastle,west ham,0,2,1.6,0.9,1.5,4.5,6.0
+2024-12-04,newcastle,liverpool,3,3,2.1,1.9,4.2,4.0,1.75
+2024-12-14,newcastle,leicester,4,0,3.8,0.2,1.3,6.0,8.5
+2024-12-26,newcastle,aston villa,3,0,2.7,0.3,1.91,3.8,3.75
+2025-01-15,newcastle,wolves,3,0,2.1,1.6,1.36,5.5,8.0
+2025-01-18,newcastle,bournemouth,1,4,0.8,2.0,1.62,4.2,5.0
+2025-02-01,newcastle,fulham,1,2,0.8,1.6,1.7,4.0,4.75
+2025-02-23,newcastle,nott'ham forest,4,3,2.9,1.7,,,
+2025-04-02,newcastle,brentford,2,1,1.3,1.5,1.73,4.5,4.0
+2025-04-13,newcastle,man utd,4,1,2.2,0.7,1.65,4.2,4.75
+2025-04-16,newcastle,crystal palace,5,0,1.5,2.0,1.67,3.9,5.0
+2025-04-26,newcastle,ipswich town,3,0,2.4,0.1,,,
+2025-05-11,newcastle,chelsea,2,0,1.6,0.7,2.1,3.75,3.1
+2025-05-25,newcastle,everton,0,1,1.2,1.2,1.33,5.5,8.5
+2021-08-14,norwich city,liverpool,0,3,1.4,1.6,,,
+2021-08-28,norwich city,leicester,1,2,1.5,1.5,,,
+2021-09-18,norwich city,watford,1,3,1.0,2.4,,,
+2021-10-16,norwich city,brighton,0,0,1.2,0.8,,,
+2021-10-31,norwich city,leeds,1,2,0.8,0.7,,,
+2021-11-20,norwich city,southampton,2,1,0.5,1.0,,,
+2021-11-27,norwich city,wolves,0,0,1.6,0.3,,,
+2021-12-11,norwich city,man utd,0,1,1.2,2.0,,,
+2021-12-14,norwich city,aston villa,0,2,0.5,2.0,,,
+2021-12-26,norwich city,arsenal,0,5,0.1,2.5,,,
+2022-01-15,norwich city,everton,2,1,1.0,0.6,,,
+2022-02-09,norwich city,crystal palace,1,1,0.4,1.3,,,
+2022-02-12,norwich city,manchester city,0,4,0.4,4.6,,,
+2022-03-05,norwich city,brentford,1,3,1.0,2.0,,,
+2022-03-10,norwich city,chelsea,1,3,1.0,1.8,,,
+2022-04-10,norwich city,burnley,2,0,1.7,1.7,,,
+2022-04-23,norwich city,newcastle,0,3,0.6,1.9,,,
+2022-05-08,norwich city,west ham,0,4,0.8,3.0,,,
+2022-05-22,norwich city,tottenham,0,5,0.5,3.4,,,
+2022-08-14,nottm forest,west ham,1,0,1.3,2.1,4.2,3.6,1.85
+2022-08-28,nottm forest,tottenham,0,2,0.9,2.4,7.0,4.6,1.44
+2022-09-03,nottm forest,bournemouth,2,3,1.9,0.8,1.95,3.5,3.8
+2022-09-16,nottm forest,fulham,2,3,1.4,0.9,2.75,3.3,2.62
+2022-10-10,nottm forest,aston villa,1,1,0.3,0.7,3.3,3.4,2.2
+2022-10-22,nottm forest,liverpool,1,0,1.9,1.6,11.0,6.0,1.25
+2022-11-05,nottm forest,brentford,2,2,1.5,1.5,2.75,3.3,2.6
+2022-11-12,nottm forest,crystal palace,1,0,1.1,1.2,3.1,3.1,2.45
+2023-01-01,nottm forest,chelsea,1,1,1.4,0.9,5.0,3.8,1.7
+2023-01-14,nottm forest,leicester,2,0,2.4,1.0,2.7,3.3,2.63
+2023-02-05,nottm forest,leeds,1,0,0.4,0.9,2.63,3.3,2.7
+2023-02-18,nottm forest,manchester city,1,1,0.9,2.4,,,
+2023-03-05,nottm forest,everton,2,2,0.8,1.7,2.7,3.0,2.88
+2023-03-17,nottm forest,newcastle,1,2,0.4,2.4,5.5,3.8,1.62
+2023-04-01,nottm forest,wolves,1,1,1.3,0.5,3.0,3.1,2.55
+2023-04-16,nottm forest,man utd,0,2,0.7,3.5,5.5,4.0,1.62
+2023-04-26,nottm forest,brighton,3,1,2.4,2.3,6.0,4.2,1.53
+2023-05-08,nottm forest,southampton,4,3,1.8,3.1,2.1,3.6,3.4
+2023-05-20,nottm forest,arsenal,1,0,0.6,0.6,5.25,4.33,1.57
+2023-08-18,nottm forest,sheffield,2,1,1.4,0.5,1.95,3.4,4.0
+2023-09-18,nottm forest,burnley,1,1,0.7,0.5,2.2,3.5,3.25
+2023-10-01,nottm forest,brentford,1,1,0.5,1.6,2.75,3.1,2.7
+2023-10-21,nottm forest,luton,2,2,2.9,1.7,1.67,3.75,5.5
+2023-11-05,nottm forest,aston villa,2,0,0.4,1.2,4.2,3.75,1.85
+2023-11-25,nottm forest,brighton,2,3,1.9,1.3,3.2,3.6,2.15
+2023-12-02,nottm forest,everton,0,1,0.7,0.7,2.75,3.25,2.6
+2023-12-15,nottm forest,tottenham,0,2,1.3,1.5,4.2,4.2,1.73
+2023-12-23,nottm forest,bournemouth,2,3,1.0,1.6,2.75,3.4,2.55
+2023-12-30,nottm forest,man utd,2,1,0.7,0.8,3.2,3.6,2.15
+2024-01-30,nottm forest,arsenal,1,2,0.5,1.2,7.5,5.0,1.4
+2024-02-10,nottm forest,newcastle,2,3,1.5,0.5,3.3,3.75,2.05
+2024-02-17,nottm forest,west ham,2,0,2.8,0.5,2.38,3.5,2.9
+2024-03-02,nottm forest,liverpool,0,1,1.0,2.0,6.0,4.33,1.53
+2024-03-30,nottm forest,crystal palace,1,1,0.9,1.2,2.2,3.3,3.4
+2024-04-02,nottm forest,fulham,3,1,1.5,1.5,2.7,3.4,2.63
+2024-04-13,nottm forest,wolves,2,2,1.9,1.0,2.1,3.4,3.5
+2024-04-28,nottm forest,manchester city,0,2,1.9,0.9,,,
+2024-05-11,nottm forest,chelsea,2,3,1.5,1.6,3.4,3.8,2.0
+2024-08-17,nottm forest,bournemouth,1,1,1.3,1.2,2.45,3.5,2.8
+2024-08-31,nottm forest,wolves,1,1,1.0,0.7,2.0,3.7,3.7
+2024-09-28,nottm forest,fulham,0,1,0.8,1.3,2.38,3.3,3.0
+2024-10-21,nottm forest,crystal palace,1,0,1.7,1.0,2.3,3.5,3.0
+2024-11-02,nottm forest,west ham,3,0,2.2,0.1,2.15,3.5,3.4
+2024-11-10,nottm forest,newcastle,1,3,0.6,1.6,2.7,3.3,2.7
+2024-11-30,nottm forest,ipswich town,1,0,1.6,0.6,,,
+2024-12-14,nottm forest,aston villa,2,1,1.7,0.4,2.63,3.3,2.7
+2024-12-26,nottm forest,tottenham,1,0,1.1,0.9,2.3,3.75,2.88
+2025-01-14,nottm forest,liverpool,1,1,0.3,2.0,5.25,4.1,1.62
+2025-01-19,nottm forest,southampton,3,2,1.8,0.9,1.38,4.75,8.0
+2025-02-01,nottm forest,brighton,7,0,3.3,0.9,2.38,3.5,2.8
+2025-02-26,nottm forest,arsenal,0,0,0.4,1.0,3.9,3.6,1.95
+2025-03-08,nottm forest,manchester city,1,0,0.7,0.9,,,
+2025-04-01,nottm forest,man utd,1,0,0.5,1.6,2.3,3.4,3.1
+2025-04-12,nottm forest,everton,0,1,0.5,1.4,2.1,3.3,3.7
+2025-05-01,nottm forest,brentford,0,2,0.9,1.3,2.15,3.5,3.25
+2025-05-11,nottm forest,leicester,2,2,1.3,1.1,1.33,5.25,8.0
+2025-05-25,nottm forest,chelsea,0,1,1.2,1.1,3.0,3.75,2.2
+2020-09-14,sheffield,wolves,0,2,1.0,1.4,,,
+2020-09-27,sheffield,leeds,0,1,1.4,1.2,,,
+2020-10-18,sheffield,fulham,1,1,1.7,1.5,,,
+2020-10-31,sheffield,manchester city,0,1,0.5,1.6,,,
+2020-11-22,sheffield,west ham,0,1,0.9,2.1,,,
+2020-12-06,sheffield,leicester,1,2,0.2,1.4,,,
+2020-12-17,sheffield,man utd,2,3,1.5,1.9,,,
+2020-12-26,sheffield,everton,0,1,1.4,0.7,,,
+2021-01-12,sheffield,newcastle,1,0,2.1,0.6,,,
+2021-01-17,sheffield,tottenham,1,3,0.9,1.0,,,
+2021-02-02,sheffield,west brom,2,1,1.3,1.6,,,
+2021-02-07,sheffield,chelsea,1,2,0.6,1.6,,,
+2021-02-28,sheffield,liverpool,0,2,0.7,2.7,,,
+2021-03-03,sheffield,aston villa,1,0,0.9,2.3,,,
+2021-03-06,sheffield,southampton,0,2,0.7,1.9,,,
+2021-04-11,sheffield,arsenal,0,3,0.3,1.7,,,
+2021-04-24,sheffield,brighton,1,0,0.7,2.0,,,
+2021-05-08,sheffield,crystal palace,0,2,0.7,2.0,,,
+2021-05-23,sheffield,burnley,1,0,0.5,1.1,,,
+2023-08-12,sheffield,crystal palace,0,1,0.5,1.9,3.0,3.3,2.38
+2023-08-27,sheffield,manchester city,1,2,0.7,3.5,,,
+2023-09-02,sheffield,everton,2,2,1.2,2.5,2.9,3.25,2.5
+2023-09-24,sheffield,newcastle,0,8,0.9,3.9,7.0,4.75,1.44
+2023-10-21,sheffield,man utd,1,2,1.4,1.1,6.5,5.25,1.4
+2023-11-04,sheffield,wolves,2,1,1.0,1.2,3.8,3.5,2.0
+2023-11-25,sheffield,bournemouth,1,3,0.8,2.9,3.2,3.5,2.2
+2023-12-06,sheffield,liverpool,0,2,1.0,1.7,12.0,7.5,1.2
+2023-12-09,sheffield,brentford,1,0,0.8,0.6,4.2,3.8,1.75
+2023-12-26,sheffield,luton,2,3,2.4,0.6,2.3,3.3,3.1
+2024-01-21,sheffield,west ham,2,2,2.5,2.3,3.4,3.3,2.2
+2024-02-03,sheffield,aston villa,0,5,1.4,2.2,5.25,4.2,1.62
+2024-02-18,sheffield,brighton,0,5,0.6,2.9,5.0,4.2,1.62
+2024-03-04,sheffield,arsenal,0,6,0.2,2.3,17.0,7.0,1.18
+2024-03-30,sheffield,fulham,3,3,1.9,1.3,4.5,4.0,1.73
+2024-04-07,sheffield,chelsea,2,2,1.4,0.3,7.0,5.25,1.4
+2024-04-20,sheffield,burnley,1,4,2.4,2.2,2.75,3.6,2.45
+2024-05-04,sheffield,nott'ham forest,1,3,2.2,1.4,,,
+2024-05-19,sheffield,tottenham,0,3,1.0,3.1,7.0,6.0,1.33
+2020-09-20,southampton,tottenham,2,5,2.0,2.1,,,
+2020-10-04,southampton,west brom,2,0,1.2,0.2,,,
+2020-10-25,southampton,everton,2,0,0.7,0.4,,,
+2020-11-06,southampton,newcastle,2,0,0.7,0.3,,,
+2020-11-29,southampton,man utd,2,3,0.5,2.1,,,
+2020-12-13,southampton,sheffield,3,0,2.0,0.3,,,
+2020-12-19,southampton,manchester city,0,1,0.7,0.9,,,
+2020-12-29,southampton,west ham,0,0,0.6,1.2,,,
+2021-01-04,southampton,liverpool,1,0,0.4,1.5,,,
+2021-01-26,southampton,arsenal,1,3,0.8,2.2,,,
+2021-01-30,southampton,aston villa,0,1,1.9,0.6,,,
+2021-02-14,southampton,wolves,1,2,0.8,1.1,,,
+2021-02-20,southampton,chelsea,1,1,0.6,1.2,,,
+2021-03-14,southampton,brighton,1,2,0.6,0.8,,,
+2021-04-04,southampton,burnley,3,2,2.2,1.5,,,
+2021-04-30,southampton,leicester,1,1,0.9,1.9,,,
+2021-05-11,southampton,crystal palace,3,1,1.2,1.5,,,
+2021-05-15,southampton,fulham,3,1,1.6,0.8,,,
+2021-05-18,southampton,leeds,0,2,1.6,1.7,,,
+2021-08-22,southampton,man utd,1,1,0.7,1.8,5.5,4.2,1.57
+2021-08-22,southampton,man utd,1,1,0.7,1.8,5.5,4.2,1.57
+2021-09-11,southampton,west ham,0,0,0.7,0.7,2.9,3.5,2.4
+2021-09-11,southampton,west ham,0,0,0.7,0.7,2.9,3.5,2.4
+2021-09-26,southampton,wolves,0,1,1.0,1.0,2.62,3.2,2.8
+2021-09-26,southampton,wolves,0,1,1.0,1.0,2.62,3.2,2.8
+2021-10-16,southampton,leeds,1,0,1.9,0.2,2.3,3.5,3.0
+2021-10-16,southampton,leeds,1,0,1.9,0.2,2.3,3.5,3.0
+2021-10-23,southampton,burnley,2,2,1.6,0.7,1.95,3.5,3.9
+2021-10-23,southampton,burnley,2,2,1.6,0.7,1.95,3.5,3.9
+2021-11-05,southampton,aston villa,1,0,0.6,0.6,1.95,3.6,3.75
+2021-11-05,southampton,aston villa,1,0,0.6,0.6,1.95,3.6,3.75
+2021-12-01,southampton,leicester,2,2,1.5,1.5,2.37,3.5,2.87
+2021-12-01,southampton,leicester,2,2,1.5,1.5,2.37,3.5,2.87
+2021-12-04,southampton,brighton,1,1,1.6,1.6,2.45,3.2,3.0
+2021-12-04,southampton,brighton,1,1,1.6,1.6,2.45,3.2,3.0
+2021-12-28,southampton,tottenham,1,1,0.4,2.3,3.75,3.5,2.0
+2021-12-28,southampton,tottenham,1,1,0.4,2.3,3.75,3.5,2.0
+2022-01-11,southampton,brentford,4,1,1.4,0.5,2.05,3.4,3.6
+2022-01-11,southampton,brentford,4,1,1.4,0.5,2.05,3.4,3.6
+2022-01-22,southampton,manchester city,1,1,0.8,1.8,,,
+2022-02-19,southampton,everton,2,0,2.5,0.3,2.1,3.5,3.5
+2022-02-19,southampton,everton,2,0,2.5,0.3,2.1,3.5,3.5
+2022-02-25,southampton,norwich city,2,0,2.6,0.6,,,
+2022-03-10,southampton,newcastle,1,2,1.1,0.6,2.0,3.75,3.5
+2022-03-10,southampton,newcastle,1,2,1.1,0.6,2.0,3.75,3.5
+2022-03-13,southampton,watford,1,2,1.4,1.7,1.6,4.2,5.25
+2022-03-13,southampton,watford,1,2,1.4,1.7,1.6,4.2,5.25
+2022-04-09,southampton,chelsea,0,6,0.5,4.2,3.8,3.6,1.95
+2022-04-09,southampton,chelsea,0,6,0.5,4.2,3.8,3.6,1.95
+2022-04-16,southampton,arsenal,1,0,0.8,1.7,3.8,3.6,1.95
+2022-04-16,southampton,arsenal,1,0,0.8,1.7,3.8,3.6,1.95
+2022-04-30,southampton,crystal palace,1,2,0.6,1.1,2.4,3.3,3.1
+2022-04-30,southampton,crystal palace,1,2,0.6,1.1,2.4,3.3,3.1
+2022-05-17,southampton,liverpool,1,2,0.1,1.3,7.5,5.5,1.33
+2022-05-17,southampton,liverpool,1,2,0.1,1.3,7.5,5.5,1.33
+2022-08-13,southampton,leeds,2,2,1.2,1.8,2.25,3.5,3.1
+2022-08-27,southampton,man utd,0,1,1.4,1.1,4.2,4.0,1.8
+2022-08-30,southampton,chelsea,2,1,1.1,1.1,5.25,4.0,1.61
+2022-10-01,southampton,everton,1,2,1.7,2.0,2.15,3.4,3.4
+2022-10-16,southampton,west ham,1,1,0.5,1.7,2.9,3.4,2.4
+2022-10-23,southampton,arsenal,1,1,0.7,1.0,6.0,4.0,1.57
+2022-11-06,southampton,newcastle,1,4,1.7,0.9,4.0,3.6,1.9
+2022-12-26,southampton,brighton,1,3,1.9,0.6,3.3,3.5,2.15
+2023-01-04,southampton,nott'ham forest,0,1,0.5,1.4,,,
+2023-01-21,southampton,aston villa,0,1,0.6,1.4,2.88,3.25,2.55
+2023-02-11,southampton,wolves,1,2,1.1,0.8,2.9,3.2,2.55
+2023-03-04,southampton,leicester,1,0,1.4,1.9,2.75,3.3,2.6
+2023-03-15,southampton,brentford,0,2,0.5,1.9,2.88,3.25,2.5
+2023-03-18,southampton,tottenham,3,3,2.4,2.3,4.75,3.6,1.75
+2023-04-08,southampton,manchester city,1,4,0.4,2.9,,,
+2023-04-15,southampton,crystal palace,0,2,0.8,0.9,2.8,3.1,2.7
+2023-04-27,southampton,bournemouth,0,1,0.5,0.9,2.25,3.4,3.2
+2023-05-13,southampton,fulham,0,2,0.4,1.4,2.75,3.3,2.5
+2023-05-28,southampton,liverpool,4,4,1.8,4.0,6.5,4.75,1.44
+2024-08-24,southampton,nott'ham forest,0,1,0.1,2.2,,,
+2024-09-14,southampton,man utd,0,3,1.1,2.6,4.5,4.0,1.7
+2024-09-21,southampton,ipswich town,1,1,2.4,1.6,,,
+2024-10-19,southampton,leicester,2,3,2.1,3.1,2.3,3.5,3.0
+2024-11-02,southampton,everton,1,0,0.7,1.6,2.63,3.4,2.63
+2024-11-24,southampton,liverpool,2,3,1.3,3.1,11.0,5.75,1.27
+2024-12-04,southampton,chelsea,1,5,1.6,5.2,8.5,5.25,1.33
+2024-12-15,southampton,tottenham,0,5,0.8,2.3,4.33,4.5,1.67
+2024-12-26,southampton,west ham,0,1,1.4,1.7,3.25,3.5,2.2
+2025-01-04,southampton,brentford,0,5,0.3,4.4,3.0,3.4,2.4
+2025-01-25,southampton,newcastle,1,3,0.8,2.9,6.5,5.25,1.42
+2025-02-15,southampton,bournemouth,1,3,0.8,1.2,6.0,4.5,1.5
+2025-02-22,southampton,brighton,0,4,0.1,3.9,6.0,4.1,1.55
+2025-03-15,southampton,wolves,1,2,1.3,0.4,3.7,3.4,2.0
+2025-04-02,southampton,crystal palace,1,1,0.7,0.7,5.75,3.8,1.62
+2025-04-12,southampton,aston villa,0,3,0.3,3.0,6.0,4.2,1.55
+2025-04-26,southampton,fulham,1,2,0.6,2.4,5.25,4.0,1.6
+2025-05-10,southampton,manchester city,0,0,0.1,1.7,,,
+2025-05-25,southampton,arsenal,1,2,0.6,2.3,8.5,6.0,1.3
+2020-09-13,tottenham,everton,0,1,1.1,1.2,,,
+2020-09-27,tottenham,newcastle,1,1,2.9,1.0,,,
+2020-10-18,tottenham,west ham,3,3,1.7,1.9,,,
+2020-11-01,tottenham,brighton,2,1,1.7,0.3,,,
+2020-11-21,tottenham,manchester city,2,0,0.7,1.4,,,
+2020-12-06,tottenham,arsenal,2,0,0.3,0.6,,,
+2020-12-20,tottenham,leicester,0,2,0.7,1.7,,,
+2021-01-02,tottenham,leeds,3,0,2.6,1.1,,,
+2021-01-13,tottenham,fulham,1,1,2.4,1.1,,,
+2021-01-28,tottenham,liverpool,1,3,0.1,2.5,,,
+2021-02-04,tottenham,chelsea,0,1,0.6,1.6,,,
+2021-02-07,tottenham,west brom,2,0,1.5,0.6,,,
+2021-02-28,tottenham,burnley,4,0,2.1,0.7,,,
+2021-03-07,tottenham,crystal palace,4,1,2.7,0.5,,,
+2021-04-11,tottenham,man utd,1,3,0.9,2.1,,,
+2021-04-21,tottenham,southampton,2,1,1.4,0.8,,,
+2021-05-02,tottenham,sheffield,4,0,2.2,0.5,,,
+2021-05-16,tottenham,wolves,2,0,3.2,0.9,,,
+2021-05-19,tottenham,aston villa,1,2,0.8,1.4,,,
+2021-08-15,tottenham,manchester city,1,0,1.0,1.8,,,
+2021-08-29,tottenham,watford,1,0,1.0,0.8,1.36,4.75,9.0
+2021-08-29,tottenham,watford,1,0,1.0,0.8,1.36,4.75,9.0
+2021-09-19,tottenham,chelsea,0,3,0.5,2.1,5.0,3.8,1.7
+2021-09-19,tottenham,chelsea,0,3,0.5,2.1,5.0,3.8,1.7
+2021-10-03,tottenham,aston villa,2,1,1.3,1.2,2.1,3.6,3.4
+2021-10-03,tottenham,aston villa,2,1,1.3,1.2,2.1,3.6,3.4
+2021-10-30,tottenham,man utd,0,3,1.0,1.5,2.87,3.6,2.37
+2021-10-30,tottenham,man utd,0,3,1.0,1.5,2.87,3.6,2.37
+2021-11-21,tottenham,leeds,2,1,2.1,1.4,1.7,4.2,4.5
+2021-11-21,tottenham,leeds,2,1,2.1,1.4,1.7,4.2,4.5
+2021-12-02,tottenham,brentford,2,0,1.9,0.3,1.6,4.2,5.25
+2021-12-02,tottenham,brentford,2,0,1.9,0.3,1.6,4.2,5.25
+2021-12-05,tottenham,norwich city,3,0,1.6,1.2,,,
+2021-12-19,tottenham,liverpool,2,2,3.0,1.1,5.25,4.75,1.53
+2021-12-19,tottenham,liverpool,2,2,3.0,1.1,5.25,4.75,1.53
+2021-12-26,tottenham,crystal palace,3,0,2.3,0.2,1.72,3.8,4.75
+2021-12-26,tottenham,crystal palace,3,0,2.3,0.2,1.72,3.8,4.75
+2022-02-09,tottenham,southampton,2,3,1.4,2.2,1.6,4.0,5.5
+2022-02-09,tottenham,southampton,2,3,1.4,2.2,1.6,4.0,5.5
+2022-02-13,tottenham,wolves,0,2,1.2,1.3,1.7,3.6,5.5
+2022-02-13,tottenham,wolves,0,2,1.2,1.3,1.7,3.6,5.5
+2022-03-07,tottenham,everton,5,0,2.5,0.2,1.57,3.8,5.75
+2022-03-07,tottenham,everton,5,0,2.5,0.2,1.57,3.8,5.75
+2022-03-20,tottenham,west ham,3,1,3.0,0.6,1.72,3.8,4.75
+2022-03-20,tottenham,west ham,3,1,3.0,0.6,1.72,3.8,4.75
+2022-04-03,tottenham,newcastle,5,1,3.1,0.5,1.5,4.33,6.5
+2022-04-03,tottenham,newcastle,5,1,3.1,0.5,1.5,4.33,6.5
+2022-04-16,tottenham,brighton,0,1,0.5,0.6,1.53,4.0,6.5
+2022-04-16,tottenham,brighton,0,1,0.5,0.6,1.53,4.0,6.5
+2022-05-01,tottenham,leicester,3,1,1.2,0.5,1.44,4.75,7.0
+2022-05-01,tottenham,leicester,3,1,1.2,0.5,1.44,4.75,7.0
+2022-05-12,tottenham,arsenal,3,0,2.7,0.5,2.05,3.75,3.5
+2022-05-12,tottenham,arsenal,3,0,2.7,0.5,2.05,3.75,3.5
+2022-05-15,tottenham,burnley,1,0,2.2,0.7,1.33,5.25,9.0
+2022-05-15,tottenham,burnley,1,0,2.2,0.7,1.33,5.25,9.0
+2022-08-06,tottenham,southampton,4,1,1.5,0.5,1.33,5.5,8.5
+2022-08-20,tottenham,wolves,1,0,1.7,0.7,1.4,4.75,7.5
+2022-09-03,tottenham,fulham,2,1,2.9,0.7,1.5,4.5,6.5
+2022-09-17,tottenham,leicester,6,2,2.2,1.8,1.45,4.5,7.0
+2022-10-15,tottenham,everton,2,0,2.2,0.4,1.5,4.5,6.5
+2022-10-23,tottenham,newcastle,1,2,1.6,1.2,2.05,3.5,3.5
+2022-11-06,tottenham,liverpool,1,2,1.2,1.2,3.3,3.6,2.1
+2022-11-12,tottenham,leeds,4,3,1.8,1.1,1.65,4.2,4.75
+2023-01-01,tottenham,aston villa,0,2,0.7,1.0,1.67,4.0,5.0
+2023-01-15,tottenham,arsenal,0,2,1.6,1.8,3.1,3.6,2.2
+2023-02-05,tottenham,manchester city,1,0,1.4,1.3,,,
+2023-02-19,tottenham,west ham,2,0,1.5,0.5,1.75,3.6,4.75
+2023-02-26,tottenham,chelsea,2,0,0.8,0.4,2.55,3.25,2.9
+2023-03-11,tottenham,nott'ham forest,3,1,2.0,1.5,,,
+2023-04-08,tottenham,brighton,2,1,0.8,1.4,2.55,3.5,2.7
+2023-04-15,tottenham,bournemouth,2,3,2.2,1.3,1.45,4.5,7.0
+2023-04-27,tottenham,man utd,2,2,2.5,2.0,2.8,3.6,2.4
+2023-05-06,tottenham,crystal palace,1,0,0.9,0.4,1.8,3.8,4.2
+2023-05-20,tottenham,brentford,1,3,1.7,1.2,1.83,3.9,4.0
+2023-08-19,tottenham,man utd,2,0,1.7,2.1,2.8,3.6,2.38
+2023-09-16,tottenham,sheffield,2,1,2.1,0.7,1.29,5.5,11.0
+2023-09-30,tottenham,liverpool,2,1,2.2,1.3,2.9,4.0,2.15
+2023-10-23,tottenham,fulham,2,0,1.5,1.0,1.5,4.5,6.0
+2023-11-06,tottenham,chelsea,1,4,0.9,4.1,2.0,3.75,3.5
+2023-11-26,tottenham,aston villa,1,2,2.3,1.7,2.3,3.8,2.8
+2023-12-07,tottenham,west ham,1,2,1.8,2.2,1.75,4.2,4.2
+2023-12-10,tottenham,newcastle,4,1,3.8,1.7,2.15,3.8,3.1
+2023-12-23,tottenham,everton,2,1,1.5,1.8,1.75,4.2,4.0
+2023-12-31,tottenham,bournemouth,3,1,2.3,1.7,1.75,4.2,4.0
+2024-01-31,tottenham,brentford,3,2,2.9,1.6,1.67,4.2,4.75
+2024-02-10,tottenham,brighton,2,1,1.6,1.2,1.8,4.2,3.8
+2024-02-17,tottenham,wolves,1,2,1.6,1.8,1.53,4.75,5.25
+2024-03-02,tottenham,crystal palace,3,1,1.9,0.3,1.5,4.33,6.5
+2024-03-30,tottenham,luton,2,1,2.9,0.5,1.2,8.0,11.0
+2024-04-07,tottenham,nott'ham forest,3,1,1.5,1.5,,,
+2024-04-28,tottenham,arsenal,2,3,2.3,1.0,4.2,4.2,1.75
+2024-05-11,tottenham,burnley,2,1,2.7,0.7,1.36,5.75,7.0
+2024-05-14,tottenham,manchester city,0,2,1.7,2.4,,,
+2024-08-24,tottenham,everton,4,0,2.4,1.0,1.44,4.75,6.5
+2024-09-15,tottenham,arsenal,0,1,0.7,0.7,3.0,3.5,2.3
+2024-09-21,tottenham,brentford,3,1,3.5,0.8,1.55,4.5,5.5
+2024-10-19,tottenham,west ham,4,1,1.9,0.8,1.5,5.0,5.25
+2024-11-03,tottenham,aston villa,4,1,2.4,1.8,1.91,4.0,3.6
+2024-11-10,tottenham,ipswich town,1,2,1.5,1.6,,,
+2024-12-01,tottenham,fulham,1,1,0.8,1.5,1.7,4.5,4.1
+2024-12-08,tottenham,chelsea,3,4,2.8,2.8,3.4,3.9,2.0
+2024-12-22,tottenham,liverpool,3,6,1.3,5.6,4.5,4.0,1.73
+2024-12-29,tottenham,wolves,2,2,2.2,0.7,1.6,5.0,4.2
+2025-01-04,tottenham,newcastle,1,2,0.9,2.5,2.88,3.8,2.25
+2025-01-26,tottenham,leicester,1,2,1.0,1.6,1.45,5.5,5.5
+2025-02-16,tottenham,man utd,1,0,2.2,1.5,2.45,3.75,2.62
+2025-02-26,tottenham,manchester city,0,1,1.3,2.1,,,
+2025-03-09,tottenham,bournemouth,2,2,1.5,2.2,2.7,3.9,2.35
+2025-04-06,tottenham,southampton,3,1,2.1,1.0,1.38,5.5,6.5
+2025-04-21,tottenham,nott'ham forest,1,2,2.1,0.5,,,
+2025-05-11,tottenham,crystal palace,0,2,0.7,3.3,2.63,3.6,2.5
+2025-05-25,tottenham,brighton,1,4,2.0,2.2,4.2,4.33,1.7
+2021-08-14,watford,aston villa,3,2,1.2,1.2,3.1,3.2,2.37
+2021-08-14,watford,aston villa,3,2,1.2,1.2,3.1,3.2,2.37
+2021-09-11,watford,wolves,0,2,0.2,2.2,3.4,3.2,2.25
+2021-09-11,watford,wolves,0,2,0.2,2.2,3.4,3.2,2.25
+2021-09-25,watford,newcastle,1,1,0.9,1.9,2.2,3.4,3.3
+2021-09-25,watford,newcastle,1,1,0.9,1.9,2.2,3.4,3.3
+2021-10-16,watford,liverpool,0,5,0.5,3.3,8.5,5.5,1.33
+2021-10-16,watford,liverpool,0,5,0.5,3.3,8.5,5.5,1.33
+2021-10-30,watford,southampton,0,1,1.0,1.8,3.2,3.3,2.3
+2021-10-30,watford,southampton,0,1,1.0,1.8,3.2,3.3,2.3
+2021-11-20,watford,man utd,4,1,2.7,1.4,6.5,4.75,1.45
+2021-11-20,watford,man utd,4,1,2.7,1.4,6.5,4.75,1.45
+2021-12-01,watford,chelsea,1,2,1.0,0.9,10.0,5.25,1.3
+2021-12-01,watford,chelsea,1,2,1.0,0.9,10.0,5.25,1.3
+2021-12-04,watford,manchester city,1,3,0.8,3.1,,,
+2021-12-28,watford,west ham,1,4,1.6,3.6,3.4,3.6,2.1
+2021-12-28,watford,west ham,1,4,1.6,3.6,3.4,3.6,2.1
+2022-01-01,watford,tottenham,0,1,0.3,2.2,5.0,4.2,1.61
+2022-01-01,watford,tottenham,0,1,0.3,2.2,5.0,4.2,1.61
+2022-01-21,watford,norwich city,0,3,1.2,1.1,,,
+2022-02-12,watford,brighton,0,2,0.5,1.6,3.5,3.3,2.05
+2022-02-12,watford,brighton,0,2,0.5,1.6,3.5,3.3,2.05
+2022-02-23,watford,crystal palace,1,4,1.4,1.1,3.1,3.3,2.3
+2022-02-23,watford,crystal palace,1,4,1.4,1.1,3.1,3.3,2.3
+2022-03-06,watford,arsenal,2,3,1.0,1.0,6.0,4.0,1.57
+2022-03-06,watford,arsenal,2,3,1.0,1.0,6.0,4.0,1.57
+2022-04-09,watford,leeds,0,3,1.1,0.7,2.7,3.4,2.55
+2022-04-09,watford,leeds,0,3,1.1,0.7,2.7,3.4,2.55
+2022-04-16,watford,brentford,1,2,1.7,1.9,2.7,3.3,2.55
+2022-04-16,watford,brentford,1,2,1.7,1.9,2.7,3.3,2.55
+2022-04-30,watford,burnley,1,2,1.0,1.6,2.6,3.3,2.75
+2022-04-30,watford,burnley,1,2,1.0,1.6,2.6,3.3,2.75
+2022-05-11,watford,everton,0,0,0.3,0.7,4.2,3.6,1.83
+2022-05-11,watford,everton,0,0,0.3,0.7,4.2,3.6,1.83
+2022-05-15,watford,leicester,1,5,1.4,2.5,3.8,3.5,1.95
+2022-05-15,watford,leicester,1,5,1.4,2.5,3.8,3.5,1.95
+2020-09-13,west bromwich albion,leicester,0,3,0.4,2.8,,,
+2020-09-26,west bromwich albion,chelsea,3,3,0.6,2.0,,,
+2020-10-19,west bromwich albion,burnley,0,0,0.8,1.1,,,
+2020-11-08,west bromwich albion,tottenham,0,1,0.8,1.9,,,
+2020-11-28,west bromwich albion,sheffield,1,0,1.2,2.9,,,
+2020-12-06,west bromwich albion,crystal palace,1,5,0.7,1.6,,,
+2020-12-20,west bromwich albion,aston villa,0,3,0.0,2.4,,,
+2020-12-29,west bromwich albion,leeds,0,5,0.5,1.2,,,
+2021-01-02,west bromwich albion,arsenal,0,4,1.0,3.7,,,
+2021-01-26,west bromwich albion,manchester city,0,5,0.5,1.8,,,
+2021-01-30,west bromwich albion,fulham,2,2,1.0,1.3,,,
+2021-02-14,west bromwich albion,man utd,1,1,1.0,0.5,,,
+2021-02-27,west bromwich albion,brighton,1,0,0.8,2.9,,,
+2021-03-04,west bromwich albion,everton,0,1,1.0,1.0,,,
+2021-03-07,west bromwich albion,newcastle,0,0,2.0,0.5,,,
+2021-04-12,west bromwich albion,southampton,3,0,3.0,1.5,,,
+2021-05-03,west bromwich albion,wolves,1,1,1.1,1.0,,,
+2021-05-16,west bromwich albion,liverpool,1,2,1.0,1.9,,,
+2021-05-19,west bromwich albion,west ham,1,3,1.1,3.4,,,
+2020-09-12,west ham,newcastle,0,2,1.0,1.6,,,
+2020-09-27,west ham,wolves,4,0,2.4,0.5,,,
+2020-10-24,west ham,manchester city,1,1,0.3,1.0,,,
+2020-11-07,west ham,fulham,1,0,1.3,1.7,,,
+2020-11-30,west ham,aston villa,2,1,0.4,2.5,,,
+2020-12-05,west ham,man utd,1,3,2.0,1.7,,,
+2020-12-16,west ham,crystal palace,1,1,0.4,1.1,,,
+2020-12-27,west ham,brighton,2,2,1.3,1.1,,,
+2021-01-16,west ham,burnley,1,0,1.7,0.5,,,
+2021-01-19,west ham,west brom,2,1,2.0,0.5,,,
+2021-01-31,west ham,liverpool,1,3,0.8,2.0,,,
+2021-02-15,west ham,sheffield,3,0,1.9,0.7,,,
+2021-02-21,west ham,tottenham,2,1,1.1,1.1,,,
+2021-03-08,west ham,leeds,2,0,1.8,1.4,,,
+2021-03-21,west ham,arsenal,3,3,2.4,1.4,,,
+2021-04-11,west ham,leicester,3,2,0.8,0.9,,,
+2021-04-24,west ham,chelsea,0,1,0.4,2.5,,,
+2021-05-09,west ham,everton,0,1,1.3,1.5,,,
+2021-05-23,west ham,southampton,3,0,1.3,1.5,,,
+2021-08-23,west ham,leicester,4,1,2.3,0.6,2.5,3.5,2.75
+2021-08-23,west ham,leicester,4,1,2.3,0.6,2.5,3.5,2.75
+2021-08-28,west ham,crystal palace,2,2,1.3,1.1,1.55,4.0,6.5
+2021-08-28,west ham,crystal palace,2,2,1.3,1.1,1.55,4.0,6.5
+2021-09-19,west ham,man utd,1,2,1.6,2.0,4.33,4.0,1.75
+2021-09-19,west ham,man utd,1,2,1.6,2.0,4.33,4.0,1.75
+2021-10-03,west ham,brentford,1,2,1.5,1.2,1.75,3.75,4.75
+2021-10-03,west ham,brentford,1,2,1.5,1.2,1.75,3.75,4.75
+2021-10-24,west ham,tottenham,1,0,1.3,0.7,2.3,3.5,3.0
+2021-10-24,west ham,tottenham,1,0,1.3,0.7,2.3,3.5,3.0
+2021-11-07,west ham,liverpool,3,2,1.0,1.2,4.75,4.0,1.7
+2021-11-07,west ham,liverpool,3,2,1.0,1.2,4.75,4.0,1.7
+2021-12-01,west ham,brighton,1,1,1.3,1.3,1.95,3.6,3.8
+2021-12-01,west ham,brighton,1,1,1.3,1.3,1.95,3.6,3.8
+2021-12-04,west ham,chelsea,3,2,1.8,1.1,4.75,3.6,1.75
+2021-12-04,west ham,chelsea,3,2,1.8,1.1,4.75,3.6,1.75
+2021-12-26,west ham,southampton,2,3,1.6,1.2,1.8,3.9,4.2
+2021-12-26,west ham,southampton,2,3,1.6,1.2,1.8,3.9,4.2
+2022-01-12,west ham,norwich city,2,0,2.5,0.3,,,
+2022-01-16,west ham,leeds,2,3,2.4,2.2,1.61,4.2,5.0
+2022-01-16,west ham,leeds,2,3,2.4,2.2,1.61,4.2,5.0
+2022-02-08,west ham,watford,1,0,0.8,0.3,1.55,4.2,5.75
+2022-02-08,west ham,watford,1,0,0.8,0.3,1.55,4.2,5.75
+2022-02-19,west ham,newcastle,1,1,0.6,0.8,1.7,4.0,4.75
+2022-02-19,west ham,newcastle,1,1,0.6,0.8,1.7,4.0,4.75
+2022-02-27,west ham,wolves,1,0,1.8,0.7,2.05,3.3,3.8
+2022-02-27,west ham,wolves,1,0,1.8,0.7,2.05,3.3,3.8
+2022-03-13,west ham,aston villa,2,1,1.2,1.1,2.25,3.3,3.3
+2022-03-13,west ham,aston villa,2,1,1.2,1.1,2.25,3.3,3.3
+2022-04-03,west ham,everton,2,1,1.2,0.7,1.75,3.8,4.5
+2022-04-03,west ham,everton,2,1,1.2,0.7,1.75,3.8,4.5
+2022-04-17,west ham,burnley,1,1,2.2,1.8,1.7,3.8,5.0
+2022-04-17,west ham,burnley,1,1,2.2,1.8,1.7,3.8,5.0
+2022-05-01,west ham,arsenal,1,2,0.5,0.9,4.33,3.8,1.8
+2022-05-01,west ham,arsenal,1,2,0.5,0.9,4.33,3.8,1.8
+2022-05-15,west ham,manchester city,2,2,1.1,2.4,,,
+2022-08-07,west ham,manchester city,0,2,0.5,2.2,,,
+2022-08-21,west ham,brighton,0,2,0.8,1.7,2.3,3.4,3.1
+2022-08-31,west ham,tottenham,1,1,1.2,0.6,3.6,3.8,1.95
+2022-10-01,west ham,wolves,2,0,0.9,0.7,1.95,3.5,4.2
+2022-10-09,west ham,fulham,3,1,2.4,0.7,1.72,3.8,4.75
+2022-10-24,west ham,bournemouth,2,0,1.9,0.4,1.55,4.0,6.0
+2022-11-06,west ham,crystal palace,1,2,0.3,1.0,1.9,3.4,4.2
+2022-11-12,west ham,leicester,0,2,1.4,1.8,2.05,3.4,3.75
+2022-12-30,west ham,brentford,0,2,1.3,1.6,2.0,3.6,3.6
+2023-01-21,west ham,everton,2,0,2.2,0.5,1.8,3.75,4.75
+2023-02-11,west ham,chelsea,1,1,1.3,1.1,3.3,3.3,2.25
+2023-02-25,west ham,nott'ham forest,4,0,2.7,0.4,,,
+2023-03-12,west ham,aston villa,1,1,2.1,1.5,2.2,3.3,3.4
+2023-04-02,west ham,southampton,1,0,1.4,0.3,1.73,3.6,5.0
+2023-04-05,west ham,newcastle,1,5,1.0,3.3,3.6,3.25,2.15
+2023-04-16,west ham,arsenal,2,2,1.8,2.7,6.0,4.2,1.55
+2023-04-26,west ham,liverpool,1,2,0.8,1.9,3.9,3.9,1.85
+2023-05-07,west ham,man utd,1,0,1.3,1.2,3.4,3.75,2.05
+2023-05-21,west ham,leeds,3,1,2.1,0.9,2.4,3.5,2.88
+2023-08-20,west ham,chelsea,3,1,1.8,2.5,3.75,3.5,2.0
+2023-09-16,west ham,manchester city,1,3,0.9,3.6,,,
+2023-09-30,west ham,sheffield,2,0,2.1,1.1,1.45,4.5,7.0
+2023-10-08,west ham,newcastle,2,2,1.2,2.0,3.2,3.75,2.1
+2023-10-29,west ham,everton,0,1,0.7,0.8,2.15,3.5,3.3
+2023-11-12,west ham,nott'ham forest,3,2,1.8,1.7,,,
+2023-12-03,west ham,crystal palace,1,1,1.1,0.9,2.0,3.5,3.8
+2023-12-17,west ham,wolves,3,0,1.1,0.7,2.15,3.5,3.3
+2023-12-23,west ham,man utd,2,0,1.2,1.0,2.6,3.6,2.6
+2024-01-02,west ham,brighton,0,0,0.7,2.3,2.45,3.75,2.75
+2024-02-01,west ham,bournemouth,1,1,1.4,1.2,2.4,3.75,2.75
+2024-02-11,west ham,arsenal,0,6,0.2,3.6,6.0,4.33,1.53
+2024-02-26,west ham,brentford,4,2,1.7,0.9,2.5,3.5,2.75
+2024-03-10,west ham,burnley,2,2,2.1,0.7,1.67,4.0,4.75
+2024-03-17,west ham,aston villa,1,1,2.0,0.7,2.63,3.75,2.45
+2024-04-02,west ham,tottenham,1,1,1.5,1.0,3.3,4.2,1.95
+2024-04-14,west ham,fulham,0,2,0.9,3.2,2.38,3.6,2.8
+2024-04-27,west ham,liverpool,2,2,0.7,1.7,5.5,5.0,1.5
+2024-05-11,west ham,luton,3,1,3.2,0.3,1.8,4.2,3.8
+2024-08-17,west ham,aston villa,1,2,2.3,2.0,2.45,3.6,2.75
+2024-08-31,west ham,manchester city,1,3,0.7,3.0,,,
+2024-09-21,west ham,chelsea,0,3,0.9,2.2,3.6,3.9,1.95
+2024-10-05,west ham,ipswich town,4,1,3.6,0.6,,,
+2024-10-27,west ham,man utd,2,1,2.8,2.3,2.88,3.75,2.3
+2024-11-09,west ham,everton,0,0,0.8,1.1,2.15,3.4,3.4
+2024-11-30,west ham,arsenal,2,5,1.5,3.5,7.0,4.5,1.45
+2024-12-09,west ham,wolves,2,1,1.0,1.4,1.9,3.9,3.75
+2024-12-21,west ham,brighton,1,1,1.2,0.9,2.88,3.7,2.35
+2024-12-29,west ham,liverpool,0,5,0.4,3.1,7.0,5.0,1.4
+2025-01-14,west ham,fulham,3,2,1.0,1.7,3.0,3.4,2.38
+2025-01-18,west ham,crystal palace,0,2,0.3,1.3,2.6,3.5,2.63
+2025-02-15,west ham,brentford,0,1,0.8,1.6,2.35,3.6,2.88
+2025-02-27,west ham,leicester,2,0,1.3,0.4,1.62,4.2,5.0
+2025-03-10,west ham,newcastle,0,1,0.7,1.4,3.25,3.4,2.2
+2025-04-05,west ham,bournemouth,2,2,0.7,2.1,3.0,3.5,2.3
+2025-04-19,west ham,southampton,1,1,0.9,0.6,1.48,4.33,6.5
+2025-05-04,west ham,tottenham,1,1,0.8,0.8,2.1,3.7,3.25
+2025-05-18,west ham,nott'ham forest,1,2,1.1,1.9,,,
+2020-09-21,wolves,manchester city,1,3,0.6,1.9,,,
+2020-10-04,wolves,fulham,1,0,1.2,0.9,,,
+2020-10-25,wolves,newcastle,1,1,0.7,0.3,,,
+2020-10-30,wolves,crystal palace,2,0,1.3,0.7,,,
+2020-11-23,wolves,southampton,1,1,1.5,1.0,,,
+2020-12-12,wolves,aston villa,0,1,1.1,1.4,,,
+2020-12-15,wolves,chelsea,2,1,0.5,1.0,,,
+2020-12-27,wolves,tottenham,1,1,0.9,0.4,,,
+2021-01-12,wolves,everton,1,2,0.7,0.6,,,
+2021-01-16,wolves,west brom,2,3,1.5,2.4,,,
+2021-02-02,wolves,arsenal,2,1,1.5,0.8,,,
+2021-02-07,wolves,leicester,0,0,1.1,0.8,,,
+2021-02-19,wolves,leeds,1,0,0.6,1.7,,,
+2021-03-15,wolves,liverpool,0,1,1.1,0.9,,,
+2021-04-05,wolves,west ham,2,3,2.1,1.2,,,
+2021-04-17,wolves,sheffield,1,0,1.1,0.5,,,
+2021-04-25,wolves,burnley,0,4,0.4,2.0,,,
+2021-05-09,wolves,brighton,2,1,1.1,0.3,,,
+2021-05-23,wolves,man utd,1,2,0.9,2.0,,,
+2021-08-22,wolves,tottenham,0,1,1.7,1.7,3.2,3.2,2.35
+2021-08-22,wolves,tottenham,0,1,1.7,1.7,3.2,3.2,2.35
+2021-08-29,wolves,man utd,0,1,2.1,0.6,5.0,3.5,1.75
+2021-08-29,wolves,man utd,0,1,2.1,0.6,5.0,3.5,1.75
+2021-09-18,wolves,brentford,0,2,0.6,2.5,1.83,3.25,5.0
+2021-09-18,wolves,brentford,0,2,0.6,2.5,1.83,3.25,5.0
+2021-10-02,wolves,newcastle,2,1,1.0,0.6,1.61,4.2,5.25
+2021-10-02,wolves,newcastle,2,1,1.0,0.6,1.61,4.2,5.25
+2021-11-01,wolves,everton,2,1,1.7,1.5,2.2,3.2,3.5
+2021-11-01,wolves,everton,2,1,1.7,1.5,2.2,3.2,3.5
+2021-11-20,wolves,west ham,1,0,1.4,0.4,3.0,3.25,2.4
+2021-11-20,wolves,west ham,1,0,1.4,0.4,3.0,3.25,2.4
+2021-12-01,wolves,burnley,0,0,0.7,0.2,1.85,3.5,4.33
+2021-12-01,wolves,burnley,0,0,0.7,0.2,1.85,3.5,4.33
+2021-12-04,wolves,liverpool,0,1,0.1,2.7,8.0,4.75,1.4
+2021-12-04,wolves,liverpool,0,1,0.1,2.7,8.0,4.75,1.4
+2021-12-19,wolves,chelsea,0,0,0.2,0.9,7.0,4.2,1.5
+2021-12-19,wolves,chelsea,0,0,0.2,0.9,7.0,4.2,1.5
+2022-01-15,wolves,southampton,3,1,2.5,0.8,2.25,3.2,3.4
+2022-01-15,wolves,southampton,3,1,2.5,0.8,2.25,3.2,3.4
+2022-02-10,wolves,arsenal,0,1,0.8,1.8,3.5,3.2,2.2
+2022-02-10,wolves,arsenal,0,1,0.8,1.8,3.5,3.2,2.2
+2022-02-20,wolves,leicester,2,1,0.5,1.7,2.25,3.3,3.25
+2022-02-20,wolves,leicester,2,1,0.5,1.7,2.25,3.3,3.25
+2022-03-05,wolves,crystal palace,0,2,0.7,2.7,2.3,3.1,3.4
+2022-03-05,wolves,crystal palace,0,2,0.7,2.7,2.3,3.1,3.4
+2022-03-10,wolves,watford,4,0,0.7,0.6,1.75,3.6,4.5
+2022-03-10,wolves,watford,4,0,0.7,0.6,1.75,3.6,4.5
+2022-03-18,wolves,leeds,2,3,1.2,2.0,2.1,3.5,3.4
+2022-03-18,wolves,leeds,2,3,1.2,2.0,2.1,3.5,3.4
+2022-04-02,wolves,aston villa,2,1,1.3,2.1,3.0,3.1,2.55
+2022-04-02,wolves,aston villa,2,1,1.3,2.1,3.0,3.1,2.55
+2022-04-30,wolves,brighton,0,3,0.7,2.6,2.7,3.2,2.75
+2022-04-30,wolves,brighton,0,3,0.7,2.6,2.7,3.2,2.75
+2022-05-11,wolves,manchester city,1,5,0.5,2.3,,,
+2022-05-15,wolves,norwich city,1,1,0.9,1.1,,,
+2022-08-13,wolves,fulham,0,0,0.9,1.5,2.3,3.3,3.2
+2022-08-28,wolves,newcastle,1,1,0.7,1.7,2.7,3.3,2.7
+2022-09-03,wolves,southampton,1,0,0.8,1.2,2.2,3.4,3.25
+2022-09-17,wolves,manchester city,0,3,0.4,1.1,,,
+2022-10-15,wolves,nott'ham forest,1,0,1.3,1.5,,,
+2022-10-23,wolves,leicester,0,4,2.1,0.9,2.25,3.25,3.25
+2022-11-05,wolves,brighton,2,3,1.2,1.5,3.3,3.3,2.25
+2022-11-12,wolves,arsenal,0,2,0.7,2.1,6.0,4.2,1.55
+2022-12-31,wolves,man utd,0,1,0.7,2.0,4.0,3.6,1.91
+2023-01-14,wolves,west ham,1,0,0.9,1.1,2.63,3.3,2.7
+2023-02-04,wolves,liverpool,3,0,2.0,1.8,4.0,3.8,1.85
+2023-02-18,wolves,bournemouth,0,1,1.3,1.1,1.67,3.6,6.0
+2023-03-04,wolves,tottenham,1,0,0.5,1.2,3.3,3.4,2.2
+2023-03-18,wolves,leeds,2,4,2.7,1.6,2.25,3.2,3.3
+2023-04-08,wolves,chelsea,1,0,0.6,1.1,4.2,3.5,1.91
+2023-04-15,wolves,brentford,2,0,0.8,1.1,2.45,3.1,3.0
+2023-04-25,wolves,crystal palace,2,0,1.4,0.8,2.45,3.2,3.0
+2023-05-06,wolves,aston villa,1,0,0.8,1.5,2.88,3.3,2.5
+2023-05-20,wolves,everton,1,1,1.6,2.0,2.75,3.3,2.6
+2023-08-19,wolves,brighton,1,4,2.1,2.2,4.0,3.8,1.85
+2023-09-16,wolves,liverpool,1,3,0.6,2.5,6.0,5.0,1.45
+2023-09-30,wolves,manchester city,2,1,0.4,0.9,,,
+2023-10-08,wolves,aston villa,1,1,1.7,1.6,3.5,3.4,2.1
+2023-10-28,wolves,newcastle,2,2,0.9,2.2,4.2,4.0,1.75
+2023-11-11,wolves,tottenham,2,1,2.1,0.7,3.1,3.75,2.2
+2023-12-05,wolves,burnley,1,0,0.8,0.9,1.85,3.6,4.2
+2023-12-09,wolves,nott'ham forest,1,1,1.2,1.3,,,
+2023-12-24,wolves,chelsea,2,1,1.3,2.0,3.75,3.75,1.91
+2023-12-30,wolves,everton,3,0,1.9,0.4,2.63,3.3,2.7
+2024-02-01,wolves,man utd,3,4,2.1,3.3,2.63,3.6,2.55
+2024-02-10,wolves,brentford,0,2,1.0,1.9,2.1,3.6,3.4
+2024-02-25,wolves,sheffield,1,0,1.3,0.6,1.44,4.75,7.0
+2024-03-09,wolves,fulham,2,1,0.8,2.6,2.5,3.4,2.75
+2024-04-06,wolves,west ham,1,2,1.5,1.2,2.5,3.6,2.7
+2024-04-20,wolves,arsenal,0,2,0.2,1.2,8.5,4.5,1.4
+2024-04-24,wolves,bournemouth,0,1,0.5,1.9,2.7,3.6,2.5
+2024-04-27,wolves,luton,2,1,1.2,0.6,1.95,3.8,3.6
+2024-05-11,wolves,crystal palace,1,3,1.6,2.6,2.88,3.5,2.38
+2024-08-25,wolves,chelsea,2,6,1.9,1.6,4.33,4.0,1.75
+2024-09-15,wolves,newcastle,1,2,1.2,1.5,3.4,3.5,2.1
+2024-09-28,wolves,liverpool,1,2,0.6,2.5,8.0,5.75,1.33
+2024-10-20,wolves,manchester city,1,2,0.8,1.6,,,
+2024-11-02,wolves,crystal palace,2,2,1.5,2.4,2.5,3.4,2.88
+2024-11-09,wolves,southampton,2,0,1.3,0.6,1.91,3.75,3.75
+2024-11-30,wolves,bournemouth,2,4,0.5,3.3,2.8,3.6,2.4
+2024-12-14,wolves,ipswich town,1,2,1.3,1.1,,,
+2024-12-26,wolves,man utd,2,0,0.9,0.4,3.9,3.7,1.91
+2025-01-06,wolves,nott'ham forest,0,3,1.5,2.1,,,
+2025-01-25,wolves,arsenal,0,1,0.7,1.0,7.0,4.5,1.45
+2025-02-01,wolves,aston villa,2,0,1.6,0.4,3.3,3.6,2.1
+2025-02-25,wolves,fulham,1,2,1.3,1.7,2.63,3.3,2.63
+2025-03-08,wolves,everton,1,1,0.8,1.2,2.6,3.1,2.88
+2025-04-01,wolves,west ham,1,0,1.2,1.3,2.5,3.2,2.9
+2025-04-13,wolves,tottenham,4,2,2.4,2.0,2.2,3.6,3.1
+2025-04-26,wolves,leicester,3,0,2.0,1.1,1.5,4.2,6.25
+2025-05-10,wolves,brighton,0,2,0.9,1.6,2.7,3.5,2.5
+2025-05-25,wolves,brentford,1,1,1.0,1.4,2.7,3.7,2.45
