@@ -20,6 +20,7 @@ sys.path.insert(0, str(REPO_ROOT / "backend"))
 
 from app.ml.config import EngineConfig, default_engine_config  # noqa: E402
 from app.ml.prediction_engine import PredictionEngine  # noqa: E402
+from app.ml.probability_smoothing import apply_probability_smoothing  # noqa: E402
 from app.ml.value_bets import (  # noqa: E402
     find_optimal_edge_threshold,
     find_value_bets,
@@ -217,7 +218,14 @@ def run_predictions(
 ) -> pd.DataFrame:
     config = engine_config or default_engine_config()
     engine = PredictionEngine(config)
-    return engine.attach_predictions(df)
+    out = engine.attach_predictions(df)
+    if config.use_probability_smoothing and "B365H" in out.columns:
+        out = apply_probability_smoothing(
+            out,
+            odds_column="B365H",
+            alpha=config.probability_smoothing_alpha,
+        )
+    return out
 
 
 def main() -> None:

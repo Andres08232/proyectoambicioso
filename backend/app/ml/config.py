@@ -41,6 +41,8 @@ class EngineConfig:
     form_shift_per_point: float = 0.05
     form_neutral_ppg: float = 1.0
     alpha: float = 1.0
+    use_probability_smoothing: bool = True
+    probability_smoothing_alpha: float = 0.7
 
     def for_league(self, league: str) -> LeagueConfig:
         return self.leagues.get(str(league), self.default)
@@ -80,4 +82,6 @@ def default_engine_config() -> EngineConfig:
         },
         form_shift_per_point=0.02,
         alpha=1.0,
+        use_probability_smoothing=True,
+        probability_smoothing_alpha=0.7,
     )
