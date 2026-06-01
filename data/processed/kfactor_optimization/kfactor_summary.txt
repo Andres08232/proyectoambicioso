@@ -1,0 +1,47 @@
+VISIONGOAT K-FACTOR OPTIMIZATION STUDY
+========================================================================
+Dataset: VisionGoat_Master_WithOdds.csv
+Pure Elo | HFA in Elo | s=530.0 | EV>1.02 | flat stake
+K sweep: 10..100 step 5 (19 values)
+
+1. Which K-factor produces the highest ROI?
+   K=90 -> ROI -7.15%, profit -105.3, 1473 bets, win rate 43.6%.
+
+   Production default K=17 not in sweep (grid step 5); nearest points K=15 and K=20.
+
+2. Which K-factor produces the best Log Loss?
+   K=40 -> log loss 0.6494 (Brier 0.2288, ECE 0.1212).
+
+3. Are ROI and Log Loss aligned or conflicting?
+   Pearson correlation (ROI vs log loss): +0.470.
+   -> CONFLICTING: lower log loss tends to associate with worse ROI (predictive fit != betting P/L).
+   Best-LL K (40) != best-ROI K (90).
+
+4. Does any K-factor move ROI materially closer to break-even?
+   Best ROI in sweep: -7.15% (still negative on this sample).
+   -> No K in [10,100] approaches break-even; bottleneck is likely not K alone.
+
+5. Does edge quality improve as K changes?
+   Mean edge (all matches): min 0.0920 @ K=10, max 0.0930 @ K=70.
+   Mean EV multiplier: range 1.2622 to 1.4432.
+   Correlation(mean edge, ROI): +0.640.
+   -> Mean edge is nearly flat (~9.2%); EV multiplier range is wider (slower K -> fewer extreme ratings).
+   -> Higher K (slightly higher mean edge) associates with less-negative ROI, but edge magnitude alone does not fix profitability.
+
+TOP 5 BY ROI
+----------------------------------------
+  K= 90  ROI   -7.15%  LL 0.6586  profit   -105.3
+  K=100  ROI   -7.24%  LL 0.6617  profit   -105.2
+  K= 85  ROI   -7.28%  LL 0.6571  profit   -107.7
+  K= 95  ROI   -7.29%  LL 0.6601  profit   -106.7
+  K= 80  ROI   -8.01%  LL 0.6557  profit   -120.2
+
+TOP 5 BY LOG LOSS
+----------------------------------------
+  K= 40  LL 0.6494  ROI   -9.85%  ECE 0.1212
+  K= 45  LL 0.6495  ROI   -9.97%  ECE 0.1208
+  K= 35  LL 0.6496  ROI   -9.57%  ECE 0.1206
+  K= 50  LL 0.6499  ROI   -9.55%  ECE 0.1209
+  K= 30  LL 0.6503  ROI   -9.86%  ECE 0.1211
+
+END OF REPORT
