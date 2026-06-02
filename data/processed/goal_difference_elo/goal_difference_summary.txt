@@ -1,0 +1,54 @@
+VISIONGOAT GOAL DIFFERENCE ELO (G-ELO) AUDIT
+========================================================================
+Dataset: VisionGoat_Master_WithOdds.csv
+Update: R_new = R_old + K * G * (W - W_e) | K=40.0 | s=530.0
+HFA in Elo | No xG/form/isotonic/smoothing | EV>1.02
+
+DATA NOTE: No closing (CL) odds column — CLV uses B365H as reference-line proxy only.
+
+1. Does G-Elo outperform baseline Elo?
+   Best log_loss: baseline (0.6493) vs baseline (0.6493).
+   Best brier_score: production_log (0.2288) vs baseline (0.2289).
+   Best ece: baseline (0.1207) vs baseline (0.1207).
+   Best roi_pct: method_a (-8.9594) vs baseline (-10.6425).
+
+2. Does it improve ROI?
+   Best ROI: method_a (-8.96%, profit -136.8).
+   Baseline ROI: -10.64% (profit -161.3).
+   -> Some G formulation improves ROI vs baseline (still negative overall).
+
+3. Does it improve calibration?
+   Best log loss: baseline (LL=0.6493).
+   Baseline LL=0.6493, ECE=0.1207.
+   -> Baseline Elo is already best calibrated on this sample.
+
+4. Does it reduce extreme false edges?
+   Lowest freq(edge>0.15): baseline (26.0%) vs baseline (26.0%).
+   Lowest freq(ev>1.2): method_a (50.2%).
+
+5. Is match-dominance economically useful?
+   -> NO for flat-stake home-win EV betting: all variants remain unprofitable.
+
+RATING STABILITY (mean |delta_rating| per team update)
+   baseline         mean=14.150  std=7.735  p95=27.129
+   production_log   mean=13.683  std=8.476  p95=29.901
+   method_a         mean=19.334  std=13.595  p95=46.322
+   method_b         mean=17.579  std=11.259  p95=38.463
+   method_c_538     mean=16.174  std=11.053  p95=37.853
+
+CLV PROXY ON BETS (B365H reference)
+   baseline         mean_edge=+0.1258  beat_implied=-3.34pp
+   production_log   mean_edge=+0.1241  beat_implied=-3.04pp
+   method_a         mean_edge=+0.1268  beat_implied=-3.03pp
+   method_b         mean_edge=+0.1249  beat_implied=-3.30pp
+   method_c_538     mean_edge=+0.1245  beat_implied=-3.11pp
+
+VARIANT TABLE
+------------------------------------------------------------------------
+  Baseline Elo (G=1)           ROI  -10.64%  LL 0.6493  ECE 0.1207  extreme_edge 26.0%
+  Production log margin        ROI   -9.85%  LL 0.6494  ECE 0.1212  extreme_edge 26.5%
+  Method A: 1+ln(gd)           ROI   -8.96%  LL 0.6543  ECE 0.1220  extreme_edge 27.9%
+  Method B: sqrt(gd)           ROI   -9.95%  LL 0.6515  ECE 0.1215  extreme_edge 26.7%
+  Method C: 538-style          ROI   -9.17%  LL 0.6515  ECE 0.1218  extreme_edge 27.4%
+
+END OF REPORT

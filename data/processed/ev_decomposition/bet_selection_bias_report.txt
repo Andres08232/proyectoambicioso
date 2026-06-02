@@ -1,0 +1,49 @@
+BET SELECTION BIAS & EV REALIZATION REPORT
+========================================================================
+Dataset: VisionGoat_Master_WithOdds.csv
+Model: baseline Elo (K=40, s=530) | Flat 1u home bets on all matches with odds
+Matches: 1881
+
+EXECUTIVE SUMMARY
+------------------------------------------------------------------------
+EV selection fails because expected value is computed from MISALIGNED model
+probabilities vs B365 — not because the EV formula is wrong.
+
+TASK 1 — EV REALIZATION BREAKDOWN
+  corr(EV multiplier, realized profit): -0.032
+  corr(EV decile, profit decile):        -0.169
+  corr(expected profit, realized):     -0.032
+  Lowest EV bin ROI:  -4.44% (mean EV 0.864)
+  Highest EV bin ROI: -20.15% (mean EV 2.309)
+  -> INVERSION: Higher EV bins realize LOWER ROI — EV ranking is anti-predictive.
+
+TASK 2 — EV THRESHOLD SENSITIVITY
+  EV>1.00: bets=1595 ROI=-9.45% FPR=59.4% mispriced=947 (59.4%)
+  EV>1.02: bets=1533 ROI=-9.85% FPR=60.3% mispriced=924 (60.3%)
+  EV>1.05: bets=1442 ROI=-10.22% FPR=61.9% mispriced=892 (61.9%)
+
+  Tighter thresholds do NOT fix selection: EV>1.05 still -10.22% ROI.
+
+  False positive = flagged bet (EV above threshold) that loses money.
+  At EV>1.02: 60.3% of bets lose despite positive model EV.
+
+TASK 3 — MARKET DISTANCE
+  corr(market_distance, profit): -0.010
+  corr(market_distance, edge):   +0.786
+  Lowest distance decile ROI:  -9.23% (dist 0.9pp)
+  Highest distance decile ROI: -10.86% (dist 26.5pp)
+  -> Large model-vs-market disagreement is DESTRUCTIVE to ROI.
+
+WHY EV SELECTION FAILS (not a modeling-tuning issue)
+1) model_probability > implied on most home bets (+9pp mean edge).
+2) EV = model_prob * odds inherits that bias — flags 80%+ of fixtures.
+3) Higher EV reflects overconfidence, not sharper information.
+4) Threshold filters remove volume but not negative expectancy.
+5) Outcome log loss ~0.65 masks market-relative failure.
+
+RECOMMENDED RESEARCH DIRECTION
+- Market-anchored probabilities before ANY EV rule.
+- Bet only when |model - market| < tolerance AND micro-edge confirmed.
+- Or trade CLV-positive lines with real closing odds — not raw Elo edge.
+
+END OF REPORT
