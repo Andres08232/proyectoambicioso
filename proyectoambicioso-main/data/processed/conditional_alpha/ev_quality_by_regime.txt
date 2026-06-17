@@ -1,0 +1,40 @@
+CONDITIONAL ALPHA HYPOTHESIS TEST
+========================================================================
+N matches: 1881
+Model: baseline Elo K=40 s=530 | Flat home stake | Vig-free 1X2 implied
+
+H1: Exploitable conditional alpha exists in some regimes.
+H0: All edge is noise / market already prices information.
+
+TASK 1 — SEGMENT SCAN
+  Segments with positive ROI: 4 / 30
+  Best segment: market_distance D5|11.9-14.0pp ROI +5.62% (n=188)
+  model_edge: 1/10 deciles positive | ROI range [-21.2%, +5.1%]
+  market_distance: 1/10 deciles positive | ROI range [-20.6%, +5.6%]
+  model_prob_bin: 2/10 deciles positive | ROI range [-100.0%, +5.6%]
+
+TASK 2a — EX-ANTE TRADABLE REGIMES (no outcome lookahead)
+  agreement_low_distance: n=471 ROI -8.35% LL 0.5793 mean_edge +2.0pp corr(EV,profit)=-0.100
+  disagreement_market_high: n=48 ROI -1.90% LL 0.6719 mean_edge -12.1pp corr(EV,profit)=-0.190
+  disagreement_model_high: n=1362 ROI -8.49% LL 0.6728 mean_edge +15.8pp corr(EV,profit)=-0.030
+
+TASK 2b — EX-POST DOMINANCE (forensic only — uses outcome)
+  WARNING: B_model_dominant_EXPOST is circular (97% win rate = selected post-hoc).
+  A_market_dominant_EXPOST: n=845 ROI -94.43% win 3.9%
+  B_model_dominant_EXPOST: n=565 ROI +120.59% win 97.3%
+  C_agreement_exante: n=471 ROI -8.35% win 49.9%
+
+TASK 3 — EDGE QUALITY (ex-ante tradable)
+  agreement_low_distance: corr(edge,profit)=-0.041 EV decile ROI [-47.2%, +19.4%]
+  disagreement_market_high: corr(edge,profit)=-0.027 EV decile ROI [-41.2%, +56.2%]
+  disagreement_model_high: corr(edge,profit)=-0.012 EV decile ROI [-25.4%, +2.9%]
+
+DECISION (ex-ante tradable subsets only)
+  FAIL TO REJECT H0 (tradable): No ex-ante regime with robust positive ROI.
+  Ex-post 'model dominant' ROI is NOT actionable — built with outcome knowledge.
+
+  Best ex-ante tradable regime: disagreement_market_high (-1.90%).
+
+  RECOMMENDATION: Market re-anchoring required. Do not deploy unconditional or raw EV>1.02 rules. Any strategy must filter on PRE-MATCH agreement/low distance only.
+
+END OF REPORT

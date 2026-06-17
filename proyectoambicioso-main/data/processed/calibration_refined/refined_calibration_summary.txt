@@ -1,0 +1,16 @@
+REFINED CALIBRATION SUMMARY
+==================================================
+N matches: 1881
+Scale s: 530 (HFA only in Elo space)
+
+Raw model:
+  Log Loss=0.7601  Brier=0.2788
+  ECE=0.1495  TailErr=0.5461
+
+Post-hoc isotonic:
+  Log Loss=0.9965  Brier=0.2553
+  ECE=0.0478  TailErr=0.5133
+
+HFA=0 raw tail error: 0.5404 vs HFA=51: 0.5461
+
+Hybrid calibrated LL vs Elo-only: 0.9620 vs 0.9965

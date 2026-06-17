@@ -1,0 +1,42 @@
+VISIONGOAT ROI ATTRIBUTION AUDIT
+========================================================================
+Data: VisionGoat_Master_WithOdds.csv
+Odds: B365H | Flat stake: 1.0 unit | Rule: model_prob * odds > threshold
+Models: A=Elo+xG (alpha=0.8), B=Elo-only (alpha=1.0) | No form / isotonic / smoothing
+
+1. Does xG improve ROI?
+   At EV>1.02: Model A ROI -10.10% vs Model B -10.43% (profit -147.4 vs -150.5).
+   -> No material ROI difference between A and B at EV>1.02.
+
+2. Does xG improve edge quality?
+   Mean probability edge: A=0.0943  B=0.0920
+   Mean EV multiplier:    A=1.3958  B=1.3928
+   Extreme edges (edge>0.15): A=584  B=585
+   -> xG model shows higher average edge vs market (not necessarily profitable).
+
+3. Which model generates the highest ROI?
+   Best profit: Model_A_Elo_xG @ EV>1.00 -> profit -143.24 units, ROI -9.53% (1503 bets).
+   Best ROI% (among configs with bets): Model_A_Elo_xG @ EV>1.00 -> -9.53%.
+
+4. Is calibration quality translating into betting profitability?
+   Full-sample ECE:  A=0.1227  B=0.1204
+   Full-sample LL:   A=0.6561  B=0.6559
+   -> Better calibration (lower ECE) does NOT align with better ROI at EV>1.02.
+   -> Overall: no configuration is profitable; calibration quality alone does not yield positive flat-stake returns on this sample.
+
+5. At which edge threshold does the model perform best?
+   Model_A_Elo_xG: best profit at EV>1.00 (profit -143.2, ROI -9.53%, 1503 bets).
+   Model_B_Elo_only: best profit at EV>1.00 (profit -148.8, ROI -9.96%, 1494 bets).
+
+DETAILED RESULTS BY THRESHOLD
+------------------------------------------------------------------------
+  Model_A_Elo_xG EV>1.00: bets=1503 win%=37.5 profit=-143.24 ROI=-9.53% PF=0.85 avg_edge=+0.1351 maxDD=145.34
+  Model_A_Elo_xG EV>1.02: bets=1460 win%=36.4 profit=-147.39 ROI=-10.10% PF=0.84 avg_edge=+0.1389 maxDD=150.19
+  Model_A_Elo_xG EV>1.05: bets=1379 win%=34.6 profit=-153.86 ROI=-11.16% PF=0.83 avg_edge=+0.1457 maxDD=156.66
+  Model_A_Elo_xG EV>1.10: bets=1239 win%=31.9 profit=-153.26 ROI=-12.37% PF=0.82 avg_edge=+0.1572 maxDD=156.06
+  Model_B_Elo_only EV>1.00: bets=1494 win%=37.0 profit=-148.80 ROI=-9.96% PF=0.84 avg_edge=+0.1340 maxDD=150.90
+  Model_B_Elo_only EV>1.02: bets=1442 win%=35.9 profit=-150.46 ROI=-10.43% PF=0.84 avg_edge=+0.1386 maxDD=153.26
+  Model_B_Elo_only EV>1.05: bets=1372 win%=34.5 profit=-149.82 ROI=-10.92% PF=0.83 avg_edge=+0.1446 maxDD=153.50
+  Model_B_Elo_only EV>1.10: bets=1226 win%=31.6 profit=-151.88 ROI=-12.39% PF=0.82 avg_edge=+0.1567 maxDD=154.68
+
+END OF REPORT

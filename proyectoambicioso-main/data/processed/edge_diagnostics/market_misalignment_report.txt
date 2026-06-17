@@ -1,0 +1,57 @@
+EDGE MONETIZATION DIAGNOSTIC REPORT
+========================================================================
+Dataset: VisionGoat_Master_WithOdds.csv
+Model: baseline pure Elo (K=40.0, s=530) | Reference bets: EV>1.02
+
+EXECUTIVE DIAGNOSIS
+------------------------------------------------------------------------
+Highest edge decile ROI: -9.05% (win 28.7%, mean edge 26.4pp)
+Lowest edge decile ROI:  +2.45% (win 63.0%)
+-> INVERSION: Higher model edge buckets perform WORSE — edge is anti-predictive for ROI.
+
+EDGE REALIZATION (value bets only)
+  Top 10% edge: ROI -15.11%  win 25.3%  mean edge 27.5pp
+  Bottom 10% edge among bets: ROI -13.15%  win 46.8%
+  Mean bucket mismatch (edge_decile - profit_decile): +3.91
+  Corr(edge, realized_profit): -0.000
+  -> Among flagged value bets, edge has no linear link to profit (selection already filters to high edge).
+
+TASK 2 — MARKET ALIGNMENT
+  corr(model_edge, implied_prob): -0.464
+  corr(model_prob, implied_prob):  +0.884
+  Mean(model - implied):           +0.0927
+  ECE(model vs implied as target): 0.0929
+  Log loss vs outcome:             0.6494
+  ECE vs outcome:                  0.1212
+  -> Model systematically prices home wins ABOVE market implied (favorite/longshot bias).
+
+TASK 4 — CLV PROXY
+  Matches with real B365CH: 665 / 1881
+  Mean CLV odds ratio (open/close): 1.0490
+  Mean implied gap (open - close):  -0.0183
+  CLV on historico subset — mean ratio: 1.0055
+  Synthetic close shrinks open odds when model edge>0 (drift K=0.25).
+
+PROBABILITY BUCKET ROI (home implied prob)
+----------------------------------------
+  -0.00-0.10: ROI -41.67%  bets=36  win=5.6%
+  0.10-0.20: ROI -25.00%  bets=187  win=12.3%
+  0.20-0.30: ROI  -0.58%  bets=230  win=25.2%
+  0.30-0.40: ROI -12.68%  bets=343  win=31.2%
+  0.40-0.50: ROI  -9.68%  bets=327  win=40.7%
+  0.50-0.60: ROI  +4.28%  bets=241  win=57.7%
+  0.60-0.70: ROI  -3.39%  bets=238  win=62.6%
+  0.70-0.80: ROI  -8.80%  bets=169  win=68.6%
+  0.80-0.90: ROI  -6.27%  bets=84  win=79.8%
+  0.90-1.00: ROI  +0.73%  bets=26  win=92.3%
+
+CONCLUSION
+Edge does not monetize because:
+1) Model home-win probability is inflated vs B365 implied (positive mean edge everywhere).
+2) Higher edge deciles do not earn higher ROI — miscalibration, not missing signal.
+3) Value-bet rule flags many home underdogs where model >> market.
+4) Predictive log loss can look acceptable while market-relative pricing fails.
+
+This is a MARKET ALIGNMENT / OVERCONFIDENCE problem, not fixable by K, form, xG, or G-Elo alone.
+
+END OF REPORT

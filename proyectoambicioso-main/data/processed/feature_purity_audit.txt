@@ -1,0 +1,128 @@
+VISIONGOAT FEATURE SPACE PURITY AUDIT
+========================================================================
+Dataset: VisionGoat_Master_WithOdds.csv
+Scale s=530 | HFA in Elo space | No smoothing in ablation
+
+TASK 1 — FEATURE SPACE CLASSIFICATION
+------------------------------------------------------------------------
+A) Elo-space (allowed in rating / single logistic)
+B) Logit-space additive (allowed ONLY before sigmoid — none implemented)
+C) Invalid / contaminating (probability-space or post-hoc misuse)
+
+  [A] traditional_elo_rating
+      Walk-forward Elo from match results (FTR) with optional goal-margin K
+      Used for: Rating update + win probability input
+      Risk: Low — core strength signal
+
+  [A] xg_elo_rating
+      Walk-forward Elo from Home_xG / Away_xG ordering
+      Used for: Rating update + blended win probability when alpha < 1
+      Risk: Low — core strength signal if kept in Elo blend
+
+  [A] elo_blend_alpha
+      Linear blend of traditional and xG Elo in rating space before logistic
+      Used for: pre-logistic rating
+      Risk: Low — valid Elo-space composition
+
+  [A] home_advantage_elo
+      HFA added to home rating in Elo space; P = logistic((H+HFA-A)/530)
+      Used for: pre-logistic rating
+      Risk: Low — structurally correct HFA
+
+  [A] probability_scale
+      Logistic scale s=530 (10-base), single probability transform
+      Used for: logistic output
+      Risk: Low — calibrated scale parameter
+
+  [A] goal_margin_multiplier
+      log(margin+1) scales K on Elo updates only
+      Used for: Rating update magnitude
+      Risk: Low — does not enter probability directly
+
+  [C] form_ppg_window
+      Rolling points-per-game over last N matches (momentum / temporal)
+      Used for: probability_shift after logistic
+      Risk: HIGH — probability-space leakage
+
+  [C] form_probability_shift
+      P_final = P_elo + shift_per_point * (home_form - away_form)
+      Used for: post-logistic additive offset
+      Risk: HIGH — breaks logit-space purity; non-monotonic w.r.t. Elo
+
+  [C] walk_forward_league_hfa_rate
+      Walk-forward league home-win rate (clamped)
+      Used for: Diagnostic only in current engine (not applied to P)
+      Risk: Medium if re-enabled in probability — currently inert
+
+  [C] probability_smoothing
+      0.7*model + 0.3*implied (detect_value_bets layer)
+      Used for: post-model probability blend
+      Risk: HIGH — mixes market into model; disable for purity tests
+
+  [C] isotonic_calibration
+      Post-hoc monotonic map on P
+      Used for: separate calibration layer
+      Risk: Medium — valid only if base features are pure; cannot fix bad features
+
+  NOTE: No dedicated streak columns exist; form_ppg_window is the momentum proxy.
+  Rolling league_hfa is computed but NOT applied to P in the current engine.
+
+TASK 2 — ABLATION (raw, no calibration)
+------------------------------------------------------------------------
+  Model A: Elo + xG blend (alpha=0.8), no form
+    LL=0.7627  Brier=0.2799  ECE=0.1491  TailErr=0.5494  N=1881
+    Mid-range ECE [0.35,0.65]: 0.0958
+
+  Model B: Elo + xG path + form (alpha=1.0 production default, form ON)
+    LL=0.7733  Brier=0.2830  ECE=0.1544  TailErr=0.5512  N=1881
+    Mid-range ECE: 0.0925
+
+  Model C: Elo only (alpha=1.0), no form
+    LL=0.7601  Brier=0.2788  ECE=0.1495  TailErr=0.5461  N=1881
+    Mid-range ECE: 0.0994
+
+  Feature deltas:
+    Form effect (B vs C, same alpha=1.0):
+      tail error: +0.0051  log loss: +0.0132  ECE: +0.0048
+    xG blend effect (A vs C, form off):
+      tail error: +0.0033  log loss: +0.0026  ECE: -0.0004
+    Form on dual-Elo path (B vs A, alpha differs — indicative only):
+      tail error: +0.0018  log loss: +0.0106
+    |form_shift| mean: 0.0186  max: 0.0600  frac |shift|>0.05: 3.6%
+
+TASK 3 — CALIBRATION STABILITY (isotonic on A and C only)
+------------------------------------------------------------------------
+  Model_A:
+    Pre:  LL=0.7627  Brier=0.2799  ECE=0.1491  TailErr=0.5494  N=1881
+    Post: LL=0.9620  Brier=0.2552  ECE=0.0502  TailErr=0.5060  N=1881
+    Delta LL: +0.1993  Delta tail error: -0.0434
+    Upper-bin curve distortion (post-pre |gap|): -0.0482
+
+  Model_C:
+    Pre:  LL=0.7601  Brier=0.2788  ECE=0.1495  TailErr=0.5461  N=1881
+    Post: LL=0.9965  Brier=0.2553  ECE=0.0478  TailErr=0.5133  N=1881
+    Delta LL: +0.2365  Delta tail error: -0.0328
+    Upper-bin curve distortion (post-pre |gap|): 0.0254
+
+  Model B: isotonic NOT run (per audit protocol).
+  Prior evidence: form pushes P outside logistic manifold; isotonic on contaminated features degrades log loss while patching ECE.
+
+TASK 4 — FEATURE IMPACT CONCLUSIONS
+------------------------------------------------------------------------
+1. Tail overconfidence drivers:
+   -> FORM MODIFIER is the primary tail-error amplifier in this ablation.
+
+2. Form vs probabilistic calibration:
+   -> Form is INCOMPATIBLE with a single logistic + monotonic calibration stack.
+      It applies a linear shift in probability space after the sigmoid.
+
+3. Elo-only stability:
+   -> Model C (Elo-only) is more stable than feature-augmented A on LL/tail.
+
+4. Calibration layer role:
+   -> Isotonic on Model_A INCREASES log loss (+0.1993) — calibration is compensating for structural misfit, not refining signal.
+   -> Isotonic on Model_C INCREASES log loss (+0.2365) — calibration is compensating for structural misfit, not refining signal.
+
+RECOMMENDATION: Remove or relocate form into Elo-space before enabling post-hoc calibration. Do not stack isotonic on Model B until probability space is clean.
+
+END OF REPORT
